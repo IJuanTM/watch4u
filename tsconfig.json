@@ -1,0 +1,17 @@
+/*
+ * Copyright (C) 2009, 2019 RiDi Cage Productions, Inc.
+ * Amersfoort, Utrecht, The netherlands
+ * 
+ * Everyone is permitted to copy and distribute verbatim copies
+ * of this license document, but changing it is not allowed.
+ 
+ * Licensed under MIT ( http://www.ridis.nl/depri/index.php?content=license )
+ */
+
+{
+	"compilerOptions": {
+		"target": "es6",
+		"watch": true,
+		"outDir": "./js"
+	}
+}
