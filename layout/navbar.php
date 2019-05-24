@@ -9,7 +9,10 @@
 
         <!-- Home nav-item aan rechter kant. -->
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active"><a class="nav-text nav-link" href="#"><i class="fas fa-home"></i> Home</a></li>
+            <a class="nav-text nav-link" href="#"></a>
+            <li class="nav-item active"><a class="nav-text nav-link" href="#"><img src="./img/icon/Watch.svg" alt="Logo" width="20px" height="20px" style="margin-bottom: 3px;" />
+                <!--<i class="fas fa-home"></i>--> Home
+            </a></li>
         </ul>
 
         <!-- Categorieën in het midden. -->
