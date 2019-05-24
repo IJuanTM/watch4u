@@ -9,10 +9,10 @@
 
         <!-- Home nav-item aan rechter kant. -->
         <ul class="navbar-nav mr-auto">
-        <li class="nav-item active"><a class="nav-text nav-link" href="#"><i class="fas fa-home fa-lg" style="padding-right:5px;"></i>Home</a></li>
+            <li class="nav-item active"><a class="nav-text nav-link" href="#"><i class="fas fa-home"></i> Home</a></li>
         </ul>
 
-        <!-- Categoriën in het midden. -->
+        <!-- Categorieën in het midden. -->
         <ul class="navbar-nav">
             <li class="nav-item active dropdown">
                 <a class="nav-text nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"

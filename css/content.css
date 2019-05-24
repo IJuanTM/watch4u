@@ -39,8 +39,9 @@
 }
 
 .card-title {
+    font-weight: bolder;
+    font-size: 20;
     color: black;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .card-text {
