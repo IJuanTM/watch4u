@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    padding-top: 56px;
     background-color: #202020;
     font-family: 'Montserrat', 'Gotham Book', sans-serif;
     margin: 0px;
