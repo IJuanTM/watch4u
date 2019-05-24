@@ -1,5 +1,9 @@
 /* Navbar */
 
+.nav {
+    margin-bottom: 0;
+}
+
 .navbar {
     top: 0;
     z-index: 30;
@@ -24,4 +28,43 @@
 .nav-item:hover {
     background-color: #202020;
     border-radius: 10px;
+}
+
+
+/* Dropdown menu */
+
+.dropdown {
+    position: static;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    background-color: #343A40;
+    width: 100%;
+    text-align: center;
+}
+
+.dropdown-menu>li {
+    display: inline-block;
+}
+
+.dropdown-item {
+    color: gold !important;
+}
+
+.dropdown-item:hover {
+    background-color: #202020;
+    border-radius: 10px;
+}
+
+.dropdown-header {
+    color: white;
+}
+
+.dropdown-row {
+    margin: 5px;
+    background-color: gold;
 }

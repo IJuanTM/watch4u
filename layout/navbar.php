@@ -9,10 +9,10 @@
 
         <!-- Home nav-item aan rechter kant. -->
         <ul class="navbar-nav mr-auto">
-            <a class="nav-text nav-link" href="#"></a>
-            <li class="nav-item active"><a class="nav-text nav-link" href="#"><img src="./img/icon/Watch.svg" alt="Logo" width="20px" height="20px" style="margin-bottom: 3px;" />
-                <!--<i class="fas fa-home"></i>--> Home
-            </a></li>
+            <li class="nav-item active">
+                <a class="nav-text nav-link" href="#">
+                    <img src="./img/icon/Watch.png" width="20px" height="20px" style="margin-bottom: 3px;">Home</a>
+            </li>
         </ul>
 
         <!-- Categorieën in het midden. -->
@@ -22,7 +22,43 @@
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fas fa-male"></i> Heren Horloges</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
+
+                    <div class="row">
+
+                        <div class="col-3">
+                            <h6 class="dropdown-header">Categorieën</h6>
+                            <hr class="dropdown-row">
+                            <a class="dropdown-item" href="#">Luxe Smartwatches</a>
+                            <a class="dropdown-item" href="#">Basis Smartwatches</a>
+                            <a class="dropdown-item" href="#">Budget Smartwatches</a>
+                        </div>
+
+                        <div class="col-3">
+                            <h6 class="dropdown-header">Luxe Merken</h6>
+                            <hr class="dropdown-row">
+                            <a class="dropdown-item" href="#">Apple</a>
+                            <a class="dropdown-item" href="#">Samsung</a>
+                            <a class="dropdown-item" href="#">Louis Vuitton</a>
+                            <a class="dropdown-item" href="#">Micheal Kors</a>
+                        </div>
+
+                        <div class="col-3">
+                            <h6 class="dropdown-header">Basic Merken</h6>
+                            <hr class="dropdown-row">
+                            <a class="dropdown-item" href="#">Polar</a>
+                            <a class="dropdown-item" href="#">FitBit</a>
+                            <a class="dropdown-item" href="#">Garmin</a>
+                            <a class="dropdown-item" href="#">Casio</a>
+                            <a class="dropdown-item" href="#">Fossil</a>
+                        </div>
+
+                        <div class="col-3">
+                            <h6 class="dropdown-header">Budget Merken</h6>
+                            <hr class="dropdown-row">
+                            <a class="dropdown-item" href="#">Misfit</a>
+                            <a class="dropdown-item" href="#">Mobvoi</a>
+                        </div>
+                    </div>
                 </div>
             </li>
 
@@ -31,7 +67,44 @@
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fas fa-female"></i> Dames Horloges</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
+
+                    <div class="row">
+
+                        <div class="col-3">
+                            <h6 class="dropdown-header">Categorieën</h6>
+                            <hr class="dropdown-row">
+                            <a class="dropdown-item" href="#">Luxe Smartwatches</a>
+                            <a class="dropdown-item" href="#">Basis Smartwatches</a>
+                            <a class="dropdown-item" href="#">Budget Smartwatches</a>
+                        </div>
+
+                        <div class="col-3">
+                            <h6 class="dropdown-header">Luxe Merken</h6>
+                            <hr class="dropdown-row">
+                            <a class="dropdown-item" href="#">Apple</a>
+                            <a class="dropdown-item" href="#">Samsung</a>
+                            <a class="dropdown-item" href="#">Louis Vuitton</a>
+                            <a class="dropdown-item" href="#">Micheal Kors</a>
+                        </div>
+
+                        <div class="col-3">
+                            <h6 class="dropdown-header">Basic Merken</h6>
+                            <hr class="dropdown-row">
+                            <a class="dropdown-item" href="#">Polar</a>
+                            <a class="dropdown-item" href="#">FitBit</a>
+                            <a class="dropdown-item" href="#">Garmin</a>
+                            <a class="dropdown-item" href="#">Casio</a>
+                            <a class="dropdown-item" href="#">Fossil</a>
+                        </div>
+
+                        <div class="col-3">
+                            <h6 class="dropdown-header">Budget Merken</h6>
+                            <hr class="dropdown-row">
+                            <a class="dropdown-item" href="#">Misfit</a>
+                            <a class="dropdown-item" href="#">Mobvoi</a>
+                        </div>
+
+                    </div>
                 </div>
             </li>
 
@@ -40,7 +113,25 @@
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fas fa-child"></i> Kinderen Horloges</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
+
+                    <div class="row">
+
+                        <div class="col-4">
+                            <h6 class="dropdown-header">Meisjes</h6>
+                            <hr class="dropdown-row">
+                        </div>
+
+                        <div class="col-4">
+                            <h6 class="dropdown-header">Jongens</h6>
+                            <hr class="dropdown-row">
+                        </div>
+
+                        <div class="col-4">
+                            <h6 class="dropdown-header">Universeel</h6>
+                            <hr class="dropdown-row">
+                        </div>
+
+                    </div>
                 </div>
             </li>
         </ul>
