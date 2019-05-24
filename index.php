@@ -20,10 +20,10 @@
     </title>
 
     <!-- Pagina Icoontjes -->
-    <link rel="shortcut icon" href="./img/icon/Watch4U.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="200x200" href="./img/icon/Watch4U.png">
-    <link rel="icon" href="./img/icon/Watch4U.svg" type="image/x-icon">
-    <link rel="icon" href="./img/icon/Watch4U.gif">
+    <link rel="shortcut icon" href="./img/icon/Watch.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="200x200" href="./img/icon/Watch.png">
+    <link rel="icon" href="./img/icon/Watch.svg" type="image/x-icon">
+    <link rel="icon" href="./img/icon/Watch.gif">
 
 </head>
 
