@@ -25,15 +25,7 @@
 
                     <div class="row">
 
-                        <div class="col-3">
-                            <h6 class="dropdown-header">Categorieën</h6>
-                            <hr class="dropdown-row">
-                            <a class="dropdown-item" href="#">Luxe Smartwatches</a>
-                            <a class="dropdown-item" href="#">Basis Smartwatches</a>
-                            <a class="dropdown-item" href="#">Budget Smartwatches</a>
-                        </div>
-
-                        <div class="col-3">
+                        <div class="col-4">
                             <h6 class="dropdown-header">Luxe Merken</h6>
                             <hr class="dropdown-row">
                             <a class="dropdown-item" href="#">Apple</a>
@@ -42,7 +34,7 @@
                             <a class="dropdown-item" href="#">Micheal Kors</a>
                         </div>
 
-                        <div class="col-3">
+                        <div class="col-4">
                             <h6 class="dropdown-header">Basic Merken</h6>
                             <hr class="dropdown-row">
                             <a class="dropdown-item" href="#">Polar</a>
@@ -52,7 +44,7 @@
                             <a class="dropdown-item" href="#">Fossil</a>
                         </div>
 
-                        <div class="col-3">
+                        <div class="col-4">
                             <h6 class="dropdown-header">Budget Merken</h6>
                             <hr class="dropdown-row">
                             <a class="dropdown-item" href="#">Misfit</a>
@@ -70,15 +62,7 @@
 
                     <div class="row">
 
-                        <div class="col-3">
-                            <h6 class="dropdown-header">Categorieën</h6>
-                            <hr class="dropdown-row">
-                            <a class="dropdown-item" href="#">Luxe Smartwatches</a>
-                            <a class="dropdown-item" href="#">Basis Smartwatches</a>
-                            <a class="dropdown-item" href="#">Budget Smartwatches</a>
-                        </div>
-
-                        <div class="col-3">
+                        <div class="col-4">
                             <h6 class="dropdown-header">Luxe Merken</h6>
                             <hr class="dropdown-row">
                             <a class="dropdown-item" href="#">Apple</a>
@@ -87,7 +71,7 @@
                             <a class="dropdown-item" href="#">Micheal Kors</a>
                         </div>
 
-                        <div class="col-3">
+                        <div class="col-4">
                             <h6 class="dropdown-header">Basic Merken</h6>
                             <hr class="dropdown-row">
                             <a class="dropdown-item" href="#">Polar</a>
@@ -97,7 +81,7 @@
                             <a class="dropdown-item" href="#">Fossil</a>
                         </div>
 
-                        <div class="col-3">
+                        <div class="col-4">
                             <h6 class="dropdown-header">Budget Merken</h6>
                             <hr class="dropdown-row">
                             <a class="dropdown-item" href="#">Misfit</a>
