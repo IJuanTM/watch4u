@@ -6,11 +6,10 @@
     </button>
 
     <div class="collapse navbar-collapse" id="nav">
-
+        
         <!-- Home nav-item aan rechter kant. -->
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active"><a class="nav-text nav-link" href="#"><i class="fas fa-home fa-lg"
-                        style="padding-right:5px;"></i>Home</a></li>
+        <li class="nav-item active"><a class="nav-text nav-link" href="#"><i class="fas fa-home fa-lg" style="padding-right:5px;"></i>Home</a></li>
         </ul>
 
         <!-- Categoriën in het midden. -->
