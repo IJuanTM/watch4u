@@ -9,30 +9,30 @@
 
         <!-- Home nav-item aan rechter kant. -->
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item active"><a class="nav-text nav-link" href="#">Home</a></li>
         </ul>
 
         <!-- Categoriën in het midden. -->
         <ul class="navbar-nav">
             <li class="nav-item active dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">Heren</a>
+                <a class="nav-text nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Heren</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#">Action</a>
                 </div>
             </li>
 
             <li class="nav-item active dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">Dames</a>
+                <a class="nav-text nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dames</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#">Action</a>
                 </div>
             </li>
 
             <li class="nav-item active dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">Kinderen</a>
+                <a class="nav-text nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kinderen</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#">Action</a>
                 </div>
@@ -41,8 +41,8 @@
 
         <!-- Aanmelden en Inloggen aan de linkerkant. -->
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item active"><a class="nav-link" href="#">Aanmelden</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#">Inloggen</a></li>
+            <li class="nav-item active"><a class="nav-text nav-link" href="#">Aanmelden</a></li>
+            <li class="nav-item active"><a class="nav-text nav-link" href="#">Inloggen</a></li>
         </ul>
 
     </div>

@@ -1,9 +1,52 @@
+.carousel {
+    margin-bottom: 20px;
+}
+
 .carousel-item {
     height: 80vh;
-    min-height: 350px;
-    background: no-repeat center center scroll;
+    background: no-repeat center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.banner-text {
+    color: gold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.card-deck {
+    margin: 20px;
+}
+
+.card {
+    position: relative;
+}
+
+.card-img {
+    display: block;
+    width: 50%;
+    align-self: center;
+    top: 50%;
+}
+
+.card-title {
+    color: gold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.card-text {
+    color: gold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.content-text {
+    color: gold;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.content-row {
+    background-color: gold;
 }
