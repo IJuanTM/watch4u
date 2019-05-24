@@ -7,7 +7,6 @@
     <?php
     include("./index/meta.php");
     include("./index/css.php");
-    /* include("./index/css.php"); */
     ?>
 
     <!-- Titel van de pagina -->
