@@ -42,8 +42,8 @@
 
         <!-- Aanmelden en Inloggen aan de linkerkant. -->
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item active"><a class="nav-text nav-link" href="#">Aanmelden</a></li>
-            <li class="nav-item active"><a class="nav-text nav-link" href="#">Inloggen</a></li>
+            <li class="nav-item active"><a class="nav-text nav-link" href="#"><i class="fas fa-file-signature"></i> Aanmelden</a></li>
+            <li class="nav-item active"><a class="nav-text nav-link" href="#"><i class="fas fa-sign-in-alt"></i> Inloggen</a></li>
         </ul>
 
     </div>
