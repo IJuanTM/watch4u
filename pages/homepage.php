@@ -8,28 +8,27 @@
 
     <div class="carousel-inner" role="listbox">
 
-        <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item active"
-            style="background-image: url('https://source.unsplash.com/LAaSoL0LrYs/1920x1080')">
+        <!-- Slide One -->
+        <div class="carousel-item active" style="background-image: url(./img/banner/heren-banner.jpg)">
             <div class="carousel-caption d-none d-md-block">
-                <h2 class="display-4">First Slide</h2>
-                <p class="lead">This is a description for the first slide.</p>
+                <h2 class="display-4">Heren Smartwatches</h2>
+                <p class="lead">Stoere smartwatches gemaakt voor mannen!</p>
             </div>
         </div>
 
-        <!-- Slide Two - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')">
+        <!-- Slide Two-->
+        <div class="carousel-item" style="background-image: url(./img/banner/dames-banner.jpg)">
             <div class="carousel-caption d-none d-md-block">
-                <h2 class="display-4">Second Slide</h2>
-                <p class="lead">This is a description for the second slide.</p>
+                <h2 class="display-4">Dames Smartwatches</h2>
+                <p class="lead">Elegante smartwatches gemaakt voor vrouwen!</p>
             </div>
         </div>
 
-        <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
+        <!-- Slide Three -->
+        <div class="carousel-item" style="background-image: url(./img/banner/kids-banner.jpg)">
             <div class="carousel-caption d-none d-md-block">
-                <h2 class="display-4">Third Slide</h2>
-                <p class="lead">This is a description for the third slide.</p>
+                <h2 class="display-4">Kinder Smartwatches</h2>
+                <p class="lead">Leuke smartwatches gemaakt voor kinderen!</p>
             </div>
         </div>
 
