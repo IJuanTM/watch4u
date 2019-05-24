@@ -60,23 +60,26 @@
             <img class="card-img mx-auto my-auto" src="./img/horloges/merken/apple/watch_4/44mm/black.jpg">
             <div class="card-img-overlay">
                 <h3 class="card-title">Apple Watch 4</h3>
+                <span class="actie">€349</span>
                 <h5 class="card-text">€249</h5>
             </div>
         </div>
 
         <div class="card d-flex flex-column justify-content-between bg-white">
-            <img class="card-img mx-auto my-auto" src="./img/horloges/merken/fitbit/versa/pink.jpg">
+            <img class="card-img mx-auto my-auto" src="./img/horloges/merken/louis_vuitton/white.png">
             <div class="card-img-overlay">
-                <h3 class="card-title">FitBit Versa</h3>
-                <h5 class="card-text">€129</h5>
+                <h3 class="card-title">Louis Vuitton Horizon</h3>
+                <span class="actie">€6899</span>
+                <h5 class="card-text">€4999</h5>
             </div>
         </div>
 
         <div class="card d-flex flex-column justify-content-between bg-white">
-            <img class="card-img mx-auto my-auto" src="./img/horloges/merken/garmin/forerunner/35_green.jpg">
+            <img class="card-img mx-auto my-auto" src="./img/horloges/merken/samsung/galaxy/46mm/silver.jpg">
             <div class="card-img-overlay">
-                <h3 class="card-title">Garmin Forerunner</h3>
-                <h5 class="card-text">€179</h5>
+                <h3 class="card-title">Samsung Galaxy</h3>
+                <span class="actie">€329</span>
+                <h5 class="card-text">€279</h5>
             </div>
         </div>
 
