@@ -56,7 +56,7 @@
 
     <div class="card-deck">
 
-        <div class="card bg-white">
+        <div class="card d-flex flex-column justify-content-between bg-white">
             <img class="card-img mx-auto my-auto" src="./img/horloges/merken/apple/watch_4/44mm/black.jpg">
             <div class="card-img-overlay">
                 <h3 class="card-title">Apple Watch 4</h3>
@@ -64,7 +64,7 @@
             </div>
         </div>
 
-        <div class="card bg-white">
+        <div class="card d-flex flex-column justify-content-between bg-white">
             <img class="card-img mx-auto my-auto" src="./img/horloges/merken/fitbit/versa/pink.jpg">
             <div class="card-img-overlay">
                 <h3 class="card-title">FitBit Versa</h3>
@@ -72,7 +72,7 @@
             </div>
         </div>
 
-        <div class="card bg-white">
+        <div class="card d-flex flex-column justify-content-between bg-white">
             <img class="card-img mx-auto my-auto" src="./img/horloges/merken/garmin/forerunner/35_green.jpg">
             <div class="card-img-overlay">
                 <h3 class="card-title">Garmin Forerunner</h3>

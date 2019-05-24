@@ -1,3 +1,5 @@
+/* Carousel homepage */
+
 .carousel {
     margin-bottom: 20px;
 }
@@ -11,24 +13,29 @@
     background-size: cover;
 }
 
+
+/* Banner homepage */
+
 .banner-text {
     color: gold;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
+
+
+/* Card homepage */
 
 .card-deck {
     margin: 20px;
 }
 
 .card {
-    position: relative;
+    width: 100%;
 }
 
 .card-img {
+    size: 50%;
     display: block;
-    width: 50%;
     align-self: center;
-    top: 50%;
 }
 
 .card-title {
@@ -40,6 +47,9 @@
     color: gold;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
+
+
+/* Text on pages */
 
 .content-text {
     color: gold;
