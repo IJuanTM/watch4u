@@ -54,42 +54,42 @@
 <h1 class="content-text">Acties</h1>
 <hr class="content-row">
 
-<center>
+<div class="item-group sale-bg">
 
-    <div class="item-row">
+    <figure class="shop-item">
+        <img class="mx-auto my-auto" src="./img/horloges/merken/apple/watch_4/black.png">
+        <figcaption>
+            <h3 class="item-name">Apple Watch 4 Black</h3>
+            <h3 class="actie">€529</h3>
+            <h5 class="item-price">€449</h5>
+        </figcaption>
+    </figure>
 
-        <figure class="shop-item">
-            <img class="mx-auto my-auto" src="./img/horloges/merken/apple/watch_4/black.png">
-            <figcaption>
-                <h3 class="item-name">Apple Watch 4 Black</h3>
-                <h5 class="item-price">€449</h5>
-            </figcaption>
-        </figure>
+    <figure class="shop-item">
+        <img class="mx-auto my-auto" src="./img/horloges/merken/louis_vuitton/horizon/white.png">
+        <figcaption>
+            <h3 class="item-name">Louis Vuitton Horizon White</h3>
+            <h3 class="actie">€5299</h3>
+            <h5 class="item-price">€3999</h5>
+        </figcaption>
+    </figure>
 
-        <figure class="shop-item">
-            <img class="mx-auto my-auto" src="./img/horloges/merken/louis_vuitton/horizon/white.png">
-            <figcaption>
-                <h3 class="item-name">Louis Vuitton Horizon White</h3>
-                <h5 class="item-price">€3999</h5>
-            </figcaption>
-        </figure>
+    <figure class="shop-item">
+        <img class="mx-auto my-auto" src="./img/horloges/merken/samsung/galaxy/46mm/silver.png">
+        <figcaption>
+            <h3 class="item-name">Samsung Galaxy Watch Silver</h3>
+            <h3 class="actie">€429</h3>
+            <h5 class="item-price">€349</h5>
+        </figcaption>
+    </figure>
 
-        <figure class="shop-item">
-            <img class="mx-auto my-auto" src="./img/horloges/merken/samsung/galaxy/46mm/silver.png">
-            <figcaption>
-                <h3 class="item-name">Samsung Galaxy Watch Silver</h3>
-                <h5 class="item-price">€349</h5>
-            </figcaption>
-        </figure>
+    <figure class="shop-item">
+        <img class="mx-auto my-auto" src="./img/horloges/merken/mobvoi/ticwatch/c2/black.png">
+        <figcaption>
+            <h3 class="item-name">Mobvoi Ticwatch Black</h3>
+            <h3 class="actie">€179</h3>
+            <h5 class="item-price">€149</h5>
+        </figcaption>
+    </figure>
 
-        <figure class="shop-item">
-            <img class="mx-auto my-auto" src="./img/horloges/merken/mobvoi/ticwatch/c2/black.png">
-            <figcaption>
-                <h3 class="item-name">Mobvoi Ticwatch Black</h3>
-                <h5 class="item-price">€149</h5>
-            </figcaption>
-        </figure>
-
-    </div>
-
-</center>
+</div>

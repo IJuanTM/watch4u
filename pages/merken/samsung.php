@@ -1,91 +1,31 @@
 <hr class="content-row">
-<h1 class="content-text">Apple</h1>
+<h1 class="content-text">Samung</h1>
 <hr class="content-row">
 
-<div class="row-full">
+<div class="item-group samsung-bg">
 
-    <div class="card-deck">
+    <figure class="shop-item">
+        <img class="mx-auto my-auto" src="./img/horloges/merken/samsung/galaxy/46mm/silver.png">
+        <figcaption>
+            <h3 class="item-name">Samsung Galaxy Watch Silver</h3>
+            <h5 class="item-price">€379</h5>
+        </figcaption>
+    </figure>
 
-        <div class="card d-flex flex-column justify-content-between">
-            <img class="align-self-center card-img mx-auto my-auto" src="./img/horloges/merken/apple/watch_4/black.png">
-            <div class="card-img-overlay">
-                <div class="card-title">
-                    <h3>Apple Watch 4</h3>
-                </div>
-                <div class="card-text">
-                    <h5>€449</h5>
-                </div>
-            </div>
-        </div>
+    <figure class="shop-item">
+        <img class="mx-auto my-auto" src="./img/horloges/merken/samsung/galaxy/42mm/pink.png">
+        <figcaption>
+            <h3 class="item-name">Samsung Galaxy Watch Pink</h3>
+            <h5 class="item-price">€379</h5>
+        </figcaption>
+    </figure>
 
-        <div class="card d-flex flex-column justify-content-between">
-            <img class="card-img mx-auto my-auto" src="./img/horloges/merken/apple/watch_4/pink.png">
-            <div class="card-img-overlay">
-                <div class="card-title">
-                    <h3>Apple Watch 4</h3>
-                </div>
-                <div class="card-text">
-                    <h5>€449</h5>
-                </div>
-            </div>
-        </div>
-
-        <div class="card d-flex flex-column justify-content-between">
-            <img class="card-img mx-auto my-auto" src="./img/horloges/merken/apple/watch_4/white.png">
-            <div class="card-img-overlay">
-                <div class="card-title">
-                    <h3>Apple Watch 4</h3>
-                </div>
-                <div class="card-text">
-                    <h5>€449</h5>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</div>
-
-<div class="row-full">
-
-    <div class="card-deck">
-
-        <div class="card d-flex flex-column justify-content-between">
-            <img class="card-img mx-auto my-auto" src="./img/horloges/merken/apple/watch_4/aluminium.png">
-            <div class="card-img-overlay">
-                <div class="card-title">
-                    <h3>Apple Watch 4</h3>
-                </div>
-                <div class="card-text">
-                    <h5>€449</h5>
-                </div>
-            </div>
-        </div>
-
-        <div class="card d-flex flex-column justify-content-between">
-            <img class="card-img mx-auto my-auto" src="./img/horloges/merken/apple/watch_4/sport/aluminium.png">
-            <div class="card-img-overlay">
-                <div class="card-title">
-                    <h3>Apple Watch 4</h3>
-                </div>
-                <div class="card-text">
-                    <h5>€449</h5>
-                </div>
-            </div>
-        </div>
-
-        <div class="card d-flex flex-column justify-content-between">
-            <img class="card-img mx-auto my-auto" src="./img/horloges/merken/apple/watch_4/sport/black.png">
-            <div class="card-img-overlay">
-                <div class="card-title">
-                    <h3>Apple Watch 4</h3>
-                </div>
-                <div class="card-text">
-                    <h5>€449</h5>
-                </div>
-            </div>
-        </div>
-
-    </div>
+    <figure class="shop-item">
+        <img class="mx-auto my-auto" src="./img/horloges/merken/samsung/galaxy/42mm/black.png">
+        <figcaption>
+            <h3 class="item-name">Samsung Galaxy Watch Black</h3>
+            <h5 class="item-price">€379</h5>
+        </figcaption>
+    </figure>
 
 </div>

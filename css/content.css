@@ -32,6 +32,7 @@
 
 .content-row {
     background-color: gold;
+    height: 2px;
 }
 
 
@@ -43,10 +44,11 @@
     text-decoration-line: line-through;
 }
 
-.item-row {
+.item-group {
+    text-align: center;
     display: inline-block;
-    background-color: gold;
     padding: 8px;
+    width: 100%;
 }
 
 .shop-item {
@@ -57,8 +59,8 @@
     min-width: 300px;
     max-width: 320px;
     width: 100%;
-    min-height: 400px;
-    max-height: 420px;
+    min-height: 360px;
+    max-height: 400px;
     height: 100%;
     background-color: #505050;
     text-align: left;
@@ -101,38 +103,49 @@
     justify-content: flex-end;
 }
 
-.shop-item h3 {
-    font-size: 44px;
-    font-weight: 400;
-    line-height: 1;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    margin: 3px 0;
-}
-
-.shop-item .item-name {
+.item-name {
     color: white;
     font-size: 24px;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 1px;
+    margin: 3px 0;
+    font-weight: 400;
 }
 
-.shop-item .item-price {
+.item-price {
     font-weight: bolder;
     color: gold;
     font-size: 22px;
 }
 
-.shop-item a {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.shop-item:hover img,
-.shop-item.hover img {
+.shop-item:hover img {
     -webkit-transform: scale(0.9);
     -moz-transform: scale(0.9);
     -o-transform: scale(0.9);
     transform: scale(0.9);
+}
+
+
+/* Backgrounds */
+
+.apple-bg {
+    background-image: url('../img/background/apple.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+.samsung-bg {
+    background-image: url('../img/background/samsung.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+.sale-bg {
+    background-image: url('../img/background/sale.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 25%;
 }

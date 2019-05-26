@@ -31,7 +31,7 @@
                             </a>
                             <hr class="dropdown-row">
                             <a class="dropdown-item" href="./index.php?content=merken/apple">Apple</a>
-                            <a class="dropdown-item" href="#">Samsung</a>
+                            <a class="dropdown-item" href="./index.php?content=merken/samsung">Samsung</a>
                             <a class="dropdown-item" href="#">Louis Vuitton</a>
                             <a class="dropdown-item" href="#">Micheal Kors</a>
                         </div>
@@ -74,7 +74,7 @@
                             </a>
                             <hr class="dropdown-row">
                             <a class="dropdown-item" href="./index.php?content=merken/apple">Apple</a>
-                            <a class="dropdown-item" href="#">Samsung</a>
+                            <a class="dropdown-item" href="./index.php?content=merken/samsung">Samsung</a>
                             <a class="dropdown-item" href="#">Louis Vuitton</a>
                             <a class="dropdown-item" href="#">Micheal Kors</a>
                         </div>
