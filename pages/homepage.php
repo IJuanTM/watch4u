@@ -1,9 +1,11 @@
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<!-- Banner Carousel -->
+<div id="Indicator" class="carousel slide" data-ride="carousel">
 
+    <!-- Slides -->
     <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#Indicator" data-slide-to="0" class="active"></li>
+        <li data-target="#Indicator" data-slide-to="1"></li>
+        <li data-target="#Indicator" data-slide-to="2"></li>
     </ol>
 
     <div class="carousel-inner" role="listbox">
@@ -34,55 +36,60 @@
 
     </div>
 
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <!-- Indicator One -->
+    <a class="carousel-control-prev" href="#Indicator" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
     </a>
 
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <!-- Indicator Two -->
+    <a class="carousel-control-next" href="#Indicator" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
 
 </div>
 
-
-
 <hr class="content-row">
 <h1 class="content-text">Acties</h1>
 <hr class="content-row">
 
-<div class="row-full">
+<center>
 
-    <div class="card-deck">
+    <div class="item-row">
 
-        <div class="card d-flex flex-column justify-content-between bg-white">
-            <img class="card-img mx-auto my-auto" src="./img/horloges/merken/apple/watch_4/44mm/black.jpg">
-            <div class="card-img-overlay">
-                <h3 class="card-title">Apple Watch 4</h3>
-                <span class="actie">€349</span>
-                <h5 class="card-text">€249</h5>
-            </div>
-        </div>
+        <figure class="shop-item">
+            <img class="mx-auto my-auto" src="./img/horloges/merken/apple/watch_4/black.png">
+            <figcaption>
+                <h3 class="item-name">Apple Watch 4 Black</h3>
+                <h5 class="item-price">€449</h5>
+            </figcaption>
+        </figure>
 
-        <div class="card d-flex flex-column justify-content-between bg-white">
-            <img class="card-img mx-auto my-auto" src="./img/horloges/merken/louis_vuitton/white.png">
-            <div class="card-img-overlay">
-                <h3 class="card-title">Louis Vuitton Horizon</h3>
-                <span class="actie">€6899</span>
-                <h5 class="card-text">€4999</h5>
-            </div>
-        </div>
+        <figure class="shop-item">
+            <img class="mx-auto my-auto" src="./img/horloges/merken/louis_vuitton/horizon/white.png">
+            <figcaption>
+                <h3 class="item-name">Louis Vuitton Horizon White</h3>
+                <h5 class="item-price">€3999</h5>
+            </figcaption>
+        </figure>
 
-        <div class="card d-flex flex-column justify-content-between bg-white">
-            <img class="card-img mx-auto my-auto" src="./img/horloges/merken/samsung/galaxy/46mm/silver.jpg">
-            <div class="card-img-overlay">
-                <h3 class="card-title">Samsung Galaxy</h3>
-                <span class="actie">€329</span>
-                <h5 class="card-text">€279</h5>
-            </div>
-        </div>
+        <figure class="shop-item">
+            <img class="mx-auto my-auto" src="./img/horloges/merken/samsung/galaxy/46mm/silver.png">
+            <figcaption>
+                <h3 class="item-name">Samsung Galaxy Watch Silver</h3>
+                <h5 class="item-price">€349</h5>
+            </figcaption>
+        </figure>
+
+        <figure class="shop-item">
+            <img class="mx-auto my-auto" src="./img/horloges/merken/mobvoi/ticwatch/c2/black.png">
+            <figcaption>
+                <h3 class="item-name">Mobvoi Ticwatch Black</h3>
+                <h5 class="item-price">€149</h5>
+            </figcaption>
+        </figure>
 
     </div>
 
-</div>
+</center>

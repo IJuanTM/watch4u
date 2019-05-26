@@ -61,7 +61,7 @@
 }
 
 .dropdown-header {
-    color: white;
+    color: white !important;
 }
 
 .dropdown-row {

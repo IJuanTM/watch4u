@@ -6,7 +6,7 @@
 
 .carousel-item {
     height: 80vh;
-    background: no-repeat center scroll;
+    background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -22,40 +22,6 @@
 }
 
 
-/* Card homepage */
-
-.card-deck {
-    margin: 20px;
-}
-
-.card {
-    width: 100%;
-}
-
-.card-img {
-    size: 50%;
-    display: block;
-    align-self: center;
-}
-
-.card-title {
-    font-weight: bolder;
-    font-size: 20;
-    color: black;
-}
-
-.card-text {
-    color: white;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
-
-.actie {
-    color: red;
-    font-size: 20px;
-    text-decoration-line: line-through;
-}
-
-
 /* Text on pages */
 
 .content-text {
@@ -66,4 +32,107 @@
 
 .content-row {
     background-color: gold;
+}
+
+
+/* Shop Item */
+
+.actie {
+    color: red;
+    font-size: 20px;
+    text-decoration-line: line-through;
+}
+
+.item-row {
+    display: inline-block;
+    background-color: gold;
+    padding: 8px;
+}
+
+.shop-item {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 8px;
+    min-width: 300px;
+    max-width: 320px;
+    width: 100%;
+    min-height: 400px;
+    max-height: 420px;
+    height: 100%;
+    background-color: #505050;
+    text-align: left;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.shop-item * {
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    -o-transition: all 0.35s;
+    transition: all 0.35s;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.shop-item img {
+    max-width: 100%;
+    vertical-align: middle;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+.shop-item figcaption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+    background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+    background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.shop-item h3 {
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 3px 0;
+}
+
+.shop-item .item-name {
+    color: white;
+    font-size: 24px;
+}
+
+.shop-item .item-price {
+    font-weight: bolder;
+    color: gold;
+    font-size: 22px;
+}
+
+.shop-item a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.shop-item:hover img,
+.shop-item.hover img {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
 }
