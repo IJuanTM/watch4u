@@ -11,7 +11,7 @@
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
                 <a class="nav-text nav-link" href="./index.php?content=homepage">
-                    <img src=" ./img/icon/Watch.png" width="20px" height="20px" style="margin-bottom: 3px;">Home</a>
+                    <img src="./img/icon/Watch.svg" width="20px" height="20px" style="margin-bottom: 3px;">Home</a>
             </li>
         </ul>
 

@@ -23,9 +23,9 @@
     </figure>
 
     <figure class="shop-item">
-        <img class="mx-auto my-auto" src="./img/watches/brands/apple/watch_4/aluminium.png">
+        <img class="mx-auto my-auto" src="./img/watches/brands/apple/watch_4/nike_silver.png">
         <figcaption>
-            <h3 class="item-name">Watch 4 Silver</h3>
+            <h3 class="item-name">Watch 4 Nike Silver</h3>
             <h5 class="item-price">€449</h5>
         </figcaption>
     </figure>
@@ -51,7 +51,7 @@
     <figure class="shop-item">
         <img class="mx-auto my-auto" src="./img/watches/brands/apple/watch_3/nike_black.png">
         <figcaption>
-            <h3 class="item-name">Watch 3 Pink</h3>
+            <h3 class="item-name">Watch 3 Nike Black</h3>
             <h5 class="item-price">€329</h5>
         </figcaption>
     </figure>

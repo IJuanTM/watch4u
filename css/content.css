@@ -62,10 +62,10 @@
     display: inline-block;
     overflow: hidden;
     margin: 8px;
-    min-width: 320px;
+    min-width: 200px;
     max-width: 340px;
     width: 100%;
-    min-height: 380px;
+    min-height: 280px;
     max-height: 400px;
     height: 100%;
     background-color: #505050;
@@ -231,5 +231,5 @@
     background-image: url('../img/background/sale.jpg');
     background-attachment: fixed;
     background-position: center;
-    background-size: 25%;
+    background-size: 75%;
 }
