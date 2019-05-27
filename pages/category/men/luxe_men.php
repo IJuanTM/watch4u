@@ -1,5 +1,5 @@
 <hr class="content-row">
-<h1 class="content-text">Luxe Men's Brands</h1>
+<h1 class="content-text">Men's Luxe Brands</h1>
 <hr class="content-row">
 
 <div class="category-group">

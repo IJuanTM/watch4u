@@ -31,8 +31,8 @@
                                 Men's Luxe Brands
                             </a>
                             <hr class="dropdown-row">
-                            <a class="dropdown-item" href="./index.php?content=men/apple_men">Apple</a>
-                            <a class="dropdown-item" href="./index.php?content=men/samsung_men">Samsung</a>
+                            <a class="dropdown-item" href="./index.php?content=brands_men/apple_men">Apple</a>
+                            <a class="dropdown-item" href="./index.php?content=brands_men/samsung_men">Samsung</a>
                             <a class="dropdown-item" href="#">Louis Vuitton</a>
                             <a class="dropdown-item" href="#">Micheal Kors</a>
                         </div>
@@ -56,6 +56,7 @@
                             <a class="dropdown-item" href="#">Misfit</a>
                             <a class="dropdown-item" href="#">Mobvoi</a>
                             <a class="dropdown-item" href="#">Casio</a>
+                            <a class="dropdown-item" href="#">Amazfit</a>
                         </div>
                     </div>
                 </div>
@@ -75,8 +76,8 @@
                                 Women's Luxe Brands
                             </a>
                             <hr class="dropdown-row">
-                            <a class="dropdown-item" href="./index.php?content=women/apple_women">Apple</a>
-                            <a class="dropdown-item" href="./index.php?content=women/samsung_women">Samsung</a>
+                            <a class="dropdown-item" href="./index.php?content=brands_women/apple_women">Apple</a>
+                            <a class="dropdown-item" href="./index.php?content=brands_women/samsung_women">Samsung</a>
                             <a class="dropdown-item" href="#">Louis Vuitton</a>
                             <a class="dropdown-item" href="#">Micheal Kors</a>
                         </div>
@@ -102,6 +103,7 @@
                             <a class="dropdown-item" href="#">Misfit</a>
                             <a class="dropdown-item" href="#">Mobvoi</a>
                             <a class="dropdown-item" href="#">Casio</a>
+                            <a class="dropdown-item" href="#">Amazfit</a>
                         </div>
 
                     </div>
@@ -146,6 +148,7 @@
                             <a class="dropdown-item" href="#">Misfit</a>
                             <a class="dropdown-item" href="#">Mobvoi</a>
                             <a class="dropdown-item" href="#">Casio</a>
+                            <a class="dropdown-item" href="#">Amazfit</a>
                         </div>
 
                     </div>
