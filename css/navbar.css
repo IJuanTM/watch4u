@@ -45,6 +45,8 @@
     background-color: #343A40;
     width: 100%;
     text-align: center;
+    border-radius: 0px;
+    margin: 0 auto;
 }
 
 .dropdown-menu>li {
