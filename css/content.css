@@ -13,6 +13,35 @@
     background-size: cover;
 }
 
+.carousel-control-next-icon {
+    background-image: url('../img/icon/arrow_right.svg');
+    transform: scale(2.0);
+}
+
+.carousel-control-next-icon:hover {
+    transform: scale(2.5);
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../img/icon/arrow_left.svg');
+    transform: scale(2.0);
+}
+
+.carousel-control-prev-icon:hover {
+    transform: scale(2.5);
+}
+
+.carousel .carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+}
+
 
 /* Banner homepage */
 
@@ -236,4 +265,11 @@
     background-attachment: fixed;
     background-position: center;
     background-size: 75%;
+}
+
+.mk-bg {
+    background-image: url('../img/background/mk.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
 }

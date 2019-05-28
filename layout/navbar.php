@@ -11,7 +11,7 @@
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
                 <a class="nav-text nav-link" href="./index.php?content=homepage">
-                    <img src="./img/icon/Watch.svg" width="20px" height="20px" style="margin-bottom: 3px;">Home</a>
+                    <img src="./img/icon/Watch.png" width="20px" height="20px" style="margin-bottom: 3px;">Home</a>
             </li>
         </ul>
 
@@ -33,8 +33,8 @@
                             <hr class="dropdown-row">
                             <a class="dropdown-item" href="./index.php?content=brands_men/apple_men">Apple</a>
                             <a class="dropdown-item" href="./index.php?content=brands_men/samsung_men">Samsung</a>
-                            <a class="dropdown-item" href="#">Louis Vuitton</a>
-                            <a class="dropdown-item" href="#">Micheal Kors</a>
+                            <a class="dropdown-item" href="./index.php?content=brands_men/lv_men">Louis Vuitton</a>
+                            <a class="dropdown-item" href="./index.php?content=brands_men/mk_men">Michael Kors</a>
                         </div>
 
                         <div class="col-4">
@@ -78,8 +78,8 @@
                             <hr class="dropdown-row">
                             <a class="dropdown-item" href="./index.php?content=brands_women/apple_women">Apple</a>
                             <a class="dropdown-item" href="./index.php?content=brands_women/samsung_women">Samsung</a>
-                            <a class="dropdown-item" href="#">Louis Vuitton</a>
-                            <a class="dropdown-item" href="#">Micheal Kors</a>
+                            <a class="dropdown-item" href="./index.php?content=brands_women/lv_women">Louis Vuitton</a>
+                            <a class="dropdown-item" href="./index.php?content=brands_women/mk_women">Michael Kors</a>
                         </div>
 
                         <div class="col-4">
@@ -125,8 +125,8 @@
                             <hr class="dropdown-row">
                             <a class="dropdown-item" href="./index.php?content=brands/apple">Apple</a>
                             <a class="dropdown-item" href="./index.php?content=brands/samsung">Samsung</a>
-                            <a class="dropdown-item" href="#">Louis Vuitton</a>
-                            <a class="dropdown-item" href="#">Micheal Kors</a>
+                            <a class="dropdown-item" href="./index.php?content=brands/lv">Louis Vuitton</a>
+                            <a class="dropdown-item" href="./index.php?content=brands/mk">Michael Kors</a>
                         </div>
 
                         <div class="col-4">
@@ -193,12 +193,12 @@
         <!-- Aanmelden en Inloggen aan de linkerkant. -->
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-                <a class="nav-text nav-link" href="./index.php?content=register"><i class="fas fa-file-signature"></i>
-                    Register</a>
+                <a class="nav-text nav-link" href="./index.php?content=register">
+                    <i class="fas fa-file-signature"></i> Register</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-text nav-link" href="./index.php?content=login"><i class="fas fa-sign-in-alt"></i>
-                    Login</a></li>
+                <a class="nav-text nav-link" href="./index.php?content=login">
+                    <i class="fas fa-sign-in-alt"></i> Login</a></li>
         </ul>
 
     </div>

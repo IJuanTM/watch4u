@@ -51,12 +51,10 @@
 </div>
 
 <hr class="content-row">
-<h1 class="content-text">Sale</h1>
+<h1 class="content-text">Deals</h1>
 <hr class="content-row">
 
 <div class="item-group sale-bg">
-
-    <h1 class="group-text">Sale:</h1>
 
     <figure class="shop-item">
         <img class="mx-auto my-auto" src="./img/watches/brands/apple/watch_4/black.png">

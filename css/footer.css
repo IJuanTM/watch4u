@@ -1,14 +1,34 @@
 .footer {
-    padding: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    background-color: #343A40;
 }
 
 .footer-header {
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
+    color: gold;
+}
+
+.footer-row {
+    margin: 1px;
+    background-color: gold;
 }
 
 .footer-text {
-    font-size: 18px;
-    color: gold;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-text a {
+    color: white;
+}
+
+.footer-copyright {
+    color: white;
+    font-size: 14px;
+}
+
+.tel {
+    color: blue !important;
 }
