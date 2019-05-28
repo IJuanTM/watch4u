@@ -1,0 +1,38 @@
+.modal-open {
+    padding-right: 0px !important;
+    overflow-y: scroll;
+}
+
+.modal-img {
+    max-width: 100%;
+}
+
+.modal-content {
+    background-color: #343A40;
+    width: 100%;
+}
+
+.modal-header {
+    color: gold;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.modal-text {
+    color: gray;
+}
+
+.modal-sale {
+    color: red;
+    font-size: 20px;
+    -webkit-text-decoration: line-through;
+    -moz-text-decoration: line-through;
+    -o-text-decoration: line-through;
+    text-decoration: line-through;
+}
+
+.modal-price {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
