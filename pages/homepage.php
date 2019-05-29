@@ -122,7 +122,7 @@
 
             <div class="modal-footer">
                 <button type="button" class="btn btn-default text-light" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-success">Add to Card</button>
+                <button type="button" class="btn btn-success">Add to Cart</button>
             </div>
 
         </div>
