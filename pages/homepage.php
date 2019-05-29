@@ -96,21 +96,26 @@
 
 <!-- Modal Apple Watch 4 Black -->
 <div class="modal fade" id="apple_4_black" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content">
 
             <div class="modal-body">
                 <div class="row">
-                    <div class="col-6">
+
+                    <div class="col-4">
                         <img class="modal-img mx-auto my-auto" src="./img/watches/brands/apple/watch_4/black.png">
                     </div>
-                    <div class="col-6">
-                        <h5 class="modal-header text-uppercase">Apple Watch 4 Black</h5>
-                        <p class="modal-text">
 
-                        </p>
-                        <h4 class="modal-sale">€529</h4>
-                        <h3 class="modal-price">€429</h3>
+                    <div class="col-8">
+                        <h5 class="modal-header text-uppercase">Apple Watch 4 Black</h5>
+
+                        <div class="row">
+                            <div class="modal-price-area col-12">
+                                <h4 class="modal-sale">€529</h4>
+                                <h3 class="modal-price">€429</h3>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

@@ -4,7 +4,7 @@
 }
 
 .modal-img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .modal-content {
@@ -22,9 +22,16 @@
     color: gray;
 }
 
+.modal-price-area {
+    padding: 20px;
+    float: right;
+    vertical-align: middle;
+}
+
 .modal-sale {
     color: red;
-    font-size: 20px;
+    font-size: 32px;
+    padding-right: 20px;
     -webkit-text-decoration: line-through;
     -moz-text-decoration: line-through;
     -o-text-decoration: line-through;
@@ -34,5 +41,5 @@
 .modal-price {
     color: white;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 44px;
 }
