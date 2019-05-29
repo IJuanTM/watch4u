@@ -1,3 +1,7 @@
+.modal {
+    margin: 0 auto;
+}
+
 .modal-open {
     padding-right: 0px !important;
     overflow-y: scroll;
@@ -16,22 +20,18 @@
     color: gold;
     font-weight: bolder;
     font-size: 32px;
+    padding: 10px;
 }
 
 .modal-text {
-    color: gray;
-}
-
-.modal-price-area {
-    padding: 20px;
-    float: right;
+    float: left;
     vertical-align: middle;
+    color: gray;
 }
 
 .modal-sale {
     color: red;
     font-size: 32px;
-    padding-right: 20px;
     -webkit-text-decoration: line-through;
     -moz-text-decoration: line-through;
     -o-text-decoration: line-through;

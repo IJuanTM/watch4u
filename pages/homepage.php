@@ -1,3 +1,6 @@
+<?php
+include("./layout/modal.php");
+?>
 <!-- Banner Carousel -->
 <div id="Indicator" class="carousel slide" data-ride="carousel">
 
@@ -60,7 +63,7 @@
         <img class="mx-auto my-auto" src="./img/watches/brands/apple/watch_4/black.png">
         <figcaption>
             <h3 class="item-name">Apple Watch 4 Black</h3>
-            <h3 class="sale">€529</h3>
+            <h3 class="sale"> €529 </h3>
             <h5 class="item-price">€449</h5>
         </figcaption>
     </figure>
@@ -92,93 +95,4 @@
         </figcaption>
     </figure>
 
-</div>
-
-<!-- Modal Apple Watch 4 Black -->
-<div class="modal fade" id="apple_4_black" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-        <div class="modal-content">
-
-            <div class="modal-body">
-                <div class="row">
-
-                    <div class="col-4">
-                        <img class="modal-img mx-auto my-auto" src="./img/watches/brands/apple/watch_4/black.png">
-                    </div>
-
-                    <div class="col-8">
-                        <h5 class="modal-header text-uppercase">Apple Watch 4 Black</h5>
-
-                        <div class="row">
-                            <div class="modal-price-area col-12">
-                                <h4 class="modal-sale">€529</h4>
-                                <h3 class="modal-price">€429</h3>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default text-light" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-success">Add to Cart</button>
-            </div>
-
-        </div>
-    </div>
-</div>
-
-<!-- Modal Louis Vuitton Horizon White -->
-<div class="modal fade" id="lv_white" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-
-            <div class="modal-body">
-
-            </div>
-
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-success">Add to Card</button>
-            </div>
-
-        </div>
-    </div>
-</div>
-
-<!-- Modal Samsung Galaxy Silver -->
-<div class="modal fade" id="samsung_galaxy_silver" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-
-            <div class="modal-body">
-                Samsung Galaxy Silver
-            </div>
-
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-success">Add to Card</button>
-            </div>
-
-        </div>
-    </div>
-</div>
-
-<!-- Modal Mobvoi Ticwatch Black -->
-<div class="modal fade" id="mobvoi_tic_black" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-
-            <div class="modal-body">
-                Mobvoi Ticwatch Black
-            </div>
-
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-success">Add to Card</button>
-            </div>
-
-        </div>
-    </div>
 </div>
