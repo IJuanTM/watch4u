@@ -1,10 +1,14 @@
 <hr class="content-row">
-<h1 class="content-text">Samsung</h1>
+<h1 class="content-text">Samsung Collection</h1>
 <hr class="content-row">
 
 <div class="item-group samsung-bg">
 
-    <h1 class="group-text">Galaxy:</h1>
+    <div class="row">
+        <div class="col-1"></div>
+        <h1 class="group-text">Galaxy:</h1>
+        <div class="col-11"></div>
+    </div>
 
     <figure class="shop-item">
         <img class="mx-auto my-auto" src="./img/watches/brands/samsung/galaxy/46mm/silver.png">

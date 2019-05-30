@@ -1,10 +1,14 @@
 <hr class="content-row">
-<h1 class="content-text">Michael Kors</h1>
+<h1 class="content-text">Michael Kors Collection</h1>
 <hr class="content-row">
 
 <div class="item-group mk-bg">
 
-    <h1 class="group-text">Hutton:</h1>
+    <div class="row">
+        <div class="col-1"></div>
+        <h1 class="group-text">Hutton:</h1>
+        <div class="col-11"></div>
+    </div>
 
     <figure class="shop-item">
         <img class="mx-auto my-auto" src="./img/watches/brands/michael_kors/access/hutton/black.png">
@@ -30,7 +34,11 @@
         </figcaption>
     </figure>
 
-    <h1 class="group-text">Runway:</h1>
+    <div class="row">
+        <div class="col-1"></div>
+        <h1 class="group-text">Runway:</h1>
+        <div class="col-11"></div>
+    </div>
 
     <figure class="shop-item">
         <img class="mx-auto my-auto" src="./img/watches/brands/michael_kors/access/runway/black.png">
@@ -56,7 +64,11 @@
         </figcaption>
     </figure>
 
-    <h1 class="group-text">Sofie:</h1>
+    <div class="row">
+        <div class="col-1"></div>
+        <h1 class="group-text">Sofie:</h1>
+        <div class="col-11"></div>
+    </div>
 
     <figure class="shop-item">
         <img class="mx-auto my-auto" src="./img/watches/brands/michael_kors/access/sofie/black_pink.png">

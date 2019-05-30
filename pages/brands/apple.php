@@ -1,10 +1,14 @@
 <hr class="content-row">
-<h1 class="content-text">Apple</h1>
+<h1 class="content-text">Apple Collection</h1>
 <hr class="content-row">
 
 <div class="item-group apple-bg">
 
-    <h1 class="group-text">Watch 4:</h1>
+    <div class="row">
+        <div class="col-1"></div>
+        <h1 class="group-text">Watch 4:</h1>
+        <div class="col-11"></div>
+    </div>
 
     <figure class="shop-item">
         <img class="mx-auto my-auto" src="./img/watches/brands/apple/watch_4/black.png">
@@ -38,7 +42,11 @@
         </figcaption>
     </figure>
 
-    <h1 class="group-text">Watch 3:</h1>
+    <div class="row">
+        <div class="col-1"></div>
+        <h1 class="group-text">Watch 3:</h1>
+        <div class="col-11"></div>
+    </div>
 
     <figure class="shop-item">
         <img class="mx-auto my-auto" src="./img/watches/brands/apple/watch_3/black.png">
