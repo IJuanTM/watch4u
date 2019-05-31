@@ -79,7 +79,7 @@ include("./layout/modal.php");
     </figure>
 
     <figure class="shop-item" data-toggle="modal" data-target="#samsung_galaxy_silver">
-        <img class="mx-auto my-auto" src="./img/watches/brands/samsung/galaxy/46mm/silver.png">
+        <img class="mx-auto my-auto" src="./img/watches/brands/samsung/galaxy/silver.png">
         <figcaption>
             <h3 class="item-name">Samsung Galaxy Watch Silver</h3>
             <h3 class="sale">€429</h3>
