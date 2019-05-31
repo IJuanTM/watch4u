@@ -42,7 +42,7 @@
     </figure>
 
     <figure class="category-item">
-        <a href="">
+        <a href="./index.php?content=brands/garmin">
             <img class="mx-auto my-auto" src="./img/logo/brands/garmin.png">
             <figcaption>
                 <h3 class="category-name">Garmin</h3>

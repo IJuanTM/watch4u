@@ -6,7 +6,7 @@ include("./layout/modal.php");
 <h1 class="content-text">Apple Collection</h1>
 <hr class="content-row">
 
-<!-- Apple watch 4 group -->
+<!-- Apple watch 4 group 1 -->
 <div class="item-group apple-bg">
 
     <div class="row">
@@ -32,6 +32,14 @@ include("./layout/modal.php");
     </figure>
 
     <figure class="shop-item">
+        <img class="mx-auto my-auto" src="./img/watches/brands/apple/watch_4/white.png">
+        <figcaption>
+            <h3 class="item-name">Watch 4 White</h3>
+            <h5 class="item-price">€449</h5>
+        </figcaption>
+    </figure>
+
+    <figure class="shop-item">
         <img class="mx-auto my-auto" src="./img/watches/brands/apple/watch_4/nike_silver.png">
         <figcaption>
             <h3 class="item-name">Watch 4 Nike Silver</h3>
@@ -39,10 +47,39 @@ include("./layout/modal.php");
         </figcaption>
     </figure>
 
+</div>
+
+<!-- Apple watch 4 group 2 -->
+<div class="item-group apple-bg">
+
     <figure class="shop-item">
-        <img class="mx-auto my-auto" src="./img/watches/brands/apple/watch_4/white.png">
+        <img class="mx-auto my-auto" src="./img/watches/brands/apple/watch_4/nike_gray.png">
         <figcaption>
-            <h3 class="item-name">Watch 4 White</h3>
+            <h3 class="item-name">Watch 4 Nike Gray</h3>
+            <h5 class="item-price">€449</h5>
+        </figcaption>
+    </figure>
+
+    <figure class="shop-item">
+        <img class="mx-auto my-auto" src="./img/watches/brands/apple/watch_4/sport/pink.png">
+        <figcaption>
+            <h3 class="item-name">Watch 4 Sport Pink</h3>
+            <h5 class="item-price">€449</h5>
+        </figcaption>
+    </figure>
+
+    <figure class="shop-item">
+        <img class="mx-auto my-auto" src="./img/watches/brands/apple/watch_4/sport/silver.png">
+        <figcaption>
+            <h3 class="item-name">Watch 4 Sport Silver</h3>
+            <h5 class="item-price">€449</h5>
+        </figcaption>
+    </figure>
+
+    <figure class="shop-item">
+        <img class="mx-auto my-auto" src="./img/watches/brands/apple/watch_4/sport/black.png">
+        <figcaption>
+            <h3 class="item-name">Watch 4 Sport Black</h3>
             <h5 class="item-price">€449</h5>
         </figcaption>
     </figure>
@@ -57,6 +94,14 @@ include("./layout/modal.php");
         <h1 class="group-text">Watch 3:</h1>
         <div class="col-11"></div>
     </div>
+
+    <figure class="shop-item">
+        <img class="mx-auto my-auto" src="./img/watches/brands/apple/watch_3/white.png">
+        <figcaption>
+            <h3 class="item-name">Watch 3 White</h3>
+            <h5 class="item-price">€329</h5>
+        </figcaption>
+    </figure>
 
     <figure class="shop-item">
         <img class="mx-auto my-auto" src="./img/watches/brands/apple/watch_3/black.png">
@@ -78,14 +123,6 @@ include("./layout/modal.php");
         <img class="mx-auto my-auto" src="./img/watches/brands/apple/watch_3/nike_silver.png">
         <figcaption>
             <h3 class="item-name">Watch 3 Silver</h3>
-            <h5 class="item-price">€329</h5>
-        </figcaption>
-    </figure>
-
-    <figure class="shop-item">
-        <img class="mx-auto my-auto" src="./img/watches/brands/apple/watch_3/white.png">
-        <figcaption>
-            <h3 class="item-name">Watch 3 White</h3>
             <h5 class="item-price">€329</h5>
         </figcaption>
     </figure>
