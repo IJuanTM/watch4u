@@ -1,6 +1,7 @@
 <?php
 include("./layout/modal.php");
 ?>
+
 <!-- Banner Carousel -->
 <div id="Indicator" class="carousel slide" data-ride="carousel">
 

@@ -1,7 +1,12 @@
+<?php
+include("./layout/modal.php");
+?>
+
 <hr class="content-row">
 <h1 class="content-text">Michael Kors Collection</h1>
 <hr class="content-row">
 
+<!-- Michael Kors hutton group -->
 <div class="item-group mk-bg">
 
     <div class="row">
@@ -34,6 +39,11 @@
         </figcaption>
     </figure>
 
+</div>
+
+<!-- Michael Kors runway group -->
+<div class="item-group mk-bg">
+
     <div class="row">
         <div class="col-1"></div>
         <h1 class="group-text">Runway:</h1>
@@ -63,6 +73,11 @@
             <h5 class="item-price">€939</h5>
         </figcaption>
     </figure>
+
+</div>
+
+<!-- Michael Kors sofie group 2 -->
+<div class="item-group mk-bg">
 
     <div class="row">
         <div class="col-1"></div>
@@ -101,6 +116,11 @@
             <h5 class="item-price">€789</h5>
         </figcaption>
     </figure>
+
+</div>
+
+<!-- Michael Kors sofie group 1 -->
+<div class="item-group mk-bg">
 
     <figure class="shop-item">
         <img class="mx-auto my-auto" src="./img/watches/brands/michael_kors/access/sofie/white_pink.png">

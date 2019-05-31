@@ -24,9 +24,8 @@
 }
 
 .modal-text {
-    float: left;
-    vertical-align: middle;
-    color: gray;
+    color: lightgray;
+    font-size: 16px;
 }
 
 .modal-sale {

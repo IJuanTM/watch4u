@@ -27,8 +27,11 @@
 </head>
 
 <body>
+
+    <div id="load"></div>
+
     <!-- Include all the contents of the page. -->
-    <main>
+    <main id="contents">
 
         <?php include("./layout/navbar.php"); ?>
 

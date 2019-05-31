@@ -14,12 +14,13 @@
                         <h5 class="modal-header text-uppercase">Apple Watch 4 Black</h5>
 
                         <div class="modal-header">
-                            <h3 class="col-6 modal-text">Price:</h3>
-                            <h4 class="col-2 modal-sale">€529</h4>
-                            <h3 class="col-4 modal-price">€429</h3>
+                            <div class="row">
+                                <h3 class="col-6 modal-price">€429</h3>
+                                <h4 class="col-6 modal-sale">€529</h4>
+                            </div>
                         </div>
 
-                        <div class="modal-content">
+                        <div class="modal-body">
                             <p class="modal-text">
                                 This is the Apple watch 4
                             </p>

@@ -1,8 +1,13 @@
+<?php
+include("./layout/modal.php");
+?>
+
 <hr class="content-row">
 <h1 class="content-text">Louis Vuitton Collection</h1>
 <hr class="content-row">
 
-<div class="item-group mk-bg">
+<!-- Louis Vuitton horizon group -->
+<div class="item-group lv-bg">
 
     <div class="row">
         <div class="col-1"></div>

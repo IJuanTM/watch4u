@@ -1,7 +1,12 @@
+<?php
+include("./layout/modal.php");
+?>
+
 <hr class="content-row">
 <h1 class="content-text">Apple Collection</h1>
 <hr class="content-row">
 
+<!-- Apple watch 4 group -->
 <div class="item-group apple-bg">
 
     <div class="row">
@@ -41,6 +46,11 @@
             <h5 class="item-price">€449</h5>
         </figcaption>
     </figure>
+
+</div>
+
+<!-- Apple watch 3 group -->
+<div class="item-group apple-bg">
 
     <div class="row">
         <div class="col-1"></div>

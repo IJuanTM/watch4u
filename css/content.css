@@ -103,6 +103,7 @@
     text-align: left;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .shop-item * {
@@ -269,6 +270,13 @@
 
 .mk-bg {
     background-image: url('../img/background/mk.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+.lv-bg {
+    background-image: url('../img/background/lv.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: 100%;

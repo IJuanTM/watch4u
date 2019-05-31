@@ -1,15 +1,13 @@
-$(".hover").mouseleave(function() {
+$(".hover").mouseleave(function () {
   $(this).removeClass("hover");
 });
 
-$(function() {
+$(function () {
   function reposition() {
     var modal = $(this),
       dialog = modal.find(".modal-dialog");
     modal.css("display", "block");
 
-    // Dividing by two centers the modal exactly, but dividing by three
-    // or four works better for larger screens.
     dialog.css(
       "margin-top",
       Math.max(0, ($(window).height() - dialog.height()) / 2)
@@ -19,14 +17,27 @@ $(function() {
       Math.max(0, ($(window).width() - dialog.width()) / 2)
     );
   }
-  // Reposition when a modal is shown
   $(".modal").on("show.bs.modal", reposition);
-  // Reposition when the window is resized
-  $(window).on("resize", function() {
+  $(window).on("resize", function () {
     $(".modal:visible").each(reposition);
   });
 });
 
-$("#myModal").on("shown.bs.modal", function() {
+$("#myModal").on("shown.bs.modal", function () {
   $("#myInput").trigger("focus");
 });
+
+document.onreadystatechange = function () {
+  $("body").css("overflow", "hidden");
+  var state = document.readyState
+  if (state == 'interactive') {
+    document.getElementById('contents').style.visibility = "hidden";
+  } else if (state == 'complete') {
+    setTimeout(function () {
+      $("body").css("overflow", "visible");
+      document.getElementById('interactive');
+      document.getElementById('load').style.visibility = "hidden";
+      document.getElementById('contents').style.visibility = "visible";
+    }, 100);
+  }
+}
