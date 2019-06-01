@@ -16,15 +16,15 @@ include("./layout/modal.php");
     </div>
 
     <figure class="shop-item">
-        <img class="mx-auto my-auto" src="./img/watches/brands/samsung/galaxy/silver.png">
+        <img class="mx-auto my-auto" src="./img/watches/brands/samsung/galaxy/42mm/black.png">
         <figcaption>
-            <h3 class="item-name">Samsung Galaxy Watch Silver</h3>
+            <h3 class="item-name">Samsung Galaxy Watch Black</h3>
             <h5 class="item-price">€279</h5>
         </figcaption>
     </figure>
 
     <figure class="shop-item">
-        <img class="mx-auto my-auto" src="./img/watches/brands/samsung/galaxy/pink.png">
+        <img class="mx-auto my-auto" src="./img/watches/brands/samsung/galaxy/42mm/pink.png">
         <figcaption>
             <h3 class="item-name">Samsung Galaxy Watch Pink</h3>
             <h5 class="item-price">€259</h5>
@@ -32,10 +32,10 @@ include("./layout/modal.php");
     </figure>
 
     <figure class="shop-item">
-        <img class="mx-auto my-auto" src="./img/watches/brands/samsung/galaxy/black.png">
+        <img class="mx-auto my-auto" src="./img/watches/brands/samsung/galaxy/46mm/silver.png">
         <figcaption>
-            <h3 class="item-name">Samsung Galaxy Watch Black</h3>
-            <h5 class="item-price">€244</h5>
+            <h3 class="item-name">Samsung Galaxy Watch Silver</h3>
+            <h5 class="item-price">€299</h5>
         </figcaption>
     </figure>
 
@@ -141,10 +141,10 @@ include("./layout/modal.php");
     </figure>
 
     <figure class="shop-item">
-        <img class="mx-auto my-auto" src="./img/watches/brands/samsung/gear/fit_2/black_red.png">
+        <img class="mx-auto my-auto" src="./img/watches/brands/samsung/gear/s3/classic.png">
         <figcaption>
-            <h3 class="item-name">Samsung Gear Fit 2 Black Red</h3>
-            <h5 class="item-price">€379</h5>
+            <h3 class="item-name">Samsung Gear S3 Classic</h3>
+            <h5 class="item-price">€199</h5>
         </figcaption>
     </figure>
 
@@ -152,6 +152,14 @@ include("./layout/modal.php");
 
 <!-- Samsung gear group 2 -->
 <div class="item-group samsung-bg">
+
+    <figure class="shop-item">
+        <img class="mx-auto my-auto" src="./img/watches/brands/samsung/gear/fit_2/black_red.png">
+        <figcaption>
+            <h3 class="item-name">Samsung Gear Fit 2 Black Red</h3>
+            <h5 class="item-price">€379</h5>
+        </figcaption>
+    </figure>
 
     <figure class="shop-item">
         <img class="mx-auto my-auto" src="./img/watches/brands/samsung/gear/fit_2/black.png">
