@@ -1,8 +1,8 @@
-$(".hover").mouseleave(function () {
+$(".hover").mouseleave(function() {
   $(this).removeClass("hover");
 });
 
-$(function () {
+$(function() {
   function reposition() {
     var modal = $(this),
       dialog = modal.find(".modal-dialog");
@@ -18,26 +18,26 @@ $(function () {
     );
   }
   $(".modal").on("show.bs.modal", reposition);
-  $(window).on("resize", function () {
+  $(window).on("resize", function() {
     $(".modal:visible").each(reposition);
   });
 });
 
-$("#myModal").on("shown.bs.modal", function () {
+$("#myModal").on("shown.bs.modal", function() {
   $("#myInput").trigger("focus");
 });
 
-document.onreadystatechange = function () {
+document.onreadystatechange = function() {
   $("body").css("overflow", "hidden");
-  var state = document.readyState
-  if (state == 'interactive') {
-    document.getElementById('contents').style.visibility = "hidden";
-  } else if (state == 'complete') {
-    setTimeout(function () {
+  var state = document.readyState;
+  if (state == "interactive") {
+    document.getElementById("contents").style.visibility = "hidden";
+  } else if (state == "complete") {
+    setTimeout(function() {
       $("body").css("overflow", "visible");
-      document.getElementById('interactive');
-      document.getElementById('load').style.visibility = "hidden";
-      document.getElementById('contents').style.visibility = "visible";
+      document.getElementById("interactive");
+      document.getElementById("load").style.visibility = "hidden";
+      document.getElementById("contents").style.visibility = "visible";
     }, 100);
   }
-}
+};

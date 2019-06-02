@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="en">
 
+<!-- Page Head -->
+
 <head>
     <!-- Include the bootstrap css and meta links. -->
-
     <?php
     include("./index/meta.php");
     include("./index/css.php");
@@ -26,8 +27,11 @@
 
 </head>
 
+<!-- Page Body -->
+
 <body>
 
+    <!-- Loading icon -->
     <div id="load"></div>
 
     <!-- Include all the contents of the page. -->

@@ -12,30 +12,37 @@ include("./layout/modal.php");
         <li data-target="#Indicator" data-slide-to="2"></li>
     </ol>
 
+    <!-- Carousel Slides -->
     <div class="carousel-inner" role="listbox">
 
         <!-- Slide One -->
         <div class="carousel-item active" style="background-image: url(./img/banner/men-banner.jpg)">
-            <div class="banner-text carousel-caption d-none d-md-block">
-                <h2 class="display-4">Men's Smartwatches</h2>
-                <p class="lead">Cool smartwatches made for men!</p>
-            </div>
+            <a href="./index.php?content=category/men">
+                <div class="banner-text carousel-caption d-none d-md-block">
+                    <h2 class="display-4">Men's Smartwatches</h2>
+                    <p class="lead">Cool smartwatches made for men!</p>
+                </div>
+            </a>
         </div>
 
         <!-- Slide Two-->
         <div class="carousel-item" style="background-image: url(./img/banner/women-banner.jpg)">
-            <div class=" banner-text carousel-caption d-none d-md-block">
-                <h2 class="display-4">Women's Smartwatches</h2>
-                <p class="lead">Elegant smartwatches made for women!</p>
-            </div>
+            <a href="./index.php?content=category/women">
+                <div class=" banner-text carousel-caption d-none d-md-block">
+                    <h2 class="display-4">Women's Smartwatches</h2>
+                    <p class="lead">Elegant smartwatches made for women!</p>
+                </div>
+            </a>
         </div>
 
         <!-- Slide Three -->
         <div class="carousel-item" style="background-image: url(./img/banner/kids-banner.jpg)">
-            <div class="banner-text carousel-caption d-none d-md-block">
-                <h2 class="display-4">Kids Smartwatches</h2>
-                <p class="lead">Fun smartwatches made for children!</p>
-            </div>
+            <a href="./index.php?content=category/kids">
+                <div class="banner-text carousel-caption d-none d-md-block">
+                    <h2 class="display-4">Kids Smartwatches</h2>
+                    <p class="lead">Fun smartwatches made for children!</p>
+                </div>
+            </a>
         </div>
 
     </div>
@@ -58,6 +65,7 @@ include("./layout/modal.php");
 <h1 class="content-text">Deals</h1>
 <hr class="content-row">
 
+<!-- Sale group -->
 <div class="item-group sale-bg">
 
     <figure class="shop-item" data-toggle="modal" data-target="#apple_4_black">
@@ -79,7 +87,7 @@ include("./layout/modal.php");
     </figure>
 
     <figure class="shop-item" data-toggle="modal" data-target="#samsung_galaxy_silver">
-        <img class="mx-auto my-auto" src="./img/watches/brands/samsung/galaxy/silver.png">
+        <img class="mx-auto my-auto" src="./img/watches/brands/samsung/galaxy/46mm/silver.png">
         <figcaption>
             <h3 class="item-name">Samsung Galaxy Watch Silver</h3>
             <h3 class="sale">€429</h3>
@@ -96,4 +104,38 @@ include("./layout/modal.php");
         </figcaption>
     </figure>
 
+</div>
+
+<!-- Apple watch 4 header video -->
+<div class="video-banner">
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="../vid/apple_watch_4.mp4" type="video/mp4">
+    </video>
+
+    <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-white">
+                <h1 class="display-3">Apple Watch 4</h1>
+                <p class="lead mb-0">See our Apple collection now!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Samsung S3 header video -->
+<div class="video-banner">
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="../vid/samsung_s3.mp4" type="video/mp4">
+    </video>
+
+    <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-white">
+                <h1 class="display-3">Samsung S3</h1>
+                <p class="lead mb-0">Check out our Samsung collection here!</p>
+            </div>
+        </div>
+    </div>
 </div>

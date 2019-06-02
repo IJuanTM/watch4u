@@ -19,15 +19,15 @@ $("#myModal").on("shown.bs.modal", function () {
 document.onreadystatechange = function () {
     $("body").css("overflow", "hidden");
     var state = document.readyState;
-    if (state == 'interactive') {
-        document.getElementById('contents').style.visibility = "hidden";
+    if (state == "interactive") {
+        document.getElementById("contents").style.visibility = "hidden";
     }
-    else if (state == 'complete') {
+    else if (state == "complete") {
         setTimeout(function () {
             $("body").css("overflow", "visible");
-            document.getElementById('interactive');
-            document.getElementById('load').style.visibility = "hidden";
-            document.getElementById('contents').style.visibility = "visible";
+            document.getElementById("interactive");
+            document.getElementById("load").style.visibility = "hidden";
+            document.getElementById("contents").style.visibility = "visible";
         }, 100);
     }
 };
