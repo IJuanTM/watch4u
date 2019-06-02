@@ -11,13 +11,7 @@
     ?>
 
     <!-- Titel van de pagina -->
-    <title>
-        <?php if (isset($_GET["content"])) {
-            echo ucfirst($_GET["content"]);
-        } else {
-            echo "Watch4U";
-        } ?>&trade;
-    </title>
+    <title>Watch4U&trade;</title>
 
     <!-- Pagina Icoontjes -->
     <link rel="shortcut icon" href="./img/icon/Watch.ico">
@@ -55,6 +49,10 @@
 
     <!-- Include the needed scripts. -->
     <?php include("./index/js.php"); ?>
+
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

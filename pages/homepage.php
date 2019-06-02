@@ -13,7 +13,7 @@ include("./layout/modal.php");
     </ol>
 
     <!-- Carousel Slides -->
-    <div class="carousel-inner" role="listbox">
+    <div class="carousel-inner" role="listbox" role="option">
 
         <!-- Slide One -->
         <div class="carousel-item active" style="background-image: url(./img/banner/men-banner.jpg)">
@@ -107,7 +107,7 @@ include("./layout/modal.php");
 </div>
 
 <!-- Apple watch 4 header video -->
-<div class="video-banner">
+<div class="video-banner" data-aos="fade-right">
     <div class="overlay"></div>
     <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
         <source src="../vid/apple_watch_4.mp4" type="video/mp4">
@@ -121,10 +121,11 @@ include("./layout/modal.php");
             </div>
         </div>
     </div>
+
 </div>
 
 <!-- Samsung S3 header video -->
-<div class="video-banner">
+<div class="video-banner" data-aos="fade-left">
     <div class="overlay"></div>
     <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
         <source src="../vid/samsung_s3.mp4" type="video/mp4">
@@ -138,4 +139,5 @@ include("./layout/modal.php");
             </div>
         </div>
     </div>
+
 </div>
