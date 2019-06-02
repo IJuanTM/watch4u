@@ -106,38 +106,20 @@ include("./layout/modal.php");
 
 </div>
 
+<hr class="content-row">
+<h1 class="content-text">Spotlight</h1>
+<hr class="content-row">
+
 <!-- Apple watch 4 header video -->
-<div class="video-banner" data-aos="fade-right">
-    <div class="overlay"></div>
-    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+<div class="video-banner">
+    <video autoplay loop muted>
         <source src="../vid/apple_watch_4.mp4" type="video/mp4">
     </video>
-
-    <div class="container h-100">
-        <div class="d-flex h-100 text-center align-items-center">
-            <div class="video-text mx-auto my-auto">
-                <h2 class="display-4">Apple Watch 4</h2>
-                <p class="lead">See our Apple collection now!</p>
-            </div>
-        </div>
-    </div>
-
 </div>
 
 <!-- Samsung S3 header video -->
-<div class="video-banner" data-aos="fade-left">
-    <div class="overlay"></div>
-    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+<div class="video-banner">
+    <video autoplay loop muted>
         <source src="../vid/samsung_s3.mp4" type="video/mp4">
     </video>
-
-    <div class="container h-100">
-        <div class="d-flex h-100 text-center align-items-center">
-            <div class="video-text mx-auto my-auto">
-                <h2 class="display-4">Samsung S3</h2>
-                <p class="lead">Check out our Samsung collection here!</p>
-            </div>
-        </div>
-    </div>
-
 </div>

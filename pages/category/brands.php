@@ -2,7 +2,7 @@
 <h1 class="content-text">Brands</h1>
 <hr class="content-row">
 
-<div class="category-group" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+<div class="category-group" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="700">
     <figure class="category-item">
         <a href="./index.php?content=brands/apple">
             <img class="mx-auto my-auto" src="./img/logo/brands/apple.png">
@@ -31,7 +31,7 @@
     </figure>
 </div>
 
-<div class="category-group" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+<div class="category-group" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="700">
     <figure class="category-item">
         <a href="./index.php?content=brands/mk">
             <img class="mx-auto my-auto" src="./img/logo/brands/michael_kors.png">
@@ -60,7 +60,7 @@
     </figure>
 </div>
 
-<div class="category-group" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+<div class="category-group" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="700">
     <figure class="category-item">
         <a href="">
             <img class="mx-auto my-auto" src="./img/logo/brands/fossil.png">
@@ -89,7 +89,7 @@
     </figure>
 </div>
 
-<div class="category-group" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+<div class="category-group" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="700">
     <figure class="category-item">
         <a href="">
             <img class="mx-auto my-auto" src="./img/logo/brands/amazfit.png">
