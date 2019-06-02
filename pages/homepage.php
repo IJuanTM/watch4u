@@ -115,9 +115,9 @@ include("./layout/modal.php");
 
     <div class="container h-100">
         <div class="d-flex h-100 text-center align-items-center">
-            <div class="w-100 text-white">
-                <h1 class="display-3">Apple Watch 4</h1>
-                <p class="lead mb-0">See our Apple collection now!</p>
+            <div class="video-text mx-auto my-auto">
+                <h2 class="display-4">Apple Watch 4</h2>
+                <p class="lead">See our Apple collection now!</p>
             </div>
         </div>
     </div>
@@ -132,9 +132,9 @@ include("./layout/modal.php");
 
     <div class="container h-100">
         <div class="d-flex h-100 text-center align-items-center">
-            <div class="w-100 text-white">
-                <h1 class="display-3">Samsung S3</h1>
-                <p class="lead mb-0">Check out our Samsung collection here!</p>
+            <div class="video-text mx-auto my-auto">
+                <h2 class="display-4">Samsung S3</h2>
+                <p class="lead">Check out our Samsung collection here!</p>
             </div>
         </div>
     </div>
