@@ -246,10 +246,58 @@
 
 .video-banner {
     position: relative;
-    margin-left: 100px;
-    margin-right: 100px;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
     width: 100%;
-    height: 50%;
+    overflow: hidden;
+}
+
+.video-banner video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.video-banner .container {
+    position: relative;
+    z-index: 2;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.video-banner .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+    .video-apple {
+        background: url('../img/fallback/apple-home.jpg') black no-repeat center center scroll;
+    }
+    .video-apple video {
+        display: none;
+    }
+    .video-samsung {
+        background: url('../img/fallback/samsung-home.jpg') black no-repeat center center scroll;
+    }
+    .video-samsung video {
+        display: none;
+    }
 }
 
 /* Backgrounds */

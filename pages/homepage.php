@@ -111,15 +111,37 @@ include("./layout/modal.php");
 <hr class="content-row">
 
 <!-- Apple watch 4 header video -->
-<div class="video-banner">
-    <video autoplay loop muted>
+<div class="video-banner video-apple" data-aos="zoom-in">
+
+    <video autoplay loop id="video-background" muted plays-inline>
         <source src="../vid/apple_watch_4.mp4" type="video/mp4">
     </video>
+
+    <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-white">
+                <h1 class="display-3">Apple Watch 4</h1>
+                <p class="lead mb-0">Check out our apple collection here!</p>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 <!-- Samsung S3 header video -->
-<div class="video-banner">
-    <video autoplay loop muted>
+<div class="video-banner video-samsung" data-aos="zoom-in">
+
+    <video autoplay loop id="video-background" muted plays-inline>
         <source src="../vid/samsung_s3.mp4" type="video/mp4">
     </video>
+
+    <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-white">
+                <h1 class="display-3">Samsung Galaxy S3</h1>
+                <p class="lead mb-0">Take a look at our Samsung collection here!</p>
+            </div>
+        </div>
+    </div>
+
 </div>
