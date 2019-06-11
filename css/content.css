@@ -306,3 +306,25 @@
         display: none;
     }
 }
+
+/* Register page */
+
+.register-form {
+    color: white;
+}
+
+.form-text {
+    color: gold;
+}
+
+.form-detail {
+    margin: 1px;
+    font-size: 10px;
+    color: lightgray;
+}
+
+.form-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: gold;
+}
