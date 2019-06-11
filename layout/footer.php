@@ -4,7 +4,7 @@
 
         <div class="row">
 
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
                 <h5 class="footer-header text-uppercase">Footer Content</h5>
                 <hr class="footer-row">
 
@@ -12,9 +12,9 @@
 
             </div>
 
-            <div class="col-2"></div>
+            <div class="col-12 col-sm-2"></div>
 
-            <div class="col-3">
+            <div class="col-12 col-sm-3">
                 <h5 class="footer-header text-uppercase">Links</h5>
                 <hr class="footer-row">
 
@@ -35,7 +35,7 @@
 
             </div>
 
-            <div class="col-3">
+            <div class="col-12 col-sm-3">
                 <h5 class="footer-header text-uppercase">Company</h5>
                 <hr class="footer-row">
 
