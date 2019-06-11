@@ -111,7 +111,7 @@ include("./layout/modal.php");
 <hr class="content-row">
 
 <!-- Apple watch 4 header video -->
-<div class="video-banner video-apple" data-aos="zoom-in">
+<div class="video-banner video-apple" data-aos="zoom-in" data-aos-anchor-placement="middle-bottom" data-aos-duration="700">
 
     <video autoplay loop id="video-background" muted plays-inline>
         <source src="../vid/apple_watch_4.mp4" type="video/mp4">
@@ -129,7 +129,7 @@ include("./layout/modal.php");
 </div>
 
 <!-- Samsung S3 header video -->
-<div class="video-banner video-samsung" data-aos="zoom-in">
+<div class="video-banner video-samsung" data-aos="zoom-in" data-aos-anchor-placement="middle-bottom" data-aos-duration="700">
 
     <video autoplay loop id="video-background" muted plays-inline>
         <source src="../vid/samsung_s3.mp4" type="video/mp4">
