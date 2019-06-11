@@ -17,3 +17,8 @@ body {
     z-index: 200;
     background: url('../img/icon/loading.gif') center no-repeat black;
 }
+
+.row {
+    padding: 0;
+    margin: 0;
+}

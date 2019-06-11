@@ -107,7 +107,7 @@ include("./layout/modal.php");
 </div>
 
 <hr class="content-row">
-<h1 class="content-text">Spotlight</h1>
+<h1 class="content-text">Apple Spotlight</h1>
 <hr class="content-row">
 
 <!-- Apple watch 4 header video -->
@@ -128,6 +128,10 @@ include("./layout/modal.php");
 
 </div>
 
+<hr class="content-row">
+<h1 class="content-text">Samsung Spotlight</h1>
+<hr class="content-row">
+
 <!-- Samsung S3 header video -->
 <div class="video-banner video-samsung" data-aos="zoom-in" data-aos-anchor-placement="middle-bottom" data-aos-duration="700">
 
@@ -145,3 +149,7 @@ include("./layout/modal.php");
     </div>
 
 </div>
+
+<hr class="content-row">
+<h1 class="content-text">&nbsp</h1>
+<hr class="content-row">

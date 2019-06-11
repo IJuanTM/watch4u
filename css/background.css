@@ -1,0 +1,57 @@
+/* Backgrounds */
+
+.apple-bg {
+    background-image: url('../img/background/apple.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+.samsung-bg {
+    background-image: url('../img/background/samsung.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+.sale-bg {
+    background-image: url('../img/background/sale.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 75%;
+}
+
+.mk-bg {
+    background-image: url('../img/background/mk.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+.lv-bg {
+    background-image: url('../img/background/lv.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+.garmin-bg {
+    background-image: url('../img/background/garmin.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 75%;
+}
+
+.fitbit-bg {
+    background-image: url('../img/background/fitbit.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+.fossil-bg {
+    background-image: url('../img/background/fossil.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}

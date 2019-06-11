@@ -1,3 +1,7 @@
+.white-space {
+    margin: 120px;
+}
+
 /* Carousel homepage */
 
 .carousel {
@@ -80,8 +84,9 @@
 
 .item-group {
     text-align: center;
-    display: inline-block;
-    padding: 8px;
+    display: block;
+    float: center;
+    padding-top: 12px;
     width: 100%;
     font-size: 0;
 }
@@ -167,7 +172,8 @@
 
 .category-group {
     text-align: center;
-    display: inline-block;
+    display: block;
+    float: center;
     width: 100%;
     font-size: 0;
 }
@@ -299,48 +305,4 @@
     .video-samsung video {
         display: none;
     }
-}
-
-/* Backgrounds */
-
-.apple-bg {
-    background-image: url('../img/background/apple.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 100%;
-}
-
-.samsung-bg {
-    background-image: url('../img/background/samsung.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 100%;
-}
-
-.sale-bg {
-    background-image: url('../img/background/sale.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 75%;
-}
-
-.mk-bg {
-    background-image: url('../img/background/mk.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 100%;
-}
-
-.lv-bg {
-    background-image: url('../img/background/lv.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 100%;
-}
-
-.garmin-bg {
-    background-image: url('../img/background/garmin.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 75%;
 }
