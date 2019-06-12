@@ -187,9 +187,9 @@ include("./layout/modal.php");
     </figure>
 
     <figure class="shop-item">
-        <img class="mx-auto my-auto" src="./img/watches/brands/fitbit/versa/special/pink.png">
+        <img class="mx-auto my-auto" src="./img/watches/brands/fitbit/versa/special/purple.png">
         <figcaption>
-            <h3 class="item-name">FitBit Versa Pink</h3>
+            <h3 class="item-name">FitBit Versa Purple</h3>
             <h5 class="item-price">€179</h5>
         </figcaption>
     </figure>

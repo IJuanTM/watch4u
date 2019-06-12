@@ -20,10 +20,10 @@
 
                 <ul class="list-unstyled footer-text">
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="./index.php?content=contact">Contact</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="./index.php?content=about">About</a>
                     </li>
                     <li>
                         <a href="#">Terms of Service</a>

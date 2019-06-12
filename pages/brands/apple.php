@@ -11,8 +11,9 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">Watch 4:</h1>
-        <div class="col-11"></div>
+        <div class="col-11">
+            <h1 class="group-text">Watch 4:</h1>
+        </div>
     </div>
 
     <figure class="shop-item">
@@ -91,8 +92,9 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">Watch 3:</h1>
-        <div class="col-11"></div>
+        <div class="col-11">
+            <h1 class="group-text">Watch 3:</h1>
+        </div>
     </div>
 
     <figure class="shop-item">
