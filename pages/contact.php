@@ -23,9 +23,9 @@
             <div class="form-row">
 
                 <div class="form-group col-md-12">
-                    <label class="form-text" for="inputEmail">Email:<span class="required">*</span></label>
+                    <label class="form-text" for="inputEmail">Email: <span class="required">*</span></label>
                     <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-                    <h6 class="form-detail">This is the mail on which you will get a response to your message.</h6>
+                    <span class="form-detail">This is the mail on which you will get a response to your message.</span>
                 </div>
 
             </div>
@@ -34,9 +34,9 @@
             <div class="form-row">
 
                 <div class="form-group col-md-12">
-                    <label class="form-text" for="inputMessage">Message:<span class="required">*</span></label>
+                    <label class="form-text" for="inputMessage">Message: <span class="required">*</span></label>
                     <textarea type="text" class="form-control md-textarea" rows="5" id="inputMessage" placeholder="Message"></textarea>
-                    <h6 class="form-detail">It usually takes up to 2 days for an employee to respond to your message. Please be patient.</h6>
+                    <span class="form-detail">It usually takes up to 2 days for an employee to respond to your message. Please be patient.</span>
                 </div>
 
             </div>

@@ -13,9 +13,9 @@
             <div class="form-row">
 
                 <div class="form-group col-md-5">
-                    <label class="form-text" for="inputFirstname">Firstname:<span class="required">*</span></label>
+                    <label class="form-text" for="inputFirstname">Firstname: <span class="required">*</span></label>
                     <input type="text" class="form-control" id="inputFirstname" placeholder="Firstname">
-                    <h6 class="form-detail">Please enter valid information, as this will also be used during the shipping of your bought product.</h6>
+                    <span class="form-detail">Please enter valid information, as this will also be used during the shipping of your bought product.</span>
                 </div>
 
                 <div class="form-group col-md-2">
@@ -24,7 +24,7 @@
                 </div>
 
                 <div class="form-group col-md-5">
-                    <label class="form-text" for="inputLastname">Lastname:<span class="required">*</span></label>
+                    <label class="form-text" for="inputLastname">Lastname: <span class="required">*</span></label>
                     <input type="text" class="form-control" id="inputLastname" placeholder="Lastname">
                 </div>
 
@@ -34,9 +34,9 @@
             <div class="form-row">
 
                 <div class="form-group col-md-12">
-                    <label class="form-text" for="inputEmail">Email:<span class="required">*</span></label>
+                    <label class="form-text" for="inputEmail">Email: <span class="required">*</span></label>
                     <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-                    <h6 class="form-detail">Use an accessible email, as you have to verify your account.</h6>
+                    <span class="form-detail">Use an accessible email, as you have to verify your account.</span>
                 </div>
 
             </div>
@@ -45,15 +45,15 @@
             <div class="form-row">
 
                 <div class="form-group col-md-6">
-                    <label class="form-text" for="inputPassword">Password:<span class="required">*</span></label>
+                    <label class="form-text" for="inputPassword">Password: <span class="required">*</span></label>
                     <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-                    <h6 class="form-detail">Your password has to contain atleast 8 characters, 1 number and an combination of capital and normal letters.</h6>
+                    <span class="form-detail">Your password has to contain atleast 8 characters, 1 number and an combination of capital and normal letters.</span>
                 </div>
 
                 <div class="form-group col-md-6">
-                    <label class="form-text" for="inputCheckPassword">Check Password:<span class="required">*</span></label>
+                    <label class="form-text" for="inputCheckPassword">Check Password: <span class="required">*</span></label>
                     <input type="password" class="form-control" id="inputCheckPassword" placeholder="Password">
-                    <h6 class="form-detail">Enter your password again to check if you did not make any typos.</h6>
+                    <span class="form-detail">Enter your password again to check if you did not make any typos.</span>
                 </div>
 
             </div>

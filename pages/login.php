@@ -25,6 +25,7 @@
                 <div class="form-group col-md-12">
                     <label class="form-text" for="inputPassword">Password:</label>
                     <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                    <span class="form-detail">Forgot your password? <a href="./index.php?content=register">Click here.</a></span>
                 </div>
 
             </div>
@@ -45,7 +46,7 @@
 
                 <div class="form-group col-md-3"></div>
                 <div class="form-group col-md-6">
-                    <h6 class="form-detail">Don't have an account? <a href="./index.php?content=register">Register</a> here!</h6>
+                    <span class="form-detail">Don't have an account? <a href="./index.php?content=register">Register</a> here!</span>
                 </div>
                 <div class="form-group col-md-3"></div>
 

@@ -8,6 +8,10 @@ body {
     overflow: hidden;
 }
 
+#content {
+    min-height: 66vh;
+}
+
 #load {
     position: fixed;
     left: 0px;

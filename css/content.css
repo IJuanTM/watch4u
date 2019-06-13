@@ -318,7 +318,6 @@
 }
 
 .form-detail {
-    margin: 1px;
     font-size: 10px;
     color: lightgray;
 }
@@ -330,6 +329,5 @@
 }
 
 .required {
-    float: right;
     color: red;
 }

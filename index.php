@@ -29,7 +29,7 @@
     <div id="load"></div>
 
     <!-- Include all the contents of the page. -->
-    <main id="contents">
+    <main id="content">
 
         <?php include("./layout/navbar.php"); ?>
 
@@ -43,9 +43,10 @@
             ?>
         </section>
 
-        <?php include("./layout/footer.php"); ?>
-
     </main>
+
+    <!-- Footer -->
+    <?php include("./layout/footer.php"); ?>
 
     <!-- Include the needed scripts. -->
     <?php include("./index/js.php"); ?>
