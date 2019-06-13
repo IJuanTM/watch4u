@@ -55,3 +55,10 @@
     background-position: center;
     background-size: 100%;
 }
+
+.polar-bg {
+    background-image: url('../img/background/polar.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 75%;
+}

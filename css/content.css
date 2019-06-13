@@ -328,3 +328,8 @@
     margin-bottom: 10px;
     color: gold;
 }
+
+.required {
+    float: right;
+    color: red;
+}

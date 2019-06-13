@@ -6,8 +6,8 @@
 <form class="login-form container-fluid" name="login-form" action="login-script.php" method="POST">
 
     <div class="row">
-        <div class="col-4"></div>
-        <div class="col-4">
+        <div class="col-2 col-md-3 col-lg-4"></div>
+        <div class="col-8 col-md-6 col-lg-4">
 
             <!-- Email row -->
             <div class="form-row">
@@ -52,7 +52,7 @@
             </div>
 
         </div>
-        <div class="col-4"></div>
+        <div class="col-2 col-md-3 col-lg-4"></div>
     </div>
 
 </form>
