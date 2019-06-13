@@ -25,7 +25,7 @@
                 <div class="form-group col-md-12">
                     <label class="form-text" for="inputPassword">Password:</label>
                     <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-                    <span class="form-detail">Forgot your password? <a href="./index.php?content=register">Click here.</a></span>
+                    <span class="form-detail">Forgot your password? <a href="./index.php?content=reset_password">Click here.</a></span>
                 </div>
 
             </div>

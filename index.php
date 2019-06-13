@@ -26,7 +26,7 @@
 <body>
 
     <!-- Loading icon -->
-    <div id="load"></div>
+    <div id="load"><span id="load-text">Loading...</span></div>
 
     <!-- Include all the contents of the page. -->
     <main id="content">
