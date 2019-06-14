@@ -1,0 +1,24 @@
+body {
+    background: rgb(32, 32, 32);
+    font-family: arial;
+}
+
+hr {
+    border: 1px solid gold;
+}
+
+.error {
+    position: fixed;
+    top: 50%;
+    margin-top: -32px;
+    left: 50%;
+    margin-left: -300px;
+    background: rgb(80, 80, 80);
+    min-height: 65px;
+    height: 65px;
+    min-width: 200px;
+    width: 600px;
+    font-size: 20px;
+    text-align: center;
+    color: gold;
+}
