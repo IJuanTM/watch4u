@@ -8,6 +8,14 @@ body {
     overflow: hidden;
 }
 
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
 #content {
     min-height: 66vh;
 }

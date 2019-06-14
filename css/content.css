@@ -42,12 +42,14 @@
     background-color: white;
 }
 
+
 /* Banner homepage */
 
 .banner-text {
     color: gold;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
+
 
 /* Text on pages */
 
@@ -67,6 +69,7 @@
     color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
+
 
 /* Shop Item */
 
@@ -164,6 +167,7 @@
     transform: scale(0.9);
 }
 
+
 /* Category Item */
 
 .category-group {
@@ -244,9 +248,19 @@
     transform: scale(0.9);
 }
 
+
 /* Homepage video banners */
 
+.hyper-video {
+    text-decoration: none;
+}
+
+.hyper-video:hover {
+    text-decoration: none;
+}
+
 .video-banner {
+    text-decoration: none;
     position: relative;
     background-color: black;
     height: 75vh;
@@ -256,6 +270,7 @@
 }
 
 .video-banner video {
+    text-decoration: none;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -271,13 +286,14 @@
 }
 
 .video-banner .container {
+    text-decoration: none;
     position: relative;
     z-index: 2;
-    text-decoration: none;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .video-banner .overlay {
+    text-decoration: none;
     position: absolute;
     top: 0;
     left: 0;
@@ -302,6 +318,7 @@
         display: none;
     }
 }
+
 
 /* Register page */
 
