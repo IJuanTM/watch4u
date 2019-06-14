@@ -62,3 +62,17 @@
     background-position: center;
     background-size: 75%;
 }
+
+.casio-bg {
+    background-image: url('../img/background/casio.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 75%;
+}
+
+.misfit-bg {
+    background-image: url('../img/background/misfit.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
