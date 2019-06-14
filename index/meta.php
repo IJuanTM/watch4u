@@ -2,11 +2,11 @@
 <meta charset="utf-8">
 
 <!-- Theme color: Chrome, Firefox OS and Opera -->
-<meta name="theme-color" content="#202020">
-<meta name="apple-mobile-web-app-status-bar-style" content="#202020" />
+<meta name="theme-color" content="rgb(35,35,35)">
+<meta name="apple-mobile-web-app-status-bar-style" content="rgb(35,35,35)" />
 
 <!-- Theme color: Windows Phone -->
-<meta name="msapplication-navbutton-color" content="#202020" />
+<meta name="msapplication-navbutton-color" content="rgb(35,35,35)" />
 
 <!-- Theme color: iOS Safari -->
 <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -17,3 +17,6 @@
 
 <!-- Compatibility -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<!-- Vertaal de site niet met google -->
+<meta name="google" content="notranslate">
