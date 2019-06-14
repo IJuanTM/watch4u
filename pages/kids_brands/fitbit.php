@@ -3,7 +3,7 @@ include("./layout/modal.php");
 ?>
 
 <hr class="content-row">
-<h1 class="content-text">FitBit Collection</h1>
+<h1 class="content-text">Kids FitBit Collection</h1>
 <hr class="content-row">
 
 <!-- Fitbit ace 2 group -->

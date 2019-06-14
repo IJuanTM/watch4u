@@ -98,7 +98,7 @@ include("./layout/modal.php");
     <figure class="shop-item" data-toggle="modal" data-target="#mobvoi_tic_black">
         <img class="mx-auto my-auto" src="./img/watches/brands/mobvoi/ticwatch/c2/black.png">
         <figcaption>
-            <h3 class="item-name">Mobvoi Ticwatch Black</h3>
+            <h3 class="item-name">Mobvoi Ticwatch C2 Black</h3>
             <h3 class="sale">€179</h3>
             <h5 class="item-price">€149</h5>
         </figcaption>

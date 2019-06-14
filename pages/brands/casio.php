@@ -11,8 +11,9 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">Special Editions:</h1>
-        <div class="col-11"></div>
+        <div class="col-11">
+            <h1 class="group-text">Special Editions:</h1>
+        </div>
     </div>
 
     <figure class="shop-item">
@@ -30,8 +31,9 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">LCW:</h1>
-        <div class="col-11"></div>
+        <div class="col-11">
+            <h1 class="group-text">LCW:</h1>
+        </div>
     </div>
 
     <figure class="shop-item">
@@ -65,8 +67,9 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">G-Shock GG:</h1>
-        <div class="col-11"></div>
+        <div class="col-11">
+            <h1 class="group-text">G-Shock GG:</h1>
+        </div>
     </div>
 
     <figure class="shop-item">
@@ -100,8 +103,9 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">G-Shock GST:</h1>
-        <div class="col-11"></div>
+        <div class="col-11">
+            <h1 class="group-text">G-Shock GST:</h1>
+        </div>
     </div>
 
     <figure class="shop-item">
@@ -135,8 +139,9 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">G-Shock GWG:</h1>
-        <div class="col-11"></div>
+        <div class="col-11">
+            <h1 class="group-text">G-Shock GWG:</h1>
+        </div>
     </div>
 
     <figure class="shop-item">

@@ -83,3 +83,17 @@
     background-position: center;
     background-size: 100%;
 }
+
+.amazfit-bg {
+    background-image: url('../img/background/amazfit.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+.mobvoi-bg {
+    background-image: url('../img/background/mobvoi.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
