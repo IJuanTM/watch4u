@@ -149,3 +149,5 @@ include("./layout/modal.php");
     </div>
 
 </div>
+
+<hr class="content-row">

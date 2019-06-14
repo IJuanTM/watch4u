@@ -117,3 +117,5 @@
         </a>
     </figure>
 </div>
+
+<hr class="content-row">

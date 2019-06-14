@@ -39,7 +39,7 @@
     background-image: url('../img/background/garmin.jpg');
     background-attachment: fixed;
     background-position: center;
-    background-size: 75%;
+    background-size: 100%;
 }
 
 .fitbit-bg {
@@ -72,6 +72,13 @@
 
 .misfit-bg {
     background-image: url('../img/background/misfit.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+.conn-bg {
+    background-image: url('../img/background/conn.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: 100%;

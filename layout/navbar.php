@@ -33,7 +33,7 @@
             </li>
 
             <li class="nav-item active">
-                <a class="nav-text nav-link" href="./index.php?content=/category/kids">
+                <a class="nav-text nav-link" href="./index.php?content=/category/kids_brands">
                     <i class="fas fa-child"></i> Kids Watches</a>
             </li>
 
