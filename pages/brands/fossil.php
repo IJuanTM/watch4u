@@ -3,7 +3,7 @@ include("./layout/modal.php");
 ?>
 
 <hr class="content-row">
-<h1 class="content-text">Fossil Collection</h1>
+<h1>Fossil Collection</h1>
 <hr class="content-row">
 
 <!-- Fossil special group -->
@@ -11,9 +11,8 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <div class="col-11">
-            <h1 class="group-text">Special Editions:</h1>
-        </div>
+        <h2>Special Editions:</h2>
+        <div class="col-11"></div>
     </div>
 
     <figure class="shop-item">
@@ -39,9 +38,8 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <div class="col-11">
-            <h1 class="group-text">Sport:</h1>
-        </div>
+        <h2>Sport:</h2>
+        <div class="col-11"></div>
     </div>
 
     <figure class="shop-item">
@@ -75,9 +73,8 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <div class="col-11">
-            <h1 class="group-text">Explorist:</h1>
-        </div>
+        <h2>Explorist:</h2>
+        <div class="col-11"></div>
     </div>
 
     <figure class="shop-item">
@@ -168,9 +165,8 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <div class="col-11">
-            <h1 class="group-text">Venture:</h1>
-        </div>
+        <h2>Venture:</h2>
+        <div class="col-11"></div>
     </div>
 
     <figure class="shop-item">
@@ -249,9 +245,8 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <div class="col-11">
-            <h1 class="group-text">Machine:</h1>
-        </div>
+        <h2>Machine:</h2>
+        <div class="col-11"></div>
     </div>
 
     <figure class="shop-item">

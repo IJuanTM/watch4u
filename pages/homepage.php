@@ -1,5 +1,5 @@
 <?php
-include("./layout/modal.php");
+    include("./layout/modal.php");
 ?>
 
 <!-- Banner Carousel -->
@@ -18,8 +18,8 @@ include("./layout/modal.php");
         <!-- Slide One -->
         <div class="carousel-item active" style="background-image: url(./img/banner/men-banner.jpg)">
             <a href="./index.php?content=category/men">
-                <div class="banner-text carousel-caption d-none d-md-block">
-                    <h2 class="display-4">Men's Smartwatches</h2>
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Men's Smartwatches</h1>
                     <p class="lead">Cool smartwatches made for men!</p>
                 </div>
             </a>
@@ -28,8 +28,8 @@ include("./layout/modal.php");
         <!-- Slide Two-->
         <div class="carousel-item" style="background-image: url(./img/banner/women-banner.jpg)">
             <a href="./index.php?content=category/women">
-                <div class=" banner-text carousel-caption d-none d-md-block">
-                    <h2 class="display-4">Women's Smartwatches</h2>
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Women's Smartwatches</h1>
                     <p class="lead">Elegant smartwatches made for women!</p>
                 </div>
             </a>
@@ -38,8 +38,8 @@ include("./layout/modal.php");
         <!-- Slide Three -->
         <div class="carousel-item" style="background-image: url(./img/banner/kids-banner.jpg)">
             <a href="./index.php?content=category/kids">
-                <div class="banner-text carousel-caption d-none d-md-block">
-                    <h2 class="display-4">Kids Smartwatches</h2>
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Kids Smartwatches</h1>
                     <p class="lead">Fun smartwatches made for children!</p>
                 </div>
             </a>
@@ -62,7 +62,7 @@ include("./layout/modal.php");
 </div>
 
 <hr class="content-row">
-<h1 class="content-text">Deals</h1>
+<h1>Deals</h1>
 <hr class="content-row">
 
 <!-- Sale group -->
@@ -107,10 +107,11 @@ include("./layout/modal.php");
 </div>
 
 <hr class="content-row">
-<h1 class="content-text">Apple Spotlight</h1>
+<h1>Apple Spotlight</h1>
 <hr class="content-row">
 
 <!-- Apple watch 4 header video -->
+<a class="hyper-video" href="../index.php?content=brands/apple">
 <div class="video-banner video-apple" data-aos="zoom-in" data-aos-anchor-placement="middle-bottom" data-aos-duration="700">
 
     <video autoplay loop id="video-background" muted plays-inline>
@@ -127,12 +128,14 @@ include("./layout/modal.php");
     </div>
 
 </div>
+</a>
 
 <hr class="content-row">
-<h1 class="content-text">Samsung Spotlight</h1>
+<h1>Samsung Spotlight</h1>
 <hr class="content-row">
 
 <!-- Samsung S3 header video -->
+<a class="hyper-video" href="../index.php?content=brands/samsung">
 <div class="video-banner video-samsung" data-aos="zoom-in" data-aos-anchor-placement="middle-bottom" data-aos-duration="700">
 
     <video autoplay loop id="video-background" muted plays-inline>
@@ -149,5 +152,6 @@ include("./layout/modal.php");
     </div>
 
 </div>
+</a>
 
 <hr class="content-row">

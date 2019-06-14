@@ -3,7 +3,7 @@ include("./layout/modal.php");
 ?>
 
 <hr class="content-row">
-<h1 class="content-text">Louis Vuitton Collection</h1>
+<h1>Louis Vuitton Collection</h1>
 <hr class="content-row">
 
 <!-- Louis Vuitton horizon group -->
@@ -11,9 +11,8 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <div class="col-11">
-            <h1 class="group-text">Horizon:</h1>
-        </div>
+        <h2>Horizon:</h2>
+        <div class="col-11"></div>
     </div>
 
     <figure class="shop-item">

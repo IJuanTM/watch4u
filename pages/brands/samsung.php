@@ -3,7 +3,7 @@ include("./layout/modal.php");
 ?>
 
 <hr class="content-row">
-<h1 class="content-text">Samsung Collection</h1>
+<h1>Samsung Collection</h1>
 <hr class="content-row">
 
 <!-- Samsung galaxy group 1 -->
@@ -11,9 +11,8 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <div class="col-11">
-            <h1 class="group-text">Galaxy:</h1>
-        </div>
+        <h2>Galaxy:</h2>
+        <div class="col-11"></div>
     </div>
 
     <figure class="shop-item">
@@ -113,9 +112,8 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <div class="col-11">
-            <h1 class="group-text">Gear:</h1>
-        </div>
+        <h2>Gear:</h2>
+        <div class="col-11"></div>
     </div>
 
     <figure class="shop-item">

@@ -3,7 +3,7 @@ include("./layout/modal.php");
 ?>
 
 <hr class="content-row">
-<h1 class="content-text">Kids Connected Collection</h1>
+<h1>Connected Collection</h1>
 <hr class="content-row">
 
 <!-- Connected k01 group -->

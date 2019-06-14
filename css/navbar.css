@@ -1,9 +1,5 @@
 /* Navbar */
 
-.nav {
-    margin-bottom: 0;
-}
-
 .navbar {
     top: 0;
     z-index: 30;
@@ -15,18 +11,15 @@
     -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
-}
-
-.nav-text {
-    color: gold !important;
+    text-align: left;
 }
 
 .nav-item {
     padding-left: 10px;
     padding-right: 10px;
+    border-radius: 10px;
 }
 
 .nav-item:hover {
     background-color: #202020;
-    border-radius: 10px;
 }
