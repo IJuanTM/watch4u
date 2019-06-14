@@ -3,7 +3,7 @@ include("./layout/modal.php");
 ?>
 
 <hr class="content-row">
-<h1 class="content-text">Michael Kors Collection</h1>
+<h1>Michael Kors Collection</h1>
 <hr class="content-row">
 
 <!-- Michael Kors hutton group -->
@@ -11,7 +11,7 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">Hutton:</h1>
+        <h2>Hutton:</h2>
         <div class="col-11"></div>
     </div>
 
@@ -46,7 +46,7 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">Runway:</h1>
+        <h2>Runway:</h2>
         <div class="col-11"></div>
     </div>
 
@@ -81,7 +81,7 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">Sofie:</h1>
+        <h2>Sofie:</h2>
         <div class="col-11"></div>
     </div>
 

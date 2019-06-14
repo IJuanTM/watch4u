@@ -3,7 +3,7 @@ include("./layout/modal.php");
 ?>
 
 <hr class="content-row">
-<h1 class="content-text">Polar Collection</h1>
+<h1>Polar Collection</h1>
 <hr class="content-row">
 
 <!-- Polar vantage m group group -->
@@ -11,7 +11,7 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">Vantage M:</h1>
+        <h2>Vantage M:</h2>
         <div class="col-11"></div>
     </div>
 
@@ -46,7 +46,7 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">Vantage V:</h1>
+        <h2>Vantage V:</h2>
         <div class="col-11"></div>
     </div>
 

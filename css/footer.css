@@ -4,31 +4,11 @@
     padding-right: 30px;
     padding-bottom: 10px;
     background-color: #343A40;
+    color: white;
+    font-size: 14px;
 }
 
 .footer-header {
     color: gold;
-}
-
-.footer-row {
-    margin: 1px;
-    background-color: gold;
-}
-
-.footer-text {
-    color: white;
-    font-size: 14px;
-}
-
-.footer-text a {
-    color: white;
-}
-
-.footer-copyright {
-    color: white;
-    font-size: 14px;
-}
-
-.tel {
-    color: blue !important;
+    text-transform: uppercase !important;
 }

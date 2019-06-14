@@ -10,14 +10,40 @@ body {
 
 a {
     text-decoration: none !important;
+    color: gold !important;
 }
 
 a:hover {
     text-decoration: none !important;
+    color: orangered !important;
 }
 
-#content {
+hr {
+    border: 1px solid gold !important;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    color: gold;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000, 1px 0px 0 #000, 0px 1px 0 #000, 0px 0px 0 #000, -1px -1px 0 #000, -1px 0px 0 #000, 0px -1px 0 #000, 0px 0px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000;
+}
+
+h2 {
+    margin-top: 0.5rem;
+    text-align: left;
+    color: white;
+    text-shadow: 1px 1px 0 #000, 1px 0px 0 #000, 0px 1px 0 #000, 0px 0px 0 #000, -1px -1px 0 #000, -1px 0px 0 #000, 0px -1px 0 #000, 0px 0px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000;
+}
+
+P {
+    color: white;
+}
+
+.content {
     min-height: 66vh;
+    text-align: center;
 }
 
 #load {
@@ -35,9 +61,4 @@ a:hover {
     text-align: center;
     color: white;
     margin-top: 63vh;
-}
-
-.row {
-    padding: 0;
-    margin: 0;
 }

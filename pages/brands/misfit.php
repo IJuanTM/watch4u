@@ -3,7 +3,7 @@ include("./layout/modal.php");
 ?>
 
 <hr class="content-row">
-<h1 class="content-text">Misfit Collection</h1>
+<h1>Misfit Collection</h1>
 <hr class="content-row">
 
 <!-- Misfit command group -->
@@ -11,7 +11,7 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">Command:</h1>
+        <h2>Command:</h2>
         <div class="col-11"></div>
     </div>
 
@@ -46,7 +46,7 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">Path:</h1>
+        <h2>Path:</h2>
         <div class="col-11"></div>
     </div>
 
@@ -81,7 +81,7 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">Phase:</h1>
+        <h2>Phase:</h2>
         <div class="col-11"></div>
     </div>
 

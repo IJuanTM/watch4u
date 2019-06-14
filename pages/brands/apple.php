@@ -3,7 +3,7 @@ include("./layout/modal.php");
 ?>
 
 <hr class="content-row">
-<h1 class="content-text">Apple Collection</h1>
+<h1>Apple Collection</h1>
 <hr class="content-row">
 
 <!-- Apple watch 4 group 1 -->
@@ -12,7 +12,7 @@ include("./layout/modal.php");
     <div class="row">
         <div class="col-1"></div>
         <div class="col-11">
-            <h1 class="group-text">Watch 4:</h1>
+            <h2>Watch 4:</h2>
         </div>
     </div>
 
@@ -93,7 +93,7 @@ include("./layout/modal.php");
     <div class="row">
         <div class="col-1"></div>
         <div class="col-11">
-            <h1 class="group-text">Watch 3:</h1>
+            <h2>Watch 3:</h2>
         </div>
     </div>
 

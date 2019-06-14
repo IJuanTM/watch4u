@@ -5,7 +5,7 @@
         <div class="row">
 
             <div class="col-12 col-sm-4">
-                <h5 class="footer-header text-uppercase">Footer Content</h5>
+                <h5 class="footer-header">Footer Content</h5>
                 <hr class="footer-row">
 
                 <p class="footer-text">Here you can use rows and columns to organize your footer content.</p>
@@ -15,7 +15,7 @@
             <div class="col-12 col-sm-2"></div>
 
             <div class="col-12 col-sm-3">
-                <h5 class="footer-header text-uppercase">Links</h5>
+                <h5 class="footer-header">Links</h5>
                 <hr class="footer-row">
 
                 <ul class="list-unstyled footer-text">
@@ -36,7 +36,7 @@
             </div>
 
             <div class="col-12 col-sm-3">
-                <h5 class="footer-header text-uppercase">Company</h5>
+                <h5 class="footer-header">Company</h5>
                 <hr class="footer-row">
 
                 <ul class="list-unstyled footer-text">
@@ -59,7 +59,7 @@
         </div>
 
         <div class="footer-copyright text-center">© 2019 Copyright:
-            <a href="https://ridis.nl/watch4u/"> Watch4U</a>
+            <a href="../index.php"> Watch4U</a>
         </div>
 
     </div>

@@ -18,8 +18,8 @@
         <!-- Slide One -->
         <div class="carousel-item active" style="background-image: url(./img/banner/men-banner.jpg)">
             <a href="./index.php?content=category/men">
-                <div class="banner-text carousel-caption d-none d-md-block">
-                    <h2 class="display-4">Men's Smartwatches</h2>
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Men's Smartwatches</h1>
                     <p class="lead">Cool smartwatches made for men!</p>
                 </div>
             </a>
@@ -28,8 +28,8 @@
         <!-- Slide Two-->
         <div class="carousel-item" style="background-image: url(./img/banner/women-banner.jpg)">
             <a href="./index.php?content=category/women">
-                <div class=" banner-text carousel-caption d-none d-md-block">
-                    <h2 class="display-4">Women's Smartwatches</h2>
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Women's Smartwatches</h1>
                     <p class="lead">Elegant smartwatches made for women!</p>
                 </div>
             </a>
@@ -38,8 +38,8 @@
         <!-- Slide Three -->
         <div class="carousel-item" style="background-image: url(./img/banner/kids-banner.jpg)">
             <a href="./index.php?content=category/kids">
-                <div class="banner-text carousel-caption d-none d-md-block">
-                    <h2 class="display-4">Kids Smartwatches</h2>
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Kids Smartwatches</h1>
                     <p class="lead">Fun smartwatches made for children!</p>
                 </div>
             </a>
@@ -62,7 +62,7 @@
 </div>
 
 <hr class="content-row">
-<h1 class="content-text">Deals</h1>
+<h1>Deals</h1>
 <hr class="content-row">
 
 <!-- Sale group -->
@@ -107,7 +107,7 @@
 </div>
 
 <hr class="content-row">
-<h1 class="content-text">Apple Spotlight</h1>
+<h1>Apple Spotlight</h1>
 <hr class="content-row">
 
 <!-- Apple watch 4 header video -->
@@ -131,7 +131,7 @@
 </a>
 
 <hr class="content-row">
-<h1 class="content-text">Samsung Spotlight</h1>
+<h1>Samsung Spotlight</h1>
 <hr class="content-row">
 
 <!-- Samsung S3 header video -->

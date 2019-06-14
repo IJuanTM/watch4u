@@ -1,5 +1,5 @@
 <hr class="content-row">
-<h1 class="content-text">Login</h1>
+<h1>Login</h1>
 <hr class="content-row">
 
 <!-- Login form -->
@@ -12,7 +12,7 @@
             <!-- Email row -->
             <div class="form-row">
 
-                <div class="form-group col-md-12">
+                <div class="form-group col-12">
                     <label class="form-text" for="inputEmail">Email:</label>
                     <input type="email" class="form-control" id="inputEmail" placeholder="Email">
                 </div>
@@ -22,7 +22,7 @@
             <!-- Password row -->
             <div class="form-row">
 
-                <div class="form-group col-md-12">
+                <div class="form-group col-12">
                     <label class="form-text" for="inputPassword">Password:</label>
                     <input type="password" class="form-control" id="inputPassword" placeholder="Password">
                     <span class="form-detail">Forgot your password? <a href="./index.php?content=reset_password">Click here.</a></span>
@@ -33,22 +33,22 @@
             <!-- Button row -->
             <div class="form-row">
 
-                <div class="form-group col-md-3"></div>
-                <div class="form-group col-md-6">
-                    <button type="submit" class="btn form-btn btn-lg btn-block btn-dark">Login</button>
+                <div class="form-group col-3"></div>
+                <div class="form-group col-6">
+                    <button type="submit" class="btn form-btn">Login</button>
                 </div>
-                <div class="form-group col-md-3"></div>
+                <div class="form-group col-3"></div>
 
             </div>
 
             <!-- Register link -->
             <div class="form-row">
 
-                <div class="form-group col-md-3"></div>
-                <div class="form-group col-md-6">
+                <div class="form-group col-3"></div>
+                <div class="form-group col-6">
                     <span class="form-detail">Don't have an account? <a href="./index.php?content=register">Register</a> here!</span>
                 </div>
-                <div class="form-group col-md-3"></div>
+                <div class="form-group col-3"></div>
 
             </div>
 

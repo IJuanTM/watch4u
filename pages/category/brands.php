@@ -1,5 +1,5 @@
 <hr class="content-row">
-<h1 class="content-text">Brands</h1>
+<h1>Brands</h1>
 <hr class="content-row">
 
 <div class="category-group">

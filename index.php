@@ -37,6 +37,8 @@
             <?php
             if (isset($_GET["content"])) {
                 include("./pages/" . $_GET["content"] . ".php");
+            } else if (empty(isset($_GET["content"]))) {
+                include("./pages/homepage.php");
             } else {
                 include("./pages/homepage.php");
             }

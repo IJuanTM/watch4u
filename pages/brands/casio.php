@@ -3,7 +3,7 @@ include("./layout/modal.php");
 ?>
 
 <hr class="content-row">
-<h1 class="content-text">Casio Collection</h1>
+<h1>Casio Collection</h1>
 <hr class="content-row">
 
 <!-- Casio special group -->
@@ -11,7 +11,7 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">Special Editions:</h1>
+        <h2>Special Editions:</h2>
         <div class="col-11"></div>
     </div>
 
@@ -30,7 +30,7 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">LCW:</h1>
+        <h2>LCW:</h2>
         <div class="col-11"></div>
     </div>
 
@@ -65,7 +65,7 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">G-Shock GG:</h1>
+        <h2>G-Shock GG:</h2>
         <div class="col-11"></div>
     </div>
 
@@ -100,7 +100,7 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">G-Shock GST:</h1>
+        <h2>G-Shock GST:</h2>
         <div class="col-11"></div>
     </div>
 
@@ -135,7 +135,7 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">G-Shock GWG:</h1>
+        <h2>G-Shock GWG:</h2>
         <div class="col-11"></div>
     </div>
 

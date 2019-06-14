@@ -3,7 +3,7 @@ include("./layout/modal.php");
 ?>
 
 <hr class="content-row">
-<h1 class="content-text">FitBit Collection</h1>
+<h1>FitBit Collection</h1>
 <hr class="content-row">
 
 <!-- FitBit inspire group -->
@@ -11,7 +11,7 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">Inspire:</h1>
+        <h2>Inspire:</h2>
         <div class="col-11"></div>
     </div>
 
@@ -54,7 +54,7 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">Alta:</h1>
+        <h2>Alta:</h2>
         <div class="col-11"></div>
     </div>
 
@@ -80,7 +80,7 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">Ionic:</h1>
+        <h2>Ionic:</h2>
         <div class="col-11"></div>
     </div>
 
@@ -122,7 +122,7 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">Versa:</h1>
+        <h2>Versa:</h2>
         <div class="col-11"></div>
     </div>
 

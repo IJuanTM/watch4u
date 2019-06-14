@@ -3,7 +3,7 @@ include("./layout/modal.php");
 ?>
 
 <hr class="content-row">
-<h1 class="content-text">Garmin Collection</h1>
+<h1>Garmin Collection</h1>
 <hr class="content-row">
 
 <!-- Garmin fenix group 1 -->
@@ -11,7 +11,7 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">Fenix:</h1>
+        <h2>Fenix:</h2>
         <div class="col-11"></div>
     </div>
 
@@ -83,7 +83,7 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">Forerunner:</h1>
+        <h2>Forerunner:</h2>
         <div class="col-11"></div>
     </div>
 
@@ -126,7 +126,7 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">Vivoactive:</h1>
+        <h2>Vivoactive:</h2>
         <div class="col-11"></div>
     </div>
 
