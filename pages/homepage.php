@@ -16,34 +16,34 @@
     <div class="carousel-inner" role="listbox" role="option">
 
         <!-- Slide One -->
-        <a href="./index.php?content=category/men">
-            <div class="carousel-item active" style="background-image: url(./img/banner/men-banner.jpg)">
+        <div class="carousel-item active" style="background-image: url(./img/banner/men-banner.jpg)">
+            <a href="./index.php?content=category/men">
                 <div class="banner-text carousel-caption d-none d-md-block">
                     <h2 class="display-4">Men's Smartwatches</h2>
                     <p class="lead">Cool smartwatches made for men!</p>
                 </div>
-            </div>
-        </a>
+            </a>
+        </div>
 
         <!-- Slide Two-->
-        <a href="./index.php?content=category/women">
-            <div class="carousel-item" style="background-image: url(./img/banner/women-banner.jpg)">
+        <div class="carousel-item" style="background-image: url(./img/banner/women-banner.jpg)">
+            <a href="./index.php?content=category/women">
                 <div class=" banner-text carousel-caption d-none d-md-block">
                     <h2 class="display-4">Women's Smartwatches</h2>
                     <p class="lead">Elegant smartwatches made for women!</p>
                 </div>
-            </div>
-        </a>
+            </a>
+        </div>
 
         <!-- Slide Three -->
-        <a href="./index.php?content=category/kids">
-            <div class="carousel-item" style="background-image: url(./img/banner/kids-banner.jpg)">
+        <div class="carousel-item" style="background-image: url(./img/banner/kids-banner.jpg)">
+            <a href="./index.php?content=category/kids">
                 <div class="banner-text carousel-caption d-none d-md-block">
                     <h2 class="display-4">Kids Smartwatches</h2>
                     <p class="lead">Fun smartwatches made for children!</p>
                 </div>
-            </div>
-        </a>
+            </a>
+        </div>
 
     </div>
 
