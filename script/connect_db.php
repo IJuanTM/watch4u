@@ -65,7 +65,7 @@
         echo "Loading... ";
     
         // Met deze functie maken we contact met de mysql-server en kan er geen verbinding worden gemaakt geen dan de melding "Kan niet verbinden"
-        $conn = mysqli_connect($servername, $username, $password, $dbname)or die("Kan niet verbinden, er is een probleem met de connectie<hr>");
+        $conn = mysqli_connect($server, $username, $password, $dbname) or die ("Kan niet verbinden, er is een probleem met de connectie<hr>");
     }
 	
 ?>
