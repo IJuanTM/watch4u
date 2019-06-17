@@ -3,7 +3,7 @@ include("./layout/modal.php");
 ?>
 
 <hr class="content-row">
-<h1 class="content-text">Mobvoi Collection</h1>
+<h1>Mobvoi Collection</h1>
 <hr class="content-row">
 
 <!-- Mobvoi ticwatch c2 group -->
@@ -12,7 +12,7 @@ include("./layout/modal.php");
     <div class="row">
         <div class="col-1"></div>
         <div class="col-11">
-            <h1 class="group-text">C2:</h1>
+            <h2>C2:</h2>
         </div>
     </div>
 
@@ -48,7 +48,7 @@ include("./layout/modal.php");
     <div class="row">
         <div class="col-1"></div>
         <div class="col-11">
-            <h1 class="group-text">E2:</h1>
+            <h2>E2:</h2>
         </div>
     </div>
 
@@ -68,7 +68,7 @@ include("./layout/modal.php");
     <div class="row">
         <div class="col-1"></div>
         <div class="col-11">
-            <h1 class="group-text">Express:</h1>
+            <h2>Express:</h2>
         </div>
     </div>
 
@@ -104,7 +104,7 @@ include("./layout/modal.php");
     <div class="row">
         <div class="col-1"></div>
         <div class="col-11">
-            <h1 class="group-text">Pro:</h1>
+            <h2>Pro:</h2>
         </div>
     </div>
 
@@ -132,7 +132,7 @@ include("./layout/modal.php");
     <div class="row">
         <div class="col-1"></div>
         <div class="col-11">
-            <h1 class="group-text">S2:</h1>
+            <h2>S2:</h2>
         </div>
     </div>
 
@@ -152,7 +152,7 @@ include("./layout/modal.php");
     <div class="row">
         <div class="col-1"></div>
         <div class="col-11">
-            <h1 class="group-text">Sport:</h1>
+            <h2>Sport:</h2>
         </div>
     </div>
 

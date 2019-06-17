@@ -3,7 +3,7 @@ include("./layout/modal.php");
 ?>
 
 <hr class="content-row">
-<h1 class="content-text">Amazfit Collection</h1>
+<h1>Amazfit Collection</h1>
 <hr class="content-row">
 
 <!-- Amazfit stratos group -->
@@ -12,7 +12,7 @@ include("./layout/modal.php");
     <div class="row">
         <div class="col-1"></div>
         <div class="col-11">
-            <h1 class="group-text">Stratos:</h1>
+            <h1>Stratos:</h1>
         </div>
     </div>
 
@@ -32,7 +32,7 @@ include("./layout/modal.php");
     <div class="row">
         <div class="col-1"></div>
         <div class="col-11">
-            <h1 class="group-text">Cor:</h1>
+            <h1>Cor:</h1>
         </div>
     </div>
 
@@ -68,7 +68,7 @@ include("./layout/modal.php");
     <div class="row">
         <div class="col-1"></div>
         <div class="col-11">
-            <h1 class="group-text">Bip:</h1>
+            <h1>Bip:</h1>
         </div>
     </div>
 
@@ -112,7 +112,7 @@ include("./layout/modal.php");
     <div class="row">
         <div class="col-1"></div>
         <div class="col-11">
-            <h1 class="group-text">Pace:</h1>
+            <h1>Pace:</h1>
         </div>
     </div>
 
@@ -140,7 +140,7 @@ include("./layout/modal.php");
     <div class="row">
         <div class="col-1"></div>
         <div class="col-11">
-            <h1 class="group-text">Verge:</h1>
+            <h1>Verge:</h1>
         </div>
     </div>
 

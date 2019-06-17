@@ -29,7 +29,7 @@
     <div id="load"><span id="load-text">Loading...</span></div>
 
     <!-- Include all the contents of the page. -->
-    <main id="content">
+    <main>
 
         <?php include("./layout/navbar.php"); ?>
 
@@ -53,6 +53,7 @@
     <!-- Include the needed scripts. -->
     <?php include("./index/js.php"); ?>
 
+    <!-- Animate On Scroll script init -->
     <script>
         AOS.init();
     </script>

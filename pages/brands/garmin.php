@@ -11,8 +11,9 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h2>Fenix:</h2>
-        <div class="col-11"></div>
+        <div class="col-11">
+            <h2>Fenix:</h2>
+        </div>
     </div>
 
     <figure class="shop-item">
@@ -83,8 +84,9 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h2>Forerunner:</h2>
-        <div class="col-11"></div>
+        <div class="col-11">
+            <h2>Forerunner:</h2>
+        </div>
     </div>
 
     <figure class="shop-item">
@@ -126,8 +128,9 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h2>Vivoactive:</h2>
-        <div class="col-11"></div>
+        <div class="col-11">
+            <h2>Vivoactive:</h2>
+        </div>
     </div>
 
     <figure class="shop-item">

@@ -41,9 +41,32 @@ p {
     text-shadow: 1px 1px 0 #000, 1px 0px 0 #000, 0px 1px 0 #000, 0px 0px 0 #000, -1px -1px 0 #000, -1px 0px 0 #000, 0px -1px 0 #000, 0px 0px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000;
 }
 
-.content {
-    min-height: 63vh;
-    text-align: center;
+@media only screen and (max-width: 720px) {
+    .content {
+        min-height: 63vh;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .content {
+        min-height: 63vh;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .content {
+        min-height: 63vh;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 2160px) {
+    .content {
+        min-height: 63vh;
+        text-align: center;
+    }
 }
 
 #load {
