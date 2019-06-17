@@ -12,7 +12,7 @@ include("./layout/modal.php");
     <div class="row">
         <div class="col-1"></div>
         <div class="col-11">
-            <h1>Stratos:</h1>
+            <h2>Stratos:</h2>
         </div>
     </div>
 
@@ -32,7 +32,7 @@ include("./layout/modal.php");
     <div class="row">
         <div class="col-1"></div>
         <div class="col-11">
-            <h1>Cor:</h1>
+            <h2>Cor:</h2>
         </div>
     </div>
 
@@ -68,7 +68,7 @@ include("./layout/modal.php");
     <div class="row">
         <div class="col-1"></div>
         <div class="col-11">
-            <h1>Bip:</h1>
+            <h2>Bip:</h2>
         </div>
     </div>
 
@@ -112,7 +112,7 @@ include("./layout/modal.php");
     <div class="row">
         <div class="col-1"></div>
         <div class="col-11">
-            <h1>Pace:</h1>
+            <h2>Pace:</h2>
         </div>
     </div>
 
@@ -140,7 +140,7 @@ include("./layout/modal.php");
     <div class="row">
         <div class="col-1"></div>
         <div class="col-11">
-            <h1>Verge:</h1>
+            <h2>Verge:</h2>
         </div>
     </div>
 
