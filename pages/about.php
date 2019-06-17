@@ -1,3 +1,3 @@
 <hr class="content-row">
-<h1>About Watch4U</h1>
+<h2>About Watch4U</h2>
 <hr class="content-row">

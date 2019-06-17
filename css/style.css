@@ -15,7 +15,6 @@ a {
 
 a:hover {
     text-decoration: none !important;
-    color: orangered !important;
 }
 
 hr {
@@ -37,12 +36,13 @@ h2 {
     text-shadow: 1px 1px 0 #000, 1px 0px 0 #000, 0px 1px 0 #000, 0px 0px 0 #000, -1px -1px 0 #000, -1px 0px 0 #000, 0px -1px 0 #000, 0px 0px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000;
 }
 
-P {
+p {
     color: white;
+    text-shadow: 1px 1px 0 #000, 1px 0px 0 #000, 0px 1px 0 #000, 0px 0px 0 #000, -1px -1px 0 #000, -1px 0px 0 #000, 0px -1px 0 #000, 0px 0px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000;
 }
 
 .content {
-    min-height: 66vh;
+    min-height: 63vh;
     text-align: center;
 }
 

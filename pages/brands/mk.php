@@ -76,7 +76,7 @@ include("./layout/modal.php");
 
 </div>
 
-<!-- Michael Kors sofie group 2 -->
+<!-- Michael Kors sofie group 1 -->
 <div class="item-group mk-bg">
 
     <div class="row">
@@ -119,7 +119,7 @@ include("./layout/modal.php");
 
 </div>
 
-<!-- Michael Kors sofie group 1 -->
+<!-- Michael Kors sofie group 2 -->
 <div class="item-group mk-bg">
 
     <figure class="shop-item">

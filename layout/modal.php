@@ -21,9 +21,9 @@
                         </div>
 
                         <div class="modal-body">
-                            <p class="modal-text">
+                            <h6 class="modal-text">
                                 This is the Apple watch 4
-                            </p>
+                            </h6>
                         </div>
 
                     </div>

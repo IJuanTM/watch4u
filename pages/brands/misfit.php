@@ -139,3 +139,90 @@ include("./layout/modal.php");
     </figure>
 
 </div>
+
+<!-- Misfit vapor 1 group -->
+<div class="item-group misfit-bg">
+
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-11">
+            <h1 class="group-text">Vapor 1:</h1>
+        </div>
+    </div>
+
+    <figure class="shop-item">
+        <img class="mx-auto my-auto" src="./img/watches/brands/misfit/vapor_1/black.png">
+        <figcaption>
+            <h3 class="item-name">Misfit Vapor 1 Black</h3>
+            <h5 class="item-price">€179</h5>
+        </figcaption>
+    </figure>
+
+    <figure class="shop-item">
+        <img class="mx-auto my-auto" src="./img/watches/brands/misfit/vapor_1/beige.png">
+        <figcaption>
+            <h3 class="item-name">Misfit Vapor 1 Beige</h3>
+            <h5 class="item-price">€179</h5>
+        </figcaption>
+    </figure>
+
+    <figure class="shop-item">
+        <img class="mx-auto my-auto" src="./img/watches/brands/misfit/vapor_1/pink.png">
+        <figcaption>
+            <h3 class="item-name">Misfit Vapor 1 Pink</h3>
+            <h5 class="item-price">€179</h5>
+        </figcaption>
+    </figure>
+
+    <figure class="shop-item">
+        <img class="mx-auto my-auto" src="./img/watches/brands/misfit/vapor_1/blue.png">
+        <figcaption>
+            <h3 class="item-name">Misfit Vapor 1 Blue</h3>
+            <h5 class="item-price">€179</h5>
+        </figcaption>
+    </figure>
+
+</div>
+
+<!-- Misfit vapor 2 group -->
+<div class="item-group misfit-bg">
+
+    <div class="row">
+        <div class="col-1"></div>
+        <h1 class="group-text">Vapor 2:</h1>
+        <div class="col-11"></div>
+    </div>
+
+    <figure class="shop-item">
+        <img class="mx-auto my-auto" src="./img/watches/brands/misfit/vapor_2/blue.png">
+        <figcaption>
+            <h3 class="item-name">Misfit Vapor 2 Blue</h3>
+            <h5 class="item-price">€249</h5>
+        </figcaption>
+    </figure>
+
+    <figure class="shop-item">
+        <img class="mx-auto my-auto" src="./img/watches/brands/misfit/vapor_2/silver.png">
+        <figcaption>
+            <h3 class="item-name">Misfit Vapor 2 Silver</h3>
+            <h5 class="item-price">€249</h5>
+        </figcaption>
+    </figure>
+
+    <figure class="shop-item">
+        <img class="mx-auto my-auto" src="./img/watches/brands/misfit/vapor_2/black.png">
+        <figcaption>
+            <h3 class="item-name">Misfit Vapor 2 Black</h3>
+            <h5 class="item-price">€249</h5>
+        </figcaption>
+    </figure>
+
+    <figure class="shop-item">
+        <img class="mx-auto my-auto" src="./img/watches/brands/misfit/vapor_2/pink.png">
+        <figcaption>
+            <h3 class="item-name">Misfit Vapor 2 Pink</h3>
+            <h5 class="item-price">€249</h5>
+        </figcaption>
+    </figure>
+
+</div>

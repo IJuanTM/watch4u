@@ -1,5 +1,5 @@
 <hr class="content-row">
-<h1>Contact Us</h1>
+<h2>Contact Us</h2>
 <hr class="content-row">
 
 <!-- Contact form -->

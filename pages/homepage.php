@@ -1,5 +1,5 @@
 <?php
-    include("./layout/modal.php");
+include("./layout/modal.php");
 ?>
 
 <!-- Banner Carousel -->
@@ -98,7 +98,7 @@
     <figure class="shop-item" data-toggle="modal" data-target="#mobvoi_tic_black">
         <img class="mx-auto my-auto" src="./img/watches/brands/mobvoi/ticwatch/c2/black.png">
         <figcaption>
-            <h3 class="item-name">Mobvoi Ticwatch Black</h3>
+            <h3 class="item-name">Mobvoi Ticwatch C2 Black</h3>
             <h3 class="sale">€179</h3>
             <h5 class="item-price">€149</h5>
         </figcaption>
@@ -112,22 +112,22 @@
 
 <!-- Apple watch 4 header video -->
 <a class="hyper-video" href="../index.php?content=brands/apple">
-<div class="video-banner video-apple" data-aos="zoom-in" data-aos-anchor-placement="middle-bottom" data-aos-duration="700">
+    <div class="video-banner video-apple" data-aos="zoom-in" data-aos-anchor-placement="middle-bottom" data-aos-duration="700">
 
-    <video autoplay loop id="video-background" muted plays-inline>
-        <source src="../vid/apple_watch_4.mp4" type="video/mp4">
-    </video>
+        <video autoplay loop id="video-background" muted plays-inline>
+            <source src="../vid/apple_watch_4.mp4" type="video/mp4">
+        </video>
 
-    <div class="container h-100">
-        <div class="d-flex h-100 text-center align-items-center">
-            <div class="w-100 text-white">
-                <h1 class="display-3">Apple Watch 4</h1>
-                <p class="lead mb-0">Check out our apple collection here!</p>
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                    <h1 class="display-3">Apple Watch 4</h1>
+                    <p class="lead mb-0">Check out our apple collection here!</p>
+                </div>
             </div>
         </div>
-    </div>
 
-</div>
+    </div>
 </a>
 
 <hr class="content-row">
@@ -136,22 +136,22 @@
 
 <!-- Samsung S3 header video -->
 <a class="hyper-video" href="../index.php?content=brands/samsung">
-<div class="video-banner video-samsung" data-aos="zoom-in" data-aos-anchor-placement="middle-bottom" data-aos-duration="700">
+    <div class="video-banner video-samsung" data-aos="zoom-in" data-aos-anchor-placement="middle-bottom" data-aos-duration="700">
 
-    <video autoplay loop id="video-background" muted plays-inline>
-        <source src="../vid/samsung_s3.mp4" type="video/mp4">
-    </video>
+        <video autoplay loop id="video-background" muted plays-inline>
+            <source src="../vid/samsung_s3.mp4" type="video/mp4">
+        </video>
 
-    <div class="container h-100">
-        <div class="d-flex h-100 text-center align-items-center">
-            <div class="w-100 text-white">
-                <h1 class="display-3">Samsung Galaxy S3</h1>
-                <p class="lead mb-0">Take a look at our Samsung collection here!</p>
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                    <h1 class="display-3">Samsung Galaxy S3</h1>
+                    <p class="lead mb-0">Take a look at our Samsung collection here!</p>
+                </div>
             </div>
         </div>
-    </div>
 
-</div>
+    </div>
 </a>
 
 <hr class="content-row">

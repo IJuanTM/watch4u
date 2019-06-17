@@ -137,8 +137,9 @@ include("./layout/modal.php");
 
     <div class="row">
         <div class="col-1"></div>
-        <h1 class="group-text">Commuter:</h1>
-        <div class="col-11"></div>
+        <div class="col-11">
+            <h1 class="group-text">Commuter:</h1>
+        </div>
     </div>
 
     <figure class="shop-item">

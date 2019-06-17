@@ -7,9 +7,7 @@
             <div class="col-12 col-sm-4">
                 <h5 class="footer-header">Footer Content</h5>
                 <hr class="footer-row">
-
-                <p class="footer-text">Here you can use rows and columns to organize your footer content.</p>
-
+                <h6 class="footer-text">Here you can use rows and columns to organize your footer content.</h6>
             </div>
 
             <div class="col-12 col-sm-2"></div>
@@ -17,7 +15,6 @@
             <div class="col-12 col-sm-3">
                 <h5 class="footer-header">Links</h5>
                 <hr class="footer-row">
-
                 <ul class="list-unstyled footer-text">
                     <li>
                         <a href="./index.php?content=contact">Contact</a>
@@ -32,7 +29,6 @@
                         <a href="#">Privacy Policy</a>
                     </li>
                 </ul>
-
             </div>
 
             <div class="col-12 col-sm-3">

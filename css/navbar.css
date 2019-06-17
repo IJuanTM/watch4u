@@ -23,3 +23,7 @@
 .nav-item:hover {
     background-color: #202020;
 }
+
+.nav-text:hover {
+    color: white !important;
+}
