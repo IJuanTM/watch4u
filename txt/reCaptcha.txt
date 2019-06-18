@@ -1,0 +1,9 @@
+Client side (Site Key):
+
+6LclZakUAAAAAN6muzjXibN2YsCB7YfutKGVGAgV
+
+
+Server side (Secret Key):
+
+6LclZakUAAAAAFOTDlZG--KsRBA-81Rme2QkrfhT
+

@@ -59,8 +59,12 @@
             </div>
 
             <!-- reCaptcha -->
-            <div class="g-recaptcha" data-sitekey="6LclZakUAAAAAFOTDlZG--KsRBA-81Rme2QkrfhT"></div>
-            <p class="form-detail">Please confirm you're not a bot by completing the captcha above.</p>
+            <div class="form-row">
+                <div class="form-group">
+                    <div class="g-recaptcha" data-sitekey="6LclZakUAAAAAN6muzjXibN2YsCB7YfutKGVGAgV"></div>
+                    <p class="form-detail">Please confirm you're not a bot by completing the captcha above.</p>
+                </div>
+            </div>
 
             <!-- Button row -->
             <div class="form-row">
