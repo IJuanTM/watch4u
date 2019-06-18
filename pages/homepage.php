@@ -114,9 +114,7 @@ include("./layout/modal.php");
 <a class="hyper-video" href="../index.php?content=brands/apple">
     <div class="video-banner video-apple" data-aos="zoom-in" data-aos-anchor-placement="middle-bottom" data-aos-duration="700">
 
-        <video autoplay loop id="video-background" muted plays-inline>
-            <source src="../vid/apple_watch_4.mp4" type="video/mp4">
-        </video>
+        <video autoplay loop id="video-background" muted plays-inline src="../vid/apple_watch_4.mp4" type="video/mp4"></video>
 
         <div class="container h-100">
             <div class="d-flex h-100 text-center align-items-center">
@@ -138,9 +136,7 @@ include("./layout/modal.php");
 <a class="hyper-video" href="../index.php?content=brands/samsung">
     <div class="video-banner video-samsung" data-aos="zoom-in" data-aos-anchor-placement="middle-bottom" data-aos-duration="700">
 
-        <video autoplay loop id="video-background" muted plays-inline>
-            <source src="../vid/samsung_s3.mp4" type="video/mp4">
-        </video>
+        <video autoplay loop id="video-background" muted plays-inline src="../vid/samsung_s3.mp4" type="video/mp4"></video>
 
         <div class="container h-100">
             <div class="d-flex h-100 text-center align-items-center">

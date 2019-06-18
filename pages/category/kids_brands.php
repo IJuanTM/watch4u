@@ -14,7 +14,7 @@
 
     <figure class="category-item" data-aos="zoom-in" data-aos-anchor-placement="middle-bottom" data-aos-duration="700">
         <a href="./index.php?content=kids_brands/fitbit">
-            <img class="mx-auto my-auto" src="./img/logo/brands/FitBit.png">
+            <img class="mx-auto my-auto" src="./img/logo/brands/fitbit.png">
             <figcaption>
                 <h3 class="category-name">FitBit</h3>
             </figcaption>
