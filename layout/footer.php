@@ -55,7 +55,7 @@
         </div>
 
         <div class="footer-copyright text-center">© 2019 Copyright:
-            <a href="../index.php"> Watch4U</a>
+            <a href="./index.php"> Watch4U</a>
         </div>
 
     </div>
