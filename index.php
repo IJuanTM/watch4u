@@ -32,7 +32,7 @@
     <div id="load"><span id="load-text">Loading...</span></div>
 
     <!-- Include all the contents of the page. -->
-    <main>
+    <main id="contents">
 
         <?php include("./layout/navbar.php"); ?>
 
