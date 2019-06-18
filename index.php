@@ -19,6 +19,9 @@
     <link rel="icon" href="./img/icon/Watch.svg" type="image/x-icon">
     <link rel="icon" href="./img/icon/Watch.gif">
 
+    <!-- reCaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 </head>
 
 <!-- Page Body -->

@@ -58,6 +58,10 @@
 
             </div>
 
+            <!-- reCaptcha -->
+            <div class="g-recaptcha" data-sitekey="6LclZakUAAAAAFOTDlZG--KsRBA-81Rme2QkrfhT"></div>
+            <p class="form-detail">Please confirm you're not a bot by completing the captcha above.</p>
+
             <!-- Button row -->
             <div class="form-row">
 

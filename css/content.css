@@ -327,6 +327,7 @@ form a:hover {
 .form-detail {
     font-size: 10px;
     color: lightgray;
+    text-shadow: none;
 }
 
 .form-btn {
@@ -363,4 +364,8 @@ form a:hover {
 
 .required {
     color: red;
+}
+
+.g-recaptcha {
+    display: inline-block;
 }
