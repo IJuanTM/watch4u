@@ -15,7 +15,7 @@
                 <div class="form-group col-5">
                     <label class="form-text" for="inputFirstname">Firstname: <span class="required">*</span></label>
                     <input type="text" class="form-control" id="inputFirstname" placeholder="Firstname">
-                    <span class="form-detail">Please enter valid information, as this will also be used during the shipping of your bought product.</span>
+                    <span class="form-detail">Please enter valid information, as this will also be used during the shipping.</span>
                 </div>
 
                 <div class="form-group col-2">
