@@ -23,12 +23,12 @@
             </li>
 
             <li class="nav-item active">
-                <a class="nav-text nav-link" href="./index.php?content=/category/men">
+                <a class="nav-text nav-link" href="./index.php?content=/category/men_brands">
                     <i class="fas fa-male"></i> Men's Watches</a>
             </li>
 
             <li class="nav-item active">
-                <a class="nav-text nav-link" href="./index.php?content=/category/women">
+                <a class="nav-text nav-link" href="./index.php?content=/category/women_brands">
                     <i class="fas fa-female"></i> Women's Watches</a>
             </li>
 
