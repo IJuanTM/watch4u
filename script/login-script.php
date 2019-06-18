@@ -20,13 +20,13 @@
 	$password = sanitize($_POST["password"]);
 	
 	// Maak een select-query om te controleren of de gebruikersnaam al bestaat.
-	$sql = "SELECT * FROM `depri` WHERE `gebruikersnaam` = '$gebruikersnaam'";
+	$sql = "SELECT * FROM `user` WHERE `email` = '$email'";
 
 	// Maak een select-query om te controleren of de gebruiker al bestaat.
 	$result = mysqli_query($conn, $sql);
 	
 	// Als een van de velden leeg is, of allebei de velden leeg zijn.
-	if (empty($gebruikersnaam) && empty($wachtwoord)){
+	if (empty($email) && empty($password)){
 		
 		// Melding van lege velden
 		echo "Er is een van de velden niet ingevuld, probeer het opnieuw";
@@ -40,10 +40,10 @@
 		$record = mysqli_fetch_assoc($result);
 		
 		// Zet wachtwoord uit database om naar variabel
-		$hash = $record["wachtwoord"];
+		$hash = $record["password"];
 		
 		// als encrypt wachtwoord klopt met ingevulde wachtwoord
-		if (password_verify ($wachtwoord, $hash)) {
+		if (password_verify ($password, $hash)) {
 				
 			// Selecteer userrole uit de database
 			$userrole = $record["userrole"];
