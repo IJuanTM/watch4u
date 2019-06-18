@@ -6,8 +6,8 @@
 <form class="register-form container-fluid" name="register-form" action="register-script.php" method="POST">
 
     <div class="row">
-        <div class="col-2"></div>
-        <div class="col-8">
+        <div class="col-1 col-lg-2"></div>
+        <div class="col-10 col-lg-8">
 
             <!-- Name row -->
             <div class="form-row">
@@ -62,23 +62,22 @@
             <div class="form-row">
                 <div class="form-group">
                     <div class="g-recaptcha" data-sitekey="6LclZakUAAAAAN6muzjXibN2YsCB7YfutKGVGAgV"></div>
-                    <p class="form-detail">Please confirm you're not a bot by completing the captcha above.</p>
                 </div>
             </div>
 
             <!-- Button row -->
             <div class="form-row">
 
-                <div class="form-group col-3"></div>
-                <div class="form-group col-6">
+                <div class="form-group col-2 col-xl-3"></div>
+                <div class="form-group col-8 col-xl-6">
                     <button type="submit" class="btn form-btn">Register</button>
                 </div>
-                <div class="form-group col-3"></div>
+                <div class="form-group col-2 col-xl-3"></div>
 
             </div>
 
         </div>
-        <div class="col-2"></div>
+        <div class="col-1 col-lg-2"></div>
     </div>
 
 </form>

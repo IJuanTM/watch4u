@@ -46,32 +46,9 @@ p {
     margin-left: 0 !important;
 }
 
-@media only screen and (max-width: 720px) {
-    .content {
-        min-height: 63vh;
-        text-align: center;
-    }
-}
-
-@media only screen and (max-width: 1080px) {
-    .content {
-        min-height: 63vh;
-        text-align: center;
-    }
-}
-
-@media only screen and (max-width: 1440px) {
-    .content {
-        min-height: 63vh;
-        text-align: center;
-    }
-}
-
-@media only screen and (max-width: 2160px) {
-    .content {
-        min-height: 63vh;
-        text-align: center;
-    }
+.content {
+    min-height: 63vh;
+    text-align: center;
 }
 
 #load {

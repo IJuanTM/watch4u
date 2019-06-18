@@ -33,11 +33,11 @@
             <!-- Button row -->
             <div class="form-row">
 
-                <div class="form-group col-3"></div>
-                <div class="form-group col-6">
+                <div class="form-group col-2 col-xl-3"></div>
+                <div class="form-group col-8 col-xl-6">
                     <button type="submit" class="btn form-btn">Login</button>
                 </div>
-                <div class="form-group col-3"></div>
+                <div class="form-group col-2 col-xl-6"></div>
 
             </div>
 
