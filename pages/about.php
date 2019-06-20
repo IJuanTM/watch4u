@@ -6,10 +6,19 @@
     <div class="row">
         <div class="col-9">
             <h4>About Us:</h4>
-            <h6 class="about-text">Watch4U is a company located in the heart of Utrecht. Our company is specialized in smartwatches and we offer a wide range of different brands, types and price ranges.</h6>
+            <h6 class="footer-pages-text">Watch4U is a company located in the heart of Utrecht. Our company is specialized in smartwatches and we offer a wide range of different brands, types and price ranges.</h6><br>
+
+            <h4>Our Watches:</h4>
+            <h6 class="footer-pages-text">Our shop has a wide range of different smartwatches. We have hybrid watches, these are normal watches but with smart functions like; An accurate gps location, digital time display, a step counter and a rechargable battery. We ofcourse offer smartwatches with a full touch display aswell, from brands like; Apple, Samsung and FitBit. Our collection has many different price ranges, varying from cheap simple smartwatches for only a €120 to stylish gold or platinum watches for people who want to spend larger amounts of money on a smartwatch.</h6><br>
+
             <h4>What we offer:</h4>
-            <h6 class="about-text">Our shop has a wide range of different smartwatches. We have hybrid watches, these are normal watches but with smart functions like; An accurate gps location, </h6>
+            <h6 class="footer-pages-text">As the company Watch4U we offer out customers; An easy to use site, 12/5 customer support, a way to follow the state of your order, information about our products and more!</h6><br>
+
+            <h4>Our Site:</h4>
+            <h6 class="footer-pages-text">Watch4U decided to create a webshop to attract more people online in buying smartwatches. With this site people can easily find their own smartwatch without having to leave their house! The site is easy to use with professional infomation about every watch. For extra information a contact form is available for the customer, here you will get an email form one of our employees within 2 days!</h6><br>
         </div>
         <div class="col-3"><img src="./img/logo/Watch4U.svg" width="100%"></div>
     </div>
 </div>
+
+<hr class="content-row">
