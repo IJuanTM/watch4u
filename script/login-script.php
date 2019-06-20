@@ -32,7 +32,7 @@
 		echo "Er is een van de velden niet ingevuld, probeer het opnieuw";
 		
 		// Locatie
-		header("Refresh: 3; url=./index.php?content=inloggen");
+		header("Refresh: 3; url=./index.php?content=login");
 		
 	} else if (mysqli_num_rows($result) == 1 ) {
 
@@ -83,7 +83,7 @@
 			break;
 				default:
 				
-				header("Refresh: 0; url=../index.php?content=watishet");
+				header("Refresh: 0; url=../index.php?content=homepage");
 			break;
 			}
 				
@@ -93,7 +93,7 @@
 			echo "Het opgegeven wachtwoord is niet bekend, probeer het opnieuw";
 			
 			// Locatie
-			header("Refresh: 3; url=../index.php?content=inloggen");
+			header("Refresh: 3; url=../index.php?content=login");
 		}
 		
 	} else {
@@ -102,6 +102,6 @@
 		echo "Opgegeven gebruikersnaam is onbekend, of gegevens zijn niet ingevuld";
 			
 		// Locatie
-		header("Refresh: 5; url=../index.php?content=inloggen");
+		header("Refresh: 5; url=../index.php?content=login");
 	}
 ?>
