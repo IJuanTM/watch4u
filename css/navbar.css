@@ -23,3 +23,10 @@
 .nav-item:hover {
     background-color: #202020;
 }
+
+@media only screen and (max-width: 1090px) {
+    .navbar {
+        height: 56px;
+        font-size: 88%;
+    }
+}
