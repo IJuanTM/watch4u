@@ -8,7 +8,7 @@
      * of this license document, but changing it is not allowed.
      *
      * Licensed under MIT ( https://www.ridis.nl/page/index.php?content=license )
-    */
+*/
 
 // Met deze gegevens kunnen we inloggen op de mysql-server en een database selecteren
 $server = "localhost";
