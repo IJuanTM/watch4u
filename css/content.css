@@ -357,9 +357,9 @@ form a:hover {
 }
 
 .form-btn:hover {
-    background-color: #505050;
-    border-color: #505050;
-    color: white;
+    background-color: #323232;
+    border-color: #323232;
+    color: gold;
 }
 
 .required {
