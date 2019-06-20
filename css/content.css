@@ -389,3 +389,16 @@ form a:hover {
         -webkit-transform-origin: 0 0;
     }
 }
+
+/* About page */
+
+.about {
+    background-color: #505050;
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.about-text {
+    color: gold;
+}
