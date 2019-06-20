@@ -61,25 +61,25 @@ p {
 
 @media only screen and (max-width: 1280px) {
     .content {
-        min-height: 65vh;
+        min-height: 56vh;
     }
 }
 
 @media only screen and (min-width: 1280px) {
     .content {
-        min-height: 65vh;
+        min-height: 56vh;
     }
 }
 
 @media only screen and (min-width: 1366px) {
     .content {
-        min-height: 67vh;
+        min-height: 65vh;
     }
 }
 
 @media only screen and (min-width: 1920px) {
     .content {
-        min-height: 77vh;
+        min-height: 73vh;
     }
 }
 
