@@ -49,6 +49,15 @@
             </figcaption>
         </a>
     </figure>
+
+    <figure class="category-item" data-aos="zoom-in" data-aos-anchor-placement="middle-bottom" data-aos-duration="700">
+        <a href="./index.php?content=kids_brands/ojoy">
+            <img class="mx-auto my-auto" src="./img/logo/brands/ojoy.png">
+            <figcaption>
+                <h3 class="category-name">Ojoy</h3>
+            </figcaption>
+        </a>
+    </figure>
 </div>
 
 <hr class="content-row">

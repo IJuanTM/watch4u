@@ -111,3 +111,10 @@
     background-position: center;
     background-size: 75%;
 }
+
+.ojoy-bg {
+    background-image: url('../img/background/ojoy.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 75%;
+}
