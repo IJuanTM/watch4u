@@ -41,13 +41,36 @@
 
         <!-- Aanmelden en Inloggen aan de linkerkant. -->
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-text nav-link" href="./index.php?content=register">
-                    <i class="fas fa-file-signature"></i> Register</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-text nav-link" href="./index.php?content=login">
-                    <i class="fas fa-sign-in-alt"></i> Login</a></li>
+
+            <?php
+            if (isset($_SESSION["id"])) {
+                switch ($_SESSION["userrole"]) {
+                    case 'Admin':
+                        echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=overview"><i class="fas fa-clipboard-list"></i></a></li>';
+                        echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=account"><i class="fas fa-user"></i></a></li>';
+                        echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=account"><i class="fas fa-shipping-fast"></i></a></li>';
+                        break;
+                    case 'Root':
+                        echo '<li class="nav-item"><a class="nav-link" href="https://web0116.zxcs.nl/phpmyadmin/db_structure.php?server=1&db=u37477p32749_watch4u"><i class="fas fa-database"></i></a></li>';
+                        echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=overview"><i class="fas fa-clipboard-list"></i></a></li>';
+                        echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=account"><i class="fas fa-user"></i></a></li>';
+                        echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=account"><i class="fas fa-shipping-fast"></i></a></li>';
+                        break;
+                    case 'Customer':
+                        echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=account"><i class="fas fa-user"></i></a></li>';
+                        echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=account"><i class="fas fa-shipping-fast"></i></a></li>';
+                        break;
+                    default:
+                        header("Location: ./index.php?content=logout");
+                        break;
+                }
+                echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=logout"><i class="fas fa-sign-out-alt"></i> Logout</a></li>';
+            } else {
+                echo '<li class="nav-item active"><a class="nav-text nav-link" href="./index.php?content=register"><i class="fas fa-file-signature"></i> Register</a></li>';
+                echo '<li class="nav-item active"><a class="nav-text nav-link" href="./index.php?content=login"><i class="fas fa-sign-in-alt"></i> Login</a></li>';
+            }
+            ?>
+
         </ul>
 
     </div>
