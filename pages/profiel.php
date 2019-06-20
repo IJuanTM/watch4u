@@ -2,10 +2,10 @@
     
     
     if (userrole = 'Root'){
-
-    } if else (userrole = 'Admin') {
-        echo 
+        echo '';
+    } else if (userrole = 'Admin') {
+        echo '';
     } else {
-
+        echo '';
     }
 ?>
