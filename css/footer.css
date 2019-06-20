@@ -10,6 +10,11 @@
     bottom: 0;
 }
 
+.footer-row {
+    background-color: gold;
+    height: 1px;
+}
+
 .footer a:hover {
     color: white !important;
 }

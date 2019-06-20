@@ -399,6 +399,22 @@ form a:hover {
     padding: 25px;
 }
 
-.about-text {
+.footer-pages-text {
+    color: lightgray;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.ol-margin {
+    margin-bottom: 16px;
+}
+
+.location-text {
     color: gold;
+}
+
+.location-header {
+    color: white
 }

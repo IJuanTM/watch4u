@@ -23,10 +23,10 @@
                         <a href="./index.php?content=about">About</a>
                     </li>
                     <li>
-                        <a href="#">Terms of Service</a>
+                        <a href="./index.php?content=terms_of_service">Terms of Service</a>
                     </li>
                     <li>
-                        <a href="#">Privacy Policy</a>
+                        <a href="./index.php?content=privacy_policy">Privacy Policy</a>
                     </li>
                 </ul>
             </div>
