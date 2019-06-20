@@ -17,7 +17,7 @@ include("./layout/modal.php");
 
         <!-- Slide One -->
         <div class="carousel-item active" style="background-image: url(./img/banner/men-banner.jpg)">
-            <a href="./index.php?content=category/men">
+            <a href="./index.php?content=category/men_brands">
                 <div class="carousel-caption d-none d-md-block">
                     <h1>Men's Smartwatches</h1>
                     <p class="lead">Cool smartwatches made for men!</p>
@@ -27,7 +27,7 @@ include("./layout/modal.php");
 
         <!-- Slide Two-->
         <div class="carousel-item" style="background-image: url(./img/banner/women-banner.jpg)">
-            <a href="./index.php?content=category/women">
+            <a href="./index.php?content=category/women_brands">
                 <div class="carousel-caption d-none d-md-block">
                     <h1>Women's Smartwatches</h1>
                     <p class="lead">Elegant smartwatches made for women!</p>
@@ -37,7 +37,7 @@ include("./layout/modal.php");
 
         <!-- Slide Three -->
         <div class="carousel-item" style="background-image: url(./img/banner/kids-banner.jpg)">
-            <a href="./index.php?content=category/kids">
+            <a href="./index.php?content=category/kids_brands">
                 <div class="carousel-caption d-none d-md-block">
                     <h1>Kids Smartwatches</h1>
                     <p class="lead">Fun smartwatches made for children!</p>
