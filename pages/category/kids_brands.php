@@ -31,4 +31,24 @@
     </figure>
 </div>
 
+<div class="category-group">
+    <figure class="category-item" data-aos="zoom-in" data-aos-anchor-placement="middle-bottom" data-aos-duration="700">
+        <a href="./index.php?content=kids_brands/vtech">
+            <img class="mx-auto my-auto" src="./img/logo/brands/vtech.png">
+            <figcaption>
+                <h3 class="category-name">VTech</h3>
+            </figcaption>
+        </a>
+    </figure>
+
+    <figure class="category-item" data-aos="zoom-in" data-aos-anchor-placement="middle-bottom" data-aos-duration="700">
+        <a href="./index.php?content=kids_brands/lg">
+            <img class="mx-auto my-auto" src="./img/logo/brands/lg.png">
+            <figcaption>
+                <h3 class="category-name">LG</h3>
+            </figcaption>
+        </a>
+    </figure>
+</div>
+
 <hr class="content-row">

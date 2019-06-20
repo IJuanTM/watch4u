@@ -97,3 +97,17 @@
     background-position: center;
     background-size: 100%;
 }
+
+.vtech-bg {
+    background-image: url('../img/background/vtech.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 75%;
+}
+
+.lg-bg {
+    background-image: url('../img/background/lg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 75%;
+}

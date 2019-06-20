@@ -1,14 +1,17 @@
 html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
     scroll-behavior: smooth;
 }
 
 body {
-    padding: 0;
     margin: 0;
+    padding: 0;
+    height: 100%;
     padding-top: 56px;
     background-color: #202020;
     font-family: 'Montserrat', 'Gotham Book', sans-serif;
-    margin: 0px;
     overflow: hidden;
 }
 
@@ -57,42 +60,7 @@ p {
 
 .content {
     text-align: center;
-}
-
-@media only screen and (max-width: 1280px) {
-    .content {
-        min-height: 56vh;
-    }
-}
-
-@media only screen and (min-width: 1280px) {
-    .content {
-        min-height: 56vh;
-    }
-}
-
-@media only screen and (min-width: 1366px) {
-    .content {
-        min-height: 65vh;
-    }
-}
-
-@media only screen and (min-width: 1920px) {
-    .content {
-        min-height: 73vh;
-    }
-}
-
-@media only screen and (min-width: 2560px) {
-    .content {
-        min-height: 83vh;
-    }
-}
-
-@media only screen and (min-width: 3840px) {
-    .content {
-        min-height: 89vh;
-    }
+    min-height: calc(100vh - 272px);
 }
 
 #load {
