@@ -32,7 +32,7 @@
 		echo "Er is een van de velden niet ingevuld, probeer het opnieuw";
 		
 		// Locatie
-		header("Refresh: 3; url=./index.php?content=login");
+		header("Refresh: 3; url=../index.php?content=login");
 		
 	} else if (mysqli_num_rows($result) == 1 ) {
 
@@ -52,37 +52,30 @@
 			session_start();
 
 			// variabellen
-			$_SESSION["id"] = $record["id"];
-			$_SESSION["gebruikersnaam"] = $record["gebruikersnaam"];
-			$_SESSION["voornaam"] = $record["voornaam"];
-			$_SESSION["tussenvoegsel"] = $record["tussenvoegsel"];
-			$_SESSION["achternaam"] = $record["achternaam"];
+			$_SESSION["iduser"] = $record["iduser"];
+			$_SESSION["firstname"] = $record["firstname"];
+			$_SESSION["infix"] = $record["infix"];
+			$_SESSION["lastname"] = $record["lastname"];
 			$_SESSION["email"] = $record["email"];
-			$_SESSION["datum"] = $record["datum"];
+			$_SESSION["password"] = $record["password"];
+			$_SESSION["phone"] = $record["phone"];
+			$_SESSION["address"] = $record["address"];
+			$_SESSION["postalcode"] = $record["postalcode"];
+			$_SESSION["city"] = $record["city"];
 			$_SESSION["userrole"] = $record["userrole"];
-			$_SESSION["kleur"] = $record["kleur"];
-			$_SESSION["kleurthema"] = $record["kleurthema"];
-			$_SESSION["adres"] = $record["adres"];
-			$_SESSION["postcode"] = $record["postcode"];
-			$_SESSION["plaats"] = $record["plaats"];
-			// $_SESSION["hoi"] = "Ik zeg Hoi!";
 
 			// Switch per userrole, stuur de gebruiker door naar:
 			switch ($userrole) {
-				case 'klant':
-				header("Refresh: 0; url=../log.php?content=profiel");
+				case 'Customer':
+				header("Refresh: 0; url=../index.php?content=profiel");
 			break;
-				case 'marketing':
-				header("Refresh: 0; url=../log.php?content=profiel");
+				case 'Admin':
+				header("Refresh: 0; url=../index.php?content=profiel");
 			break;
-				case 'admin':
-				header("Refresh: 0; url=../log.php?content=profiel");
-			break;
-				case 'root':
-				header("Refresh: 0; url=../log.php?content=profiel");
+				case 'Root':
+				header("Refresh: 0; url=../index.php?content=profiel");
 			break;
 				default:
-				
 				header("Refresh: 0; url=../index.php?content=homepage");
 			break;
 			}

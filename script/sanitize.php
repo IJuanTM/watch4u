@@ -59,10 +59,11 @@
 			echo "Waarom heeft je wachtwoord geen:<br>Hoofd letters (A-Z)<br>Kleine letters (a-z)<br>Cijfers (0-9)<br>Leestekens (- _ . ! ? @ # &)<br><br>Of je wachtwoord bevat geen 8 tot 30 tekens<br><span style='display:none;'>";
 
 			// Refresh de pagina in 5 seconden, en ga naar de registreer pagina
-			header("Refresh: 10; url=http://www.ridis.nl/depri/index.php?content=wachtwoord&id=$id");
+			header("Refresh: 10; url=../index.php?content=login&id=$id");
 		}
 	}
 	
+	/*
 	function gebruiker($gebruikersnaam) {
 		
 		// Variabelen vaststellen
@@ -79,21 +80,22 @@
 		$regex .= '.{' . $min_len . ',' . $max_len . '}$/';
 
 		// Als wachtwoord alles heeft
-		if(preg_match($regex, $gebruikersnaam)) {
+		if(preg_match($regex, $email)) {
 			
 			// Stuur $password terug
-			return $gebruikersnaam;
+			return $email;
 			
 		// heeft het niet alles doe dan dit
 		} else {
 			
 			// Wachtwoorden geen hoofdletter melding
-			echo "Waarom heeft je gebruikersnaam geen:<br>Hoofd letters (A-Z)<br>Kleine letters (a-z)<br><br>Of je gebruikersnaam bevat geen 8 tot 30 tekens<br><span style='display:none;'>";
+			echo "Waarom heeft je email geen:<br>Hoofd letters (A-Z)<br>Kleine letters (a-z)<br><br>Of je gebruikersnaam bevat geen 8 tot 30 tekens<br><span style='display:none;'>";
 
 			// Refresh de pagina in 5 seconden, en ga naar de registreer pagina
 			header("Refresh: 5; url=http://www.ridis.nl/depri/index.php?content=wachtwoord&id=$id");
 		}
 	}
+	*/
 	
 	function bericht($berichtje) {
 		
