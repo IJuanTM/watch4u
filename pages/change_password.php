@@ -1,9 +1,9 @@
 <hr class="content-row">
-<h1>Reset Password</h1>
+<h1>Change Password</h1>
 <hr class="content-row">
 
-<!-- Reset password form -->
-<form class="reset_password-form container-fluid" name="reset_password-form" action="reset_password-script.php" method="POST">
+<!-- Change password form -->
+<form class="change_password-form container-fluid" name="change_password-form" action="./script/change_password.php" method="POST">
 
     <div class="row">
         <div class="col-2"></div>
@@ -42,7 +42,7 @@
 
                 <div class="form-group col-md-3"></div>
                 <div class="form-group col-md-6">
-                    <button type="submit" class="btn form-btn btn-lg btn-block btn-dark">Reset Password</button>
+                    <button type="submit" class="btn form-btn btn-lg btn-block btn-dark">Change Password</button>
                 </div>
                 <div class="form-group col-md-3"></div>
 
