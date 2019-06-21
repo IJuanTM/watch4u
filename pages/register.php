@@ -3,7 +3,7 @@
 <hr class="content-row">
 
 <!-- Register form -->
-<form class="register-form container-fluid" name="register-form" action="register-script.php" method="POST">
+<form class="register-form container-fluid" name="register-form" action="./script/register-script.php" method="POST">
 
     <div class="row">
         <div class="col-1 col-lg-2"></div>
