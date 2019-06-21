@@ -31,12 +31,3 @@ document.onreadystatechange = function () {
         }, 100);
     }
 };
-$(document).on('click', '.toggle-password', function () {
-    $(this).toggleClass("fa-eye fa-eye-slash");
-    var input = $("#pass_log_id1");
-    input.attr('type') === 'password' ? input.attr('type', 'text') : input.attr('type', 'password');
-    var input = $("#pass_log_id2");
-    input.attr('type') === 'password' ? input.attr('type', 'text') : input.attr('type', 'password');
-    var input = $("#pass_log_id3");
-    input.attr('type') === 'password' ? input.attr('type', 'text') : input.attr('type', 'password');
-});

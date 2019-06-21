@@ -19,3 +19,13 @@ hr {
     text-align: center;
     color: gold;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #202020;
+}
