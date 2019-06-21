@@ -101,7 +101,7 @@
 		$sql2 = "INSERT INTO `user` (`iduser`,
 									`firstname`,
 									`infix`,
-									`lastame`,
+									`lastname`,
 									`email`,
 									`password`,
 									`phone`,
@@ -116,11 +116,11 @@
 									'$infix',
 									'$lastname',
 									'$email',
-									'$password',
-									'NULL',
-									'NULL',
-									'NULL',
-									'NULL',
+									'$blowfish_password',
+									'$phone',
+									'$address',
+									'$postalcode',
+									'$city',
 									'$userrole',
 									'$date',
 									'$code');";
@@ -128,7 +128,7 @@
 
 		$result2 = mysqli_query($conn, $sql2);
 		
-/*
+
 		$to = $email;
 		$subject = "Activatie link Watch4U.com";
 		$headers = "From: activatie@watch4u.com \r\n";
@@ -142,17 +142,19 @@
 				</title>
 			</head>
 			
-			<body style='background:#000000;padding:20px;color:#ffffff;'>
-				<img class='img' src='http://www.ridis.nl/watch4u/img/logo/Watch4U.svg' style='position: absolute; background:#000080; border-radius:10px; left: 0px; top: 0px;' height='250px' width='250px' />
+			<body style='background:#202020;padding:20px;color:gold;'>
+				<img class='img' src='https://www.ridis.nl/watch4u/img/logo/Watch4U.svg' style='position: absolute; background:#000080; border-radius:10px; left: 0px; top: 0px;' height='250px' width='250px' />
 				<br>
 				<h1 style='color:blue'>
-					Beste " . $firstname . " " . $infix . " " . $lastname . ",
+					Hello " . $firstname . " " . $infix . " " . $lastname . ",
 				</h1>
 				<br>
 				you are registered by Watch4U.com .<br>
 				<br>
-				You need to activate your account to use it:<br>
-				<a href='http://www.RiDis.nl/watch4u/index.php?content=activate&iduser=" . $iduser . "' style='color:#0000ff;font-size:14px;'>http://www.RiDis.nl/watch4u/index.php?content=activate&iduser=" . $iduser . "</a><br>
+				before you can buy or edit something you need to activate your account to use it:<br>
+				<a href='http://www.RiDis.nl/watch4u/index.php?content=activate' style='color:#0000ff;font-size:14px;'>https://www.RiDis.nl/watch4u/index.php?content=activate'</a><br>
+				On this page you need to enter the next code:<br>
+				" . $code . "<br>
 				<br>
 				<br>
 				<b>Kind regards,<br>
@@ -162,9 +164,9 @@
 			</body>
 		</html>";
 
-		// mail ($to, $subject, $message, $headers);
-*/
-		// header("Refresh: 5; url=../index.php?content=activate");
+		mail ($to, $subject, $message, $headers);
+
+		header("Refresh: 5; url=../index.php?content=activate");
 
 	}
 
