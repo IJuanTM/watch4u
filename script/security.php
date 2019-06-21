@@ -6,18 +6,17 @@
 	if (isset($_SESSION["id"])) {
 		
 		$id = $_SESSION["id"];
-		$gebruikersnaam = $_SESSION["gebruikersnaam"];
-		$voornaam = $_SESSION["voornaam"];
-		$tussenvoegsel = $_SESSION["tussenvoegsel"];
-		$achternaam = $_SESSION["achternaam"];
+		$firstname = $_SESSION["firstname"];
+		$infix = $_SESSION["infix"];
+		$lastname = $_SESSION["lastname"];
 		$email = $_SESSION["email"];
-		$datum = $_SESSION["datum"];
+		$password = $_SESSION["password"];
 		$userrole = $_SESSION["userrole"];
-		$kleur = $_SESSION["kleur"];
-		$kleurthema = $_SESSION["kleurthema"];
 		$adres = $_SESSION["adres"];
-		$postcode = $_SESSION["postcode"];
-		$plaats = $_SESSION["plaats"];
+		$postalcode = $_SESSION["postcode"];
+		$city = $_SESSION["plaats"];
+		$phone = $_SESSION["phone"];
+		$date = $_SESSION["date"];
 		
 	} else {
 		
