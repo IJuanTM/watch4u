@@ -3,7 +3,7 @@
 <hr class="content-row">
 
 <!-- Login form -->
-<form class="login-form container-fluid" name="login-form" action="./script/login-script.php" method="POST">
+<form class="login-form container-fluid" name="login-form" action="./script/login_user.php" method="POST">
 
     <div class="row">
         <div class="col-2 col-md-3 col-lg-4"></div>
@@ -14,7 +14,7 @@
 
                 <div class="form-group col-12">
                     <label class="form-text" for="inputEmail">Email:</label>
-                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                    <input type="email" class="form-control" name="email" placeholder="Email">
                 </div>
 
             </div>
@@ -24,7 +24,7 @@
 
                 <div class="form-group col-12">
                     <label class="form-text" for="inputPassword">Password:</label>
-                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                    <input type="password" class="form-control" name="password" placeholder="Password">
                     <span class="form-detail">Forgot your password? <a href="./index.php?content=reset_password">Click here.</a></span>
                 </div>
 

@@ -29,10 +29,10 @@
 <body>
 
     <!-- Loading icon -->
-    <div id="load"><span id="load-text">Loading...</span></div>
+    <!--<div id="load"><span id="load-text">Loading...</span></div>-->
 
     <!-- Include all the contents of the page. -->
-    <main id="contents">
+    <!--<main id="contents">-->
 
         <?php include("./layout/navbar.php"); ?>
 
