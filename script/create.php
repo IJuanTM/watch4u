@@ -17,23 +17,21 @@
 
 	// ############################################################################################## Variabellen maken
     // Maak variabelen van de input uit het formulier
-	$datum = date('d-m-Y, H:i:s');
-	$voornaam = ucwords(strtolower(sanitize($_POST["voornaam"])));
-    $tussenvoegsel = strtolower(sanitize($_POST["tussenvoegsel"]));
-    $achternaam = ucwords(strtolower(sanitize($_POST["achternaam"])));
+	$date = date('d-m-Y, H:i:s');
+	$firstname = ucwords(strtolower(sanitize($_POST["firstname"])));
+    $infix = strtolower(sanitize($_POST["infix"]));
+    $lastname = ucwords(strtolower(sanitize($_POST["lastname"])));
     $email = strtolower(sanitize($_POST["email"]));
-    $gebruikersnaam = gebruiker(sanitize($_POST["gebruikersnaam"]));
 	$wachtwoord = "Geheim";
-	$code = "";
-	$wijzigingsdatum = "";
-	$userrole = "klant";
-	$adres = "";
-	$postcode = "";
-	$plaats = "";
+	$userrole = "Customer";
+	$address = "";
+	$postalcode = "";
+	$city = "";
+	$phone = "";
 
 	// ############################################################################################## Mag niet leeg zijn
 	// Als datum leeg is geef dan de volgende melding
-	if (empty($datum)){
+	if (empty($date)){
 		
 		// Datum is leeg
 		echo "Er is geen registreer datum aangemaakt";
@@ -42,7 +40,7 @@
 		header("Refresh: 3; url=../index.php?content=registreren");
 	
 	// Als voornaam leeg is geef dan de volgende melding
-	} else if (empty($voornaam)) {
+	} else if (empty($firstname)) {
 		
 		// Voornaam is leeg
 		echo "Waarom is je voornaam nog leeg?";
@@ -51,7 +49,7 @@
 		header("Refresh: 3; url=../index.php?content=registreren");
 
 	// Als achternaam leeg is geef dan de volgende melding
-	} else if (empty($achternaam)) {
+	} else if (empty($lastname)) {
 		
 		// Achternaam is leeg
 		echo "Waarom is je achternaam nog leeg?";
@@ -67,19 +65,10 @@
 		
 		// Refresh de pagina in 3 seconden, en ga naar de registreer pagina
 		header("Refresh: 3; url=../index.php?content=registreren");
-
-	// Als gebruikersnaam leeg is geef dan de volgende melding
-	} else if (empty($gebruikersnaam)) {
-		
-		// Gebruikersnaam is leeg
-		echo "Waarom is je gebruikersnaam nog leeg?";
-		
-		// Refresh de pagina in 3 seconden, en ga naar de registreer pagina
-		header("Refresh: 3; url=../index.php?content=registreren");
 	
 	// ############################################################################################## Mag niet korter zijn
 	// Als voornaam leeg is geef dan de volgende melding
-	} else if (strlen($voornaam) < 3 ) {
+	} else if (strlen($firstname) < 3 ) {
 		
 		// Gebruikersnaam
 		echo "Voornaam is geen 3 tekens of langer!";
@@ -88,7 +77,7 @@
 		header("Refresh: 3; url=../index.php?content=registreren");
 	
 	// Als achternaam leeg is geef dan de volgende melding
-	} else if (strlen($achternaam) < 3 ) {
+	} else if (strlen($lastname) < 3 ) {
 		
 		// Achternaam
 		echo "Achternaam is geen 3 tekens of langer!";
@@ -105,18 +94,9 @@
 		// Refresh de pagina in 3 seconden, en ga naar de registreer pagina
 		header("Refresh: 3; url=../index.php?content=registreren");
 	
-	// Als gebruikersnaam leeg is geef dan de volgende melding
-	} else if (strlen($gebruikersnaam) < 8 ) {
-		
-		// Gebruikersnaam
-		echo "Gebruikersnaam is niet langer dan 8 tekens!";
-		
-		// Refresh de pagina in 3 seconden, en ga naar de registreer pagina
-		header("Refresh: 3; url=../index.php?content=registreren");
-	
 	// ############################################################################################## Mag niet langer zijn
 	// Als voornaam leeg is geef dan de volgende melding
-	} else if (strlen($voornaam) > 30 ) {
+	} else if (strlen($firstname) > 30 ) {
 		
 		// Gebruikersnaam
 		echo "Voornaam is langer dan 30 tekens!";
@@ -125,7 +105,7 @@
 		header("Refresh: 3; url=../index.php?content=registreren");
 	
 	// Als tussenvoegsel leeg is geef dan de volgende melding
-	} else if (strlen($tussenvoegsel) > 8 ) {
+	} else if (strlen($infix) > 8 ) {
 		
 		// tussenvoegsel
 		echo "tussenvoegsel is langer dan 8 tekens!";
@@ -134,7 +114,7 @@
 		header("Refresh: 3; url=../index.php?content=registreren");
 	
 	// Als achternaam leeg is geef dan de volgende melding
-	} else if (strlen($achternaam) > 30 ) {
+	} else if (strlen($lastame) > 30 ) {
 		
 		// Achternaam
 		echo "Achternaam is langer dan 30 tekens!";
@@ -151,27 +131,18 @@
 		// Refresh de pagina in 3 seconden, en ga naar de registreer pagina
 		header("Refresh: 3; url=../index.php?content=registreren");
 	
-	// Als gebruikersnaam leeg is geef dan de volgende melding
-	} else if (strlen($gebruikersnaam) > 30 ) {
-		
-		// Gebruikersnaam
-		echo "Gebruikersnaam is langer dan 30 tekens!";
-		
-		// Refresh de pagina in 3 seconden, en ga naar de registreer pagina
-		header("Refresh: 3; url=../index.php?content=registreren");
-	
 	// ############################################################################################## Email en gebruikersnaam mogen niet eerder voorgekomen zijn
 	// Als niets leeg is doe het volgende
 	} else {
 		
 		// Maak een select-query om te controleren of het e-mailadres al bestaat.
-		$sql1 = "SELECT * FROM `depri` WHERE `email` = '$email'";
+		$sql1 = "SELECT * FROM `user` WHERE `email` = '$email'";
 		
 		// Stuur de query af op de database
 		$result1 = mysqli_query($conn, $sql1);
 		
 		// Maak een select-query om te controleren of het e-mailadres al bestaat.
-		$sql2 = "SELECT * FROM `depri` WHERE `gebruikersnaam` = '$gebruikersnaam'";
+		$sql2 = "SELECT * FROM `user` WHERE `email` = '$email'";
 		
 		// Stuur de query af op de database
 		$result2 = mysqli_query($conn, $sql2);
@@ -199,7 +170,8 @@
 		} else {
 			
 			// Gegevens in SQL string zetten
-			$sql3 = "INSERT INTO `depri` (`id`,`gebruikersnaam`,`wachtwoord`,`voornaam`,`tussenvoegsel`,`achternaam`,`email`,`datum`,`code`,`wijzigingsdatum`,`userrole`,`adres`,`postcode`,`plaats`) VALUES (NULL,'$gebruikersnaam','$wachtwoord','$voornaam','$tussenvoegsel','$achternaam','$email','$datum','$code','$wijzigingsdatum','$userrole','$adres','$postcode','$plaats');";
+			$sql3 = "INSERT INTO `user` (`iduser`,`firstname`,`infix`,`lastame`,`email`,`password`,`address`,`postalcode`,`city`,`phone`,`userrole`,`date`)
+						VALUES (NULL,'$firstname','$infix','$lastname','$email','$password','$address','$postalcode','$city','$phone','$userrole','$date');";
 			
 			// Stuur de gegevens naar de database
 			$result3 = mysqli_query($conn, $sql3);
@@ -212,11 +184,11 @@
 				
 				// De email opstelling zelf (met een van, en naar email adres en het onderwerp en het bericht zelf.)
 				$to = $email;
-				$subject = "Activatie link Depri.nl";
-				$headers = "From: activatie@depri.nl \r\n";
+				$subject = "Activatie link Watch4U.com";
+				$headers = "From: activatie@watch4u.com \r\n";
 				$headers .= "MIME-Version: 1.0\r\n";
 				$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
-				$message = "<html><head><title>Depri Activatie</title></head><body style='background:#000000;padding:20px;color:#ffffff;'><img class='img' src='http://www.ridis.nl/depri/img/logo.svg' style='position: absolute; background:#000080; border-radius:10px; left: 0px; top: 0px;' height='250px' width='250px' /><br><h1 style='color:blue'>Beste ".$voornaam." ".$tussenvoegsel." ".$achternaam.",</h1><br>je hebt je geregistreerd bij Depri.nl.<br><br>Voor het bevestigen van jouw gegevens klik je op de activatie link:<br><a href='http://www.RiDis.nl/depri/index.php?content=wachtwoord&id=".$id."' style='color:#0000ff;font-size:14px;'>http://www.RiDis.nl/depri/index.php?content=wachtwoord&id=".$id."</a><br><br><br><b>Gegroet,<br><pre style='font-size:16px;'>	Medewerkers van Depri.nl</pre></b><br><img src='http://www.ridis.nl/depri/img/logo.svg' width='30px'>Depri.nl<br><br><span style='font-size:12px;'>Dit is een gegenereerd bericht en er kan niet op geantwoord worden.</span></body></html>";
+				$message = "<html><head><title>Watch4U Activatie</title></head><body style='background:#000000;padding:20px;color:#ffffff;'><img class='img' src='http://www.ridis.nl/watch4u/img/logo/Watch4U.svg' style='position: absolute; background:#000080; border-radius:10px; left: 0px; top: 0px;' height='250px' width='250px' /><br><h1 style='color:blue'>Beste ".$firstname." ".$infix." ".$lastname.",</h1><br>je hebt je geregistreerd bij Watch4U.com .<br><br>Voor het bevestigen van jouw gegevens klik je op de activatie link:<br><a href='http://www.RiDis.nl/watch4u/index.php?content=wachtwoord&id=".$iduser."' style='color:#0000ff;font-size:14px;'>http://www.RiDis.nl/watch4u/index.php?content=wachtwoord&id=".$id."</a><br><br><br><b>Gegroet,<br><pre style='font-size:16px;'>	Medewerkers van Depri.nl</pre></b><br><img src='http://www.ridis.nl/watch4u/img/logo/watch4u.svg' width='30px'>Depri.nl<br><br><span style='font-size:12px;'>Dit is een gegenereerd bericht en er kan niet op geantwoord worden.</span></body></html>";
 				
 				// Stuur de mail met de gegevens van hierboven
 				mail($to, $subject, $message, $headers);
