@@ -433,7 +433,7 @@ form a:hover {
 .form-btn {
     -moz-user-select: none;
     -ms-user-select: none;
-    -webkit-appearance: button;
+    -webkit-appearance: none;
     -webkit-user-select: none;
     background-color: #343A40;
     border-color: #343A40;

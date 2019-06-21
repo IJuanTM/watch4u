@@ -20,10 +20,10 @@ $infix = strtolower(sanitize($_POST["infix"]));
 $lastname = ucwords(sanitize($_POST["lastname"]));
 $email = ucwords(sanitize($_POST["email"]));
 $password = sanitize($_POST["password"]);
-$phone = sanitize($_POST["phone"]);
 $address = ucwords(sanitize($_POST["address"]));
 $postalcode = sanitize($_POST["postalcode"]);
 $plaats = ucwords(sanitize($_POST["city"]));
+$phone = sanitize($_POST["phone"]);
 $userrole = sanitize($_POST["userrole"]);
 
 // ############################################################################################## Mag niet leeg zijn
@@ -59,6 +59,16 @@ if (empty($firstname)) {
 
 	// userrole is leeg
 	echo "You don't have any userrole assigned.";
+
+	// Refresh de pagina in 3 seconden, en ga naar de registreer pagina
+	header("Refresh: 3; url=../index.php?content=update");
+
+	// ############################################################################################## Mag niet korter zijn
+	// Als password leeg is geef dan de volgende melding
+} else if (empty($password)) {
+
+	// userrole is leeg
+	echo "You didn't enter a password!";
 
 	// Refresh de pagina in 3 seconden, en ga naar de registreer pagina
 	header("Refresh: 3; url=../index.php?content=update");
@@ -132,13 +142,15 @@ if (empty($firstname)) {
 	// Als niets leeg is doe het volgende
 } else {
 
+	$blowfish_password = password_hash($password1, PASSWORD_BCRYPT);
+
 	// Dit is de sql-query die de ingevulde gegevens wegschrijft naar de tabel selers
-	$sql = "UPDATE `depri` SET `firstname` = '$firstname', `infix` = '$infix', `lastname` = '$lastname', `email` = '$email', `address` = '$address', `postalcode` = '$postalcode', `city` = '$city', `userrole` = '$userrole'
-				WHERE `depri`.`iduser` = '$iduser';";
+	$sql = "UPDATE `user` SET `firstname` = '$firstname', `infix` = '$infix', `lastname` = '$lastname', `email` = '$email', `password` = '$blowfish_password', `address` = '$address', `postalcode` = '$postalcode', `city` = '$city', `userrole` = '$userrole'
+				WHERE `user`.`iduser` = '$iduser';";
 
 	// Stuur de query (sql string hierboven) af op de database.
 	$result = mysqli_query($conn, $sql);
 
 	// Ga naar de volgende pagina.
-	header("Refresh: 0; url=../index.php?content=list");
+	header("Refresh: 0; url=./index.php?content=account");
 }
