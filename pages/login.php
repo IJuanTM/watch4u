@@ -24,8 +24,15 @@
 
                 <div class="form-group col-12">
                     <label class="form-text" for="inputPassword">Password:</label>
-                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-                    <span class="form-detail">Forgot your password? <a href="./index.php?content=reset_password">Click here.</a></span>
+                    <div class="input-group">
+                        <input type="password" class="form-control" id="pass_log_id1" name="pass" placeholder="Password">
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span toggle="#password-field" class="fa fa-fw fa-eye field_icon toggle-password"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="form-detail">Forgot your password? <a href="./index.php?content=forgot_password">Click here.</a></span>
                 </div>
 
             </div>

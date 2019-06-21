@@ -46,13 +46,27 @@
 
                 <div class="form-group col-6">
                     <label class="form-text" for="inputPassword">Password: <span class="required">*</span></label>
-                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                    <div class="input-group">
+                        <input type="password" class="form-control" id="pass_log_id1" name="pass" placeholder="Password">
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span toggle="#password-field" class="fa fa-fw fa-eye field_icon toggle-password"></span>
+                            </div>
+                        </div>
+                    </div>
                     <span class="form-detail">Your password has to contain atleast 8 characters, 1 number and an combination of capital and normal letters.</span>
                 </div>
 
                 <div class="form-group col-6">
                     <label class="form-text" for="inputCheckPassword">Check Password: <span class="required">*</span></label>
-                    <input type="password" class="form-control" id="inputCheckPassword" placeholder="Password">
+                    <div class="input-group">
+                        <input type="password" class="form-control" id="pass_log_id2" name="pass" placeholder="Password">
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span toggle="#password-field" class="fa fa-fw fa-eye field_icon toggle-password"></span>
+                            </div>
+                        </div>
+                    </div>
                     <span class="form-detail">Enter your password again to check if you did not make any typos.</span>
                 </div>
 
