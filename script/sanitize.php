@@ -1,69 +1,49 @@
 <?php
-/*
- * Copyright (C) 2009, 2019 RiDi Cage Productions, Inc.
- * Amersfoort, Utrecht, The netherlands
- * 
- * Everyone is permitted to copy and distribute verbatim copies
- * of this license document, but changing it is not allowed.
- 
- * Licensed under MIT ( https://www.ridis.nl/page/index.php?content=license )
- */
 
-    function sanitize($raw_data) {
-		
-		// Connectie met database
-        global $conn;
-		
-		// Zet connectie met database en ruwe data in variabel
-        $data = mysqli_real_escape_string($conn, $raw_data);
-		
-		// Vervang alle tekens in de variabel data
-		$data = htmlentities(preg_replace('/[\`\~\$\%\€\^\*\(\)\+\=\{\}\[\]\\\|\"\'\:\;\<\,\>\/]/si','',$data));
-        
-		// vervang alle tekens naar html codes (als het tekens zijn die hierboven nog niet zijn weggehaald)
-		$data = htmlspecialchars($data);
-		
-		// Stuur $data terug
-        return $data;
-    }
-	
-	function wachtwoord_check($wachtwoord1) {
-		
-		// Variabelen vaststellen
-		global $id;
-		$min_len = 8;
-		$max_len = 30;
-		$req_digit = 1;
-		$req_lower = 1;
-		$req_upper = 1;
-		$req_symbol = 1;
-		
-		// Bouw regex string voor je wachtwoord
-		$regex = '/^';
-		if ($req_digit == 1) { $regex .= '(?=.*\d)'; }				// Match at least 1 digit
-		if ($req_lower == 1) { $regex .= '(?=.*[a-z])'; }			// Match at least 1 lowercase letter
-		if ($req_upper == 1) { $regex .= '(?=.*[A-Z])'; }			// Match at least 1 uppercase letter
-		if ($req_symbol == 1) { $regex .= '(?=.*[^a-zA-Z\d])'; }	// Match at least 1 punctuation character
-		$regex .= '.{' . $min_len . ',' . $max_len . '}$/';
+function sanitize($raw_data)
+{
+	global $conn;
+	$data = mysqli_real_escape_string($conn, $raw_data);
+	$data = htmlentities(preg_replace('/[\`\~\$\%\€\^\*\(\)\+\=\{\}\[\]\\\|\"\'\:\;\<\,\>\/]/si', '', $data));
+	$data = htmlspecialchars($data);
+	return $data;
+}
 
-		// Als wachtwoord alles heeft
-		if(preg_match($regex, $wachtwoord1)) {
-			
-			// Stuur $password terug
-			return $wachtwoord1;
-			
-		// heeft het niet alles doe dan dit
-		} else {
-			
-			// Wachtwoorden geen hoofdletter melding
-			echo "Waarom heeft je wachtwoord geen:<br>Hoofd letters (A-Z)<br>Kleine letters (a-z)<br>Cijfers (0-9)<br>Leestekens (- _ . ! ? @ # &)<br><br>Of je wachtwoord bevat geen 8 tot 30 tekens<br><span style='display:none;'>";
+function wachtwoord_check($wachtwoord1)
+{
 
-			// Refresh de pagina in 5 seconden, en ga naar de registreer pagina
-			header("Refresh: 10; url=../index.php?content=login&id=$id");
-		}
+	global $id;
+	$min_len = 8;
+	$max_len = 30;
+	$req_digit = 1;
+	$req_lower = 1;
+	$req_upper = 1;
+	$req_symbol = 1;
+
+	$regex = '/^';
+	if ($req_digit == 1) {
+		$regex .= '(?=.*\d)';
 	}
-	
-	/*
+	if ($req_lower == 1) {
+		$regex .= '(?=.*[a-z])';
+	}
+	if ($req_upper == 1) {
+		$regex .= '(?=.*[A-Z])';
+	}
+	if ($req_symbol == 1) {
+		$regex .= '(?=.*[^a-zA-Z\d])';
+	}
+	$regex .= '.{' . $min_len . ',' . $max_len . '}$/';
+
+	if (preg_match($regex, $wachtwoord1)) {
+		return $wachtwoord1;
+	} else {
+		echo "Waarom heeft je wachtwoord geen:<br>Hoofd letters (A-Z)<br>Kleine letters (a-z)<br>Cijfers (0-9)<br>Leestekens (- _ . ! ? @ # &)<br><br>Of je wachtwoord bevat geen 8 tot 30 tekens<br><span style='display:none;'>";
+		header("Refresh: 10; url=../index.php?content=login&id=$id");
+	}
+}
+
+/*
 	function gebruiker($gebruikersnaam) {
 		
 		// Variabelen vaststellen
@@ -96,24 +76,15 @@
 		}
 	}
 	*/
-	
-	function bericht($berichtje) {
-		
-		// Connectie met database
-        global $conn;
-		
-		// Zet connectie met database en ruwe data in variabel
-        $bericht = mysqli_real_escape_string($conn, $berichtje);
-		
-		// Vervang alle tekens in de variabel data
-		$bericht = htmlentities(preg_replace('/[\`\~\$\%\€\^\*\(\)\+\=\{\}\[\]\\r\\n\|\"\'\;\<\>\/]/si',' ',$bericht));
-		
-		// vervang alle tekens naar html codes (als het tekens zijn die hierboven nog niet zijn weggehaald)
-		$bericht = htmlspecialchars($bericht);
-		
-		// Stuur $data terug
-        return $bericht;
-    }
+
+function bericht($berichtje)
+{
+	global $conn;
+	$bericht = mysqli_real_escape_string($conn, $berichtje);
+	$bericht = htmlentities(preg_replace('/[\`\~\$\%\€\^\*\(\)\+\=\{\}\[\]\\r\\n\|\"\'\;\<\>\/]/si', ' ', $bericht));
+	$bericht = htmlspecialchars($bericht);
+	return $bericht;
+}
 	
 	/*
 		sanitize () - Verwijderd alle tekens en ongewilde tekst
@@ -191,4 +162,3 @@
 			D matches only at the end of string
 			U non-greedy matching by default
 	*/
-?>
