@@ -66,6 +66,7 @@
                 }
                 echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=logout"><i class="fas fa-sign-out-alt"></i> Logout</a></li>';
             } else {
+                echo '<li class="nav-item active"><a class="nav-text nav-link" href="./index.php?content=cart"><i class="fas fa-shopping-cart"></i></a></li>';
                 echo '<li class="nav-item active"><a class="nav-text nav-link" href="./index.php?content=register"><i class="fas fa-file-signature"></i> Register</a></li>';
                 echo '<li class="nav-item active"><a class="nav-text nav-link" href="./index.php?content=login"><i class="fas fa-sign-in-alt"></i> Login</a></li>';
             }

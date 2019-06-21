@@ -3,7 +3,7 @@
 <hr class="content-row">
 
 <!-- Login form -->
-<form class="login-form container-fluid" name="login-form" action="./script/login-script" method="POST">
+<form class="login-form container-fluid" name="login-form" action="./script/login-script.php" method="POST">
 
     <div class="row">
         <div class="col-2 col-md-3 col-lg-4"></div>

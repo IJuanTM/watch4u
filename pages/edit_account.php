@@ -3,7 +3,7 @@
 <hr class="content-row">
 
 <!-- Account form -->
-<form class="account-form container-fluid" name="account-form" action="../script/update.php" method="POST">
+<form class="account-form container-fluid" name="account-form" action="./script/update.php" method="POST">
 
     <div class="row">
         <div class="col-1 col-md-2 col-lg-3"></div>
