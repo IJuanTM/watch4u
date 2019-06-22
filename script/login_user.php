@@ -15,6 +15,9 @@
 	if (mysqli_num_rows($result) == 0) {
 		echo "Email is unknown, you need to register first<br>";
 	}
+	if (!password_verify($password, $hash)) {
+		echo "Your password is incorrect.<br>";
+	}
 
 	$record = mysqli_fetch_assoc($result);
 	$hash = $record["password"];
@@ -39,7 +42,8 @@
 		$_SESSION["code"] = $record["code"];
 
 		header("Refresh: 0; url=../index.php?content=profiel");
-	} 
+	}
+
 	
 	echo "<a href='javascript:history.go(-1)'>Click here to go back</a>";
 
