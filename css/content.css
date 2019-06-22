@@ -499,6 +499,14 @@ form a:hover {
     padding: 25px;
 }
 
+.about img {
+    margin-bottom: 25px;
+}
+
+.about-extra {
+    color: white !important;
+}
+
 .footer-pages-text {
     color: lightgray;
 }
@@ -517,4 +525,29 @@ form a:hover {
 
 .location-header {
     color: white
+}
+
+.role {
+    color: gold !important;
+    font-size: 14px;
+}
+
+/* Cart table */
+
+.table {
+    color: white;
+    text-align: left;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.table-header {
+    color: gold !important;
+}
+
+.price-total {
+    text-align: right;
+    float: right;
 }

@@ -4,7 +4,8 @@
 
 <div class="about container">
     <div class="row">
-        <div class="col-9">
+
+        <div class="col-12 col-md-9">
             <h4>About Us:</h4>
             <h6 class="footer-pages-text">Watch4U is a company located in the heart of Utrecht. Our company is specialized in smartwatches and we offer a wide range of different brands, types and price ranges.</h6><br>
 
@@ -17,7 +18,33 @@
             <h4>Our Site:</h4>
             <h6 class="footer-pages-text">Watch4U decided to create a webshop to attract more people online in buying smartwatches. With this site people can easily find their own smartwatch without having to leave their house! The site is easy to use with professional infomation about every watch. For extra information a contact form is available for the customer, here you will get an email form one of our employees within 2 days!</h6><br>
         </div>
-        <div class="col-3"><img src="./img/logo/Watch4U.svg" width="100%"></div>
+
+        <div class="col-0 col-md-3 about-extra">
+            <img src="./img/logo/Watch4U.svg" width="100%">
+
+            <h4 class="about-extra">Our Company:</h4>
+            <hr class="footer-row">
+
+            <ul class="list-unstyled">
+                <li>MBO Utrecht</li>
+                <li><a href="https://goo.gl/maps/NrPUX8ZTj2pPbu6v6" target="_blank">Columbuslaan 540</a></li>
+                <li>3526 EP Utrecht</li>
+                <li><a href="tel:0302815100" class="tel">030 - 28 15 100</a></li>
+            </ul>
+
+            <h4 class="about-extra">Our Team:</h4>
+            <hr class="footer-row">
+
+            <ul class="list-unstyled">
+                <h6 class="role">Website Design:</h6>
+                <li>Iwan van der Wal</li>
+                <div class="blank"></div>
+                <h6 class="role">Php Scripts:</h6>
+                <li>Richard van de Kooij</li>
+            </ul>
+
+        </div>
+
     </div>
 </div>
 

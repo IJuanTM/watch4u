@@ -23,3 +23,8 @@
     color: gold;
     text-transform: uppercase !important;
 }
+
+.footer-text {
+    line-height: 20.8px;
+    font-size: 14px;
+}
