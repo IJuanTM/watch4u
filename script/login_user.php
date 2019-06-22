@@ -39,6 +39,7 @@
 		$_SESSION["postalcode"] = $record["postalcode"];
 		$_SESSION["city"] = $record["city"];
 		$_SESSION["userrole"] = $record["userrole"];
+		$_SESSION["date"] = $record["date"];
 		$_SESSION["code"] = $record["code"];
 
 		header("Refresh: 0; url=../index.php?content=profiel");

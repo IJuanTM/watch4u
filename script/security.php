@@ -1,8 +1,10 @@
 <?php
+	
 	session_start();
 
 	if (isset($_SESSION["iduser"])) {
 
+		$iduser = $_SESSION["iduser"];
 		$firstname = $_SESSION["firstname"];
 		$infix = $_SESSION["infix"];
 		$lastname = $_SESSION["lastname"];
@@ -15,10 +17,10 @@
 		$userrole = $_SESSION["userrole"];
 		$date = $_SESSION["date"];
 		$code = $_SESSION["code"];
-	} else {
+	}/* else {
 		session_destroy();
 		die();
-		header("Refresh: 3; url=../index.php");
+		location ("Refresh: 3; url=../index.php");
 		exit();
-	}
+	}*/
 ?>
