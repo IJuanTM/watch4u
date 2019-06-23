@@ -1,5 +1,4 @@
 <?php
-	
 	session_start();
 
 	if (isset($_SESSION["iduser"])) {
@@ -21,6 +20,5 @@
 		session_destroy();
 		die();
 		location ("Refresh: 3; url=../index.php");
-		exit();
 	}
 ?>
