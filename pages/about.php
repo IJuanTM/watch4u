@@ -5,6 +5,7 @@
 <div class="about container">
     <div class="row">
 
+        <!-- About page text -->
         <div class="col-12 col-md-9">
             <h4>About Us:</h4>
             <h6 class="footer-pages-text">Watch4U is a company located in the heart of Utrecht. Our company is specialized in smartwatches and we offer a wide range of different brands, types and price ranges.</h6><br>
@@ -17,10 +18,21 @@
 
             <h4>Our Site:</h4>
             <h6 class="footer-pages-text">Watch4U decided to create a webshop to attract more people online in buying smartwatches. With this site people can easily find their own smartwatch without having to leave their house! The site is easy to use with professional infomation about every watch. For extra information a contact form is available for the customer, here you will get an email form one of our employees within 2 days!</h6><br>
+
+            <div class="row">
+                <div class="col-1 col-lg-2"></div>
+                <div class="col-10 col-lg-8">
+                    <a href="https://github.com/IJuanTM/Watch4U" class="btn btn-dark about-btn btn-lg active" role="button" aria-pressed="true">Check out the website's GitHub repo here! <i class="fab fa-lg fa-github"></i></a>
+                </div>
+                <div class="col-1 col-lg-2"></div>
+            </div>
+
         </div>
 
+        <!-- Image and information -->
         <div class="col-0 col-md-3 about-extra">
-            <img src="./img/logo/Watch4U.svg" width="100%">
+
+            <img class="about-img" src="./img/logo/Watch4U.svg">
 
             <h4 class="about-extra">Our Company:</h4>
             <hr class="footer-row">
@@ -36,11 +48,10 @@
             <hr class="footer-row">
 
             <ul class="list-unstyled">
-                <h6 class="role">Website Design:</h6>
-                <li>Iwan van der Wal</li>
-                <div class="blank"></div>
-                <h6 class="role">Php Scripts:</h6>
-                <li>Richard van de Kooij</li>
+                <li class="role">Website Design & Product Listings:</li>
+                <h6>Iwan van der Wal</h6>
+                <li class="role">Php Scripts & Database:</li>
+                <h6>Richard van de Kooij</h6>
             </ul>
 
         </div>

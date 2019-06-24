@@ -507,6 +507,10 @@ form a:hover {
     color: white !important;
 }
 
+.about-btn {
+    margin: 25px;
+}
+
 .footer-pages-text {
     color: lightgray;
 }
@@ -530,6 +534,10 @@ form a:hover {
 .role {
     color: gold !important;
     font-size: 14px;
+}
+
+.about-img {
+    width: 100%;
 }
 
 /* Cart table */

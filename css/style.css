@@ -53,10 +53,6 @@ p {
     text-shadow: 1px 1px 0 #000, 1px 0px 0 #000, 0px 1px 0 #000, 0px 0px 0 #000, -1px -1px 0 #000, -1px 0px 0 #000, 0px -1px 0 #000, 0px 0px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000;
 }
 
-.blank {
-    margin-bottom: 25px;
-}
-
 .row {
     margin-right: 0 !important;
     margin-left: 0 !important;
