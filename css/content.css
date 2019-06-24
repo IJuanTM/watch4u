@@ -545,6 +545,7 @@ form a:hover {
 .table {
     color: white;
     text-align: left;
+    border: solid 2px white;
 }
 
 .table td {
@@ -556,6 +557,11 @@ form a:hover {
 }
 
 .price-total {
-    text-align: right;
+    font-weight: normal;
+    color: white;
     float: right;
+}
+
+.cart-btn {
+    margin-bottom: 16px;
 }

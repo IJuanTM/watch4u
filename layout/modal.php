@@ -31,8 +31,30 @@
             </div>
 
             <div class="modal-footer">
+
+                <div class="row modal-quantity">
+                    <div class="col-6">
+                        <h4>Quantity:</h4>
+                    </div>
+                    <div class="col-6">
+                        <select class="form-control" id="quantity-cart">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                    </div>
+                </div>
+
                 <button type="button" class="btn btn-default text-light" data-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-success">Add to Cart</button>
+
             </div>
 
         </div>
