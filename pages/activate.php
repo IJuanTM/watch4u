@@ -3,7 +3,7 @@
 <hr class="content-row">
 
 <!-- Change password form -->
-<form class="change_password-form container-fluid" name="change_password-form" action="./script/activate.php" method="POST">
+<form class="change_password-form container-fluid" name="change_password-form" action="./script/activate_user.php" method="POST">
 
     <div class="row">
         <div class="col-2 col-md-3 col-lg-4"></div>
