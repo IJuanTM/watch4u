@@ -1,10 +1,9 @@
 <?php
-/*
-    include("./script/connect_db.php");
-	include("./script/sanitize.php");
-	// include("./script/security.php");
+    // include("./script/connect_db.php");
+	// include("./script/sanitize.php");
+	include("./script/security.php");
 
-	if ($userrole == 'Root'){
+	/*if ($userrole == 'Root'){
 
 		// Root inhoud
 		echo '
@@ -90,7 +89,6 @@
 		
 	} else {
 		echo'geen gebruiker van deze site';
-    }
-*/
+    }*/
 ?>
-<h1>Hello User</h1>
+<h1>Test User</h1>

@@ -34,7 +34,7 @@
                         </div>
 
                     </div>
-                    <span class="form-detail">Forgot your password? <a href="./index.php?content=reset_password">Click here.</a></span>
+                    <span class="form-detail">Forgot your password? <a href="./index.php?content=forgot_password">Click here.</a></span>
                 </div>
 
             </div>

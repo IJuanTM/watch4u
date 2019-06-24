@@ -1,7 +1,22 @@
 <?php
-session_start();
+	session_start();
 
-if (isset($_SESSION["iduser"])) {
+	echo 'session:<br>'
+	. $_SESSION["iduser"] . ' - ID<br>'
+	. $_SESSION["firstname"] . ' - firstname<br>'
+	. $_SESSION["infix"] . ' - infix<br>'
+	. $_SESSION["lastname"] . ' - lastname<br>'
+	. $_SESSION["email"] . ' - email<br>'
+	. $_SESSION["password"] . ' - password<br>'
+	. $_SESSION["phone"] . ' - phone<br>'
+	. $_SESSION["address"] . ' - address<br>'
+	. $_SESSION["postalcode"] . ' - postalcode<br>'
+	. $_SESSION["city"] . ' - city<br>'
+	. $_SESSION["userrole"] . ' - userrole<br>'
+	. $_SESSION["date"] . ' - date<br>'
+	. $_SESSION["code"] . ' - code<br>';
+
+/*if (isset($_SESSION["userrole"])) {
 
 	$iduser = $_SESSION["iduser"];
 	$firstname = $_SESSION["firstname"];
@@ -19,5 +34,7 @@ if (isset($_SESSION["iduser"])) {
 } else {
 	session_destroy();
 	die();
-	location("Refresh: 3; url=../index.php");
+	location("Refresh: 3; url=./index.php?content=homepage");
 }
+*/
+?>
