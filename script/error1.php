@@ -17,4 +17,3 @@ echo '
             <div class="error">
                 <hr>
 ';
-?>

@@ -1,104 +1,104 @@
 <?php
-	include("./error1.php");
-	include("./connect_db.php");
-	include("./sanitize.php");
+include("./error1.php");
+include("./connect_db.php");
+include("./sanitize.php");
 
-	$no1 = rand(0, 9999);
-	$no1 = str_pad($no1, 4, "0", STR_PAD_LEFT);
-	$no2 = rand(0, 9999);
-	$no2 = str_pad($no2, 4, "0", STR_PAD_LEFT);
-	$no3 = rand(0, 9999);
-	$no3 = str_pad($no3, 4, "0", STR_PAD_LEFT);
+$no1 = rand(0, 9999);
+$no1 = str_pad($no1, 4, "0", STR_PAD_LEFT);
+$no2 = rand(0, 9999);
+$no2 = str_pad($no2, 4, "0", STR_PAD_LEFT);
+$no3 = rand(0, 9999);
+$no3 = str_pad($no3, 4, "0", STR_PAD_LEFT);
 
-	$code = $no1 . "-" . $no2 . "-" . $no3;
+$code = $no1 . "-" . $no2 . "-" . $no3;
 
-	$sqli = "SELECT * FROM `user`;";
-	$resulti = mysqli_query($conn, $sqli);
+$sqli = "SELECT * FROM `user`;";
+$resulti = mysqli_query($conn, $sqli);
 
-	$iduser = (mysqli_num_rows($resulti) + 1);
-	$firstname = ucwords(strtolower(sanitize($_POST["firstname"])));
-	$infix = strtolower(sanitize($_POST["infix"]));
-	$lastname = ucwords(strtolower(sanitize($_POST["lastname"])));
-	$email = strtolower(sanitize($_POST["email"]));
-	$password = wachtwoord_check(sanitize($_POST["password1"]));
-	$password2 = sanitize($_POST["password2"]);
-	$phone = "";
-	$address = "";
-	$postalcode = "";
-	$city = "";
-	$userrole = "Customer";
-	
-	date_default_timezone_set("Europe/Amsterdam");
-	$date = date("d-m-Y, H:i:s");
+$iduser = (mysqli_num_rows($resulti) + 1);
+$firstname = ucwords(strtolower(sanitize($_POST["firstname"])));
+$infix = strtolower(sanitize($_POST["infix"]));
+$lastname = ucwords(strtolower(sanitize($_POST["lastname"])));
+$email = strtolower(sanitize($_POST["email"]));
+$password = wachtwoord_check(sanitize($_POST["password1"]));
+$password2 = sanitize($_POST["password2"]);
+$phone = "";
+$address = "";
+$postalcode = "";
+$city = "";
+$userrole = "Customer";
 
-	$sql = "SELECT * FROM `user` WHERE `email` = '$email';";
-	$result = mysqli_query($conn, $sql);
+date_default_timezone_set("Europe/Amsterdam");
+$date = date("d-m-Y, H:i:s");
 
-
-	if (!empty($phone)) {
-		echo "Phone error - " . $phone . "<br>";
-	}
-	if (!empty($address)) {
-		echo "Address error - " . $address . "<br>";
-	}
-	if (!empty($postalcode)) {
-		echo "Postalcode error - " . $postalcode . "<br>";
-	}
-	if (!empty($city)) {
-		echo "City error - " . $city . "<br>";
-	}
-
-	
-	if (empty($iduser)) {
-		echo "ID exist - " . $iduser . "<br>";
-	}
-	if (empty($firstname)) {
-		echo "Add your firstname<br>";
-	}
-	if (empty($lastname)) {
-		echo "Add your lastname<br>";
-	}
-	if (empty($email)) {
-		echo "Add your email<br>";
-	}
-	if (empty($password)) {
-		echo "Add your password<br>";
-	}
-	if (empty($password2)) {
-		echo "Add check password<br>";
-	}
+$sql = "SELECT * FROM `user` WHERE `email` = '$email';";
+$result = mysqli_query($conn, $sql);
 
 
-	if (strlen($firstname) < 2) {
-		echo "Firstname need at least 2 characters<br>";
-	}
-	if (strlen($lastname) < 2) {
-		echo "Lastname need at least 2 characters<br>";
-	}
-	if (strlen($email) < 6) {
-		echo "Email need at least 6 characters<br>";
-	}
-	if (strlen($password) < 8) {
-		echo "Password need at least 8 characters<br>";
-	}
+if (!empty($phone)) {
+	echo "Phone error - " . $phone . "<br>";
+}
+if (!empty($address)) {
+	echo "Address error - " . $address . "<br>";
+}
+if (!empty($postalcode)) {
+	echo "Postalcode error - " . $postalcode . "<br>";
+}
+if (!empty($city)) {
+	echo "City error - " . $city . "<br>";
+}
 
 
-	if ($password != $password2) {
-		echo "Passwords are not the same<br>";
-	}
-	if (mysqli_num_rows($result)) {
-		echo 'Known email address, login or use an other email<br>';
-	}
+if (empty($iduser)) {
+	echo "ID exist - " . $iduser . "<br>";
+}
+if (empty($firstname)) {
+	echo "Add your firstname<br>";
+}
+if (empty($lastname)) {
+	echo "Add your lastname<br>";
+}
+if (empty($email)) {
+	echo "Add your email<br>";
+}
+if (empty($password)) {
+	echo "Add your password<br>";
+}
+if (empty($password2)) {
+	echo "Add check password<br>";
+}
 
 
-	echo "<a href='javascript:history.go(-1)'>Click here to go back</a>";
+if (strlen($firstname) < 2) {
+	echo "Firstname need at least 2 characters<br>";
+}
+if (strlen($lastname) < 2) {
+	echo "Lastname need at least 2 characters<br>";
+}
+if (strlen($email) < 6) {
+	echo "Email need at least 6 characters<br>";
+}
+if (strlen($password) < 8) {
+	echo "Password need at least 8 characters<br>";
+}
 
-	$blowfish_password = password_hash($password, PASSWORD_BCRYPT);
+
+if ($password != $password2) {
+	echo "Passwords are not the same<br>";
+}
+if (mysqli_num_rows($result)) {
+	echo 'Known email address, login or use an other email<br>';
+}
 
 
-	if ($password = $password2) {
+echo "<a href='javascript:history.go(-1)'>Click here to go back</a>";
 
-		$sql2 = "INSERT INTO `user` (`iduser`,
+$blowfish_password = password_hash($password, PASSWORD_BCRYPT);
+
+
+if ($password = $password2) {
+
+	$sql2 = "INSERT INTO `user` (`iduser`,
 									`firstname`,
 									`infix`,
 									`lastname`,
@@ -126,15 +126,15 @@
 									'$code');";
 
 
-		$result2 = mysqli_query($conn, $sql2);
-		
+	$result2 = mysqli_query($conn, $sql2);
 
-		$to = $email;
-		$subject = "Activatie link Watch4U.com";
-		$headers = "From: activatie@watch4u.com \r\n";
-		$headers .= "MIME-Version: 1.0\r\n";
-		$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
-		$message = 
+
+	$to = $email;
+	$subject = "Activatie link Watch4U.com";
+	$headers = "From: activatie@watch4u.com \r\n";
+	$headers .= "MIME-Version: 1.0\r\n";
+	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+	$message =
 		"<html>
 			<head>
 				<title>
@@ -164,11 +164,9 @@
 			</body>
 		</html>";
 
-		mail ($to, $subject, $message, $headers);
+	mail($to, $subject, $message, $headers);
 
-		header("Refresh: 5; url=../index.php?content=activate");
+	header("Refresh: 5; url=../index.php?content=activate");
+}
 
-	}
-
-	include("./error2.php");
-?>
+include("./error2.php");
