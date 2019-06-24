@@ -8,7 +8,7 @@ $password = sanitize($_POST["password"]);
 
 $sql = "SELECT * FROM `user` WHERE `email` = '$email';";
 $result = mysqli_query($conn, $sql);
-$sql2 = "SELECT * FROM `user` WHERE `email` = '$email' and `code` = '';";
+$sql2 = "SELECT * FROM `user` WHERE `email` = '$email' and `code` = NULL;";
 $result2 = mysqli_query($conn, $sql2);
 
 if (empty($email) && empty($password)) {
@@ -42,9 +42,9 @@ if (password_verify($password, $hash)) {
 	$_SESSION["userrole"] = $record["userrole"];
 	$_SESSION["date"] = $record["date"];
 	$_SESSION["code"] = $record["code"];
-/*
+
 	header("Refresh: 0; url=../index.php?content=profiel");
-*/
+
 
 	echo 'session:<br>'
 	 . $_SESSION["iduser"] . ' - ID<br>'
