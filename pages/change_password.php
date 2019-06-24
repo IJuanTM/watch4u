@@ -14,7 +14,7 @@
 
                 <div class="form-group col-md-6">
                     <label class="form-text" for="inputPassword">Old Password: <span class="required">*</span></label>
-                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                    <input type="password" class="form-control" name="Password" placeholder="Password">
                     <span class="form-detail">Enter your old password here.</span>
                 </div>
 
@@ -25,13 +25,13 @@
 
                 <div class="form-group col-md-6">
                     <label class="form-text" for="inputPassword">New Password: <span class="required">*</span></label>
-                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                    <input type="password" class="form-control" name="Password1" placeholder="Password">
                     <span class="form-detail">Your password has to contain atleast 8 characters, 1 number and an combination of capital and normal letters.</span>
                 </div>
 
                 <div class="form-group col-md-6">
                     <label class="form-text" for="inputCheckPassword">Check New Password: <span class="required">*</span></label>
-                    <input type="password" class="form-control" id="inputCheckPassword" placeholder="Password">
+                    <input type="password" class="form-control" name="password2" placeholder="Password">
                     <span class="form-detail">Enter your password again to check if you did not make any typos.</span>
                 </div>
 
