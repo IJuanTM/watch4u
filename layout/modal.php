@@ -34,19 +34,10 @@
 
                         <div class="modal-body">
                             <div class="row">
-                                <div class="col-12 col-lg-6">
-                                    <h5 class="old-price-text">Old price:</h5>
-                                </div>
-                                <div class="col-0 col-lg-6">
+                                <div class="col-3">
                                     <h5 class="modal-sale">€529</h5>
                                 </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-12 col-lg-6">
-                                    <h4 class="new-price-text">New price:</h4>
-                                </div>
-                                <div class="col-0 col-lg-6">
+                                <div class="col-9">
                                     <h4 class="modal-price">€429</h4>
                                 </div>
                             </div>
@@ -68,28 +59,32 @@
 
             <div class="modal-footer">
 
-                <div class="row modal-quantity">
-                    <div class="col-6">
-                        <h4>Quantity:</h4>
-                    </div>
-                    <div class="col-6">
-                        <select class="form-control" id="quantity-cart">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            <option>6</option>
-                            <option>7</option>
-                            <option>8</option>
-                            <option>9</option>
-                            <option>10</option>
-                        </select>
-                    </div>
+                <div class="col-5">
+                    <button type="button" class="btn btn-close btn-default text-light" data-dismiss="modal">Close</button>
                 </div>
 
-                <button type="button" class="btn btn-default text-light" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-success">Add to Cart</button>
+                <div class="col-2">
+                    <h4>Quantity:</h4>
+                </div>
+
+                <div class="col-2">
+                    <select class="form-control" id="quantity-cart">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                </div>
+
+                <div class="col-3">
+                    <button type="button" class="btn btn-success">Add to Cart</button>
+                </div>
 
             </div>
 
