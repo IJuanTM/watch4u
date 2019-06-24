@@ -7,8 +7,14 @@
     overflow-y: scroll;
 }
 
+.modal-body {
+    text-align: left;
+    padding-bottom: 0px;
+}
+
 .modal-img {
     width: 100%;
+    margin-bottom: 16px;
 }
 
 .modal-content {
@@ -30,7 +36,7 @@
 
 .modal-sale {
     color: red;
-    font-size: 32px;
+    font-size: 28px;
     -webkit-text-decoration: line-through;
     -moz-text-decoration: line-through;
     -o-text-decoration: line-through;
@@ -40,5 +46,55 @@
 .modal-price {
     color: white;
     font-weight: bold;
-    font-size: 44px;
+    font-size: 34px;
+    margin-bottom: 0;
+}
+
+.old-price-text {
+    color: red;
+    font-size: 28px;
+}
+
+.new-price-text {
+    color: white;
+    font-size: 34px;
+}
+
+.img-row {
+    padding: 0 !important;
+}
+
+.modal-group {
+    text-align: center;
+    display: block;
+    float: center;
+    width: 100%;
+    font-size: 0;
+}
+
+.modal-item {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 8px;
+    width: 100%;
+    min-width: 30px;
+    max-width: 65px;
+    height: 100%;
+    min-height: 30px;
+    max-height: 65px;
+    background-color: #505050;
+    text-align: left;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-item img {
+    max-width: 100%;
+    vertical-align: middle;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
 }

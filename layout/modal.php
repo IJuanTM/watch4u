@@ -6,27 +6,63 @@
             <div class="modal-body">
                 <div class="row">
 
-                    <div class="col-4">
-                        <img class="modal-img mx-auto my-auto" src="./img/watches/brands/apple/watch_4/black.png">
+                    <div class="img-row col-12 col-lg-4">
+                        <div class="row">
+                            <img class="modal-img" src="./img/watches/brands/apple/watch_4/black.png">
+                        </div>
+                        <div class="row">
+                            <div class="modal-group">
+                                <figure class="modal-item">
+                                    <img class="mx-auto my-auto" src="./img/watches/brands/apple/watch_4/pink.png">
+                                </figure>
+
+                                <figure class="modal-item">
+                                    <img class="mx-auto my-auto" src="./img/watches/brands/apple/watch_4/white.png">
+                                </figure>
+
+                                <figure class="modal-item">
+                                    <img class="mx-auto my-auto" src="./img/watches/brands/apple/watch_4/nike_silver.png">
+                                </figure>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="col-8">
-                        <h5 class="modal-header text-uppercase">Apple Watch 4 Black</h5>
-
+                    <div class="col-0 col-lg-8">
                         <div class="modal-header">
+                            <h3 class="text-uppercase">Apple Watch 4 Black</h3>
+                        </div>
+
+                        <div class="modal-body">
                             <div class="row">
-                                <h3 class="col-6 modal-price">€429</h3>
-                                <h4 class="col-6 modal-sale">€529</h4>
+                                <div class="col-12 col-lg-6">
+                                    <h5 class="old-price-text">Old price:</h5>
+                                </div>
+                                <div class="col-0 col-lg-6">
+                                    <h5 class="modal-sale">€529</h5>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <h4 class="new-price-text">New price:</h4>
+                                </div>
+                                <div class="col-0 col-lg-6">
+                                    <h4 class="modal-price">€429</h4>
+                                </div>
                             </div>
                         </div>
 
                         <div class="modal-body">
                             <h6 class="modal-text">
-                                This is the Apple watch 4
+                                The Apple Watch 4 is the newest apple watch in the series. It is stylish, easy to use and has a large amount of functions build in.
+                            </h6>
+                            <h6 class="modal-text">
+                                A thing to mind is that the Apple watches can only be used in combination with and IPhone.
                             </h6>
                         </div>
 
                     </div>
+
                 </div>
             </div>
 
