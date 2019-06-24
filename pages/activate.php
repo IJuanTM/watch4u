@@ -1,5 +1,5 @@
 <hr class="content-row">
-<h1>Change Password</h1>
+<h1>Activate account</h1>
 <hr class="content-row">
 
 <!-- Change password form -->
