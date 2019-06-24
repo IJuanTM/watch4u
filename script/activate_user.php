@@ -16,7 +16,7 @@ if (mysqli_num_rows($result) == 0) {
 	echo "Email is unknown, you need to register first<br>";
 }
 if (mysqli_num_rows($result2) == 0) {
-	echo "You code does not match<br>";
+	echo "Your code does not match<br>";
 }
 if (mysqli_num_rows($result2) == 1) {
     echo "Your account is activated<br>";
