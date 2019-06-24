@@ -22,7 +22,7 @@
             <div class="row">
                 <div class="col-1 col-lg-2"></div>
                 <div class="col-10 col-lg-8">
-                    <a href="https://github.com/IJuanTM/Watch4U" class="btn btn-dark about-btn btn-lg active" role="button" aria-pressed="true">Check out the website's GitHub repo here! <i class="fab fa-lg fa-github"></i></a>
+                    <a href="https://github.com/IJuanTM/Watch4U" class="btn btn-dark about-btn btn-lg active" role="button" aria-pressed="true">Check out the site on GitHub! <i class="fab fa-lg fa-github"></i></a>
                 </div>
                 <div class="col-1 col-lg-2"></div>
             </div>
