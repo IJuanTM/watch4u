@@ -45,7 +45,7 @@ $hash = $record["password"];
 		$_SESSION["userrole"] = $record["userrole"];
 		$_SESSION["date"] = $record["date"];
 		$_SESSION["code"] = $record["code"];
-
+/*
 		echo 'Info<br>'
 		. $email . ' - email<br>'
 		. $password . ' - password<br>'
@@ -64,7 +64,7 @@ $hash = $record["password"];
 		. $_SESSION["userrole"] . ' - userrole<br>'
 		. $_SESSION["date"] . ' - date<br>'
 		. $_SESSION["code"] . ' - code<br>';
-/*
+*/
 		switch ($userrole) {
 			case 'Root':
 				header("location: ../index.php?content=profiel");
@@ -76,7 +76,7 @@ $hash = $record["password"];
 				header("location: ../index.php?content=profiel");
 				break;
 		}
-*/
+
 	} else {
 		echo "Password is unknown, did you forget your password?<br><a href='../index.php?content=forgot_password'>Click here to create a new password</a><br><br>";
 		echo "<a href='javascript:history.go(-1)'>Click here to try again.</a>";
