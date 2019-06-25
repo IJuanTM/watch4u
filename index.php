@@ -10,10 +10,10 @@
     include("./index/css.php");
     ?>
 
-    <!-- Titel van de pagina -->
+    <!-- Page title -->
     <title>Watch4U&trade;</title>
 
-    <!-- Pagina Icoontjes -->
+    <!-- Page icons -->
     <link rel="shortcut icon" href="./img/icon/Watch.ico">
     <link rel="apple-touch-icon-precomposed" sizes="200x200" href="./img/icon/Watch.png">
     <link rel="icon" href="./img/icon/Watch.svg" type="image/x-icon">
@@ -50,15 +50,13 @@
 
     </main>
 
-    <!-- START Bootstrap-Cookie-Alert -->
+    <!-- Cookie alert -->
     <div class="alert text-center cookiealert" role="alert">
         <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website. <a href="https://cookiesandyou.com/" target="_blank">Learn more</a>
-
-        <button type="button" class="btn btn-success btn-sm acceptcookies" aria-label="Close">
+        <button type="button" class="btn btn-secondary btn-sm acceptcookies" aria-label="Close">
             I Understand
         </button>
     </div>
-    <!-- END Bootstrap-Cookie-Alert -->
 
     <!-- Footer -->
     <?php include("./layout/footer.php"); ?>
