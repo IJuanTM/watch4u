@@ -111,7 +111,7 @@ include("./layout/modal.php");
 <hr class="content-row">
 
 <!-- Apple watch 4 header video -->
-<a class="hyper-video" href="../index.php?content=brands/apple">
+<a class="hyper-video" href="./index.php?content=brands/apple">
     <div class="video-banner video-apple" data-aos="zoom-in" data-aos-anchor-placement="middle-bottom" data-aos-duration="700">
 
         <video autoplay loop id="video-background" muted plays-inline src="./vid/apple_watch_4.mp4" type="video/mp4"></video>
@@ -133,7 +133,7 @@ include("./layout/modal.php");
 <hr class="content-row">
 
 <!-- Samsung S3 header video -->
-<a class="hyper-video" href="../index.php?content=brands/samsung">
+<a class="hyper-video" href="./index.php?content=brands/samsung">
     <div class="video-banner video-samsung" data-aos="zoom-in" data-aos-anchor-placement="middle-bottom" data-aos-duration="700">
 
         <video autoplay loop id="video-background" muted plays-inline src="./vid/samsung_s3.mp4" type="video/mp4"></video>
