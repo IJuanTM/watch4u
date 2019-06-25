@@ -7,3 +7,4 @@
 
 <!-- Custom Java script files -->
 <script src="./js/script.js"></script>
+<script src="./js/cookiealert.js"></script>
