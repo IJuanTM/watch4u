@@ -133,3 +133,25 @@
 .btn-close {
     float: left;
 }
+
+.modal-func {
+    color: gold;
+}
+
+.modal-func-list {
+    color: white;
+}
+
+@media only screen and (min-width:992px) {
+    .iterations {
+        position: absolute;
+        bottom: 0px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .iterations {
+        position: static;
+        bottom: 0px;
+    }
+}

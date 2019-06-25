@@ -10,7 +10,10 @@
                         <div class="row">
                             <img class="modal-img" src="./img/watches/brands/apple/watch_4/black.png">
                         </div>
-                        <div class="row">
+                        <div class="iterations row">
+
+                            <h4>Iterations:</h4>
+
                             <div class="modal-group">
                                 <figure class="modal-item">
                                     <img class="mx-auto my-auto" src="./img/watches/brands/apple/watch_4/pink.png">
@@ -47,6 +50,14 @@
                             <h6 class="modal-text">
                                 The Apple Watch 4 is the newest apple watch in the series. It is stylish, easy to use and has a large amount of functions build in.
                             </h6>
+                            <h5 class="modal-func">Functions:</h5>
+                            <ol class="modal-func-list">
+                                <li>Build in GPS</li>
+                                <li>Support for many App Store apps</li>
+                                <li>Build in step counter</li>
+                                <li>Make and answer calls</li>
+                                <li>Full Siri support</li>
+                            </ol>
                             <h6 class="modal-text">
                                 A thing to mind is that the Apple watches can only be used in combination with and IPhone.
                             </h6>
