@@ -95,7 +95,7 @@
                     </div>
 
                     <div class="col-4 col-lg-3">
-                        <a href="./script/cart-script.php?func=add&prodId=2&ammount=1" class="btn btn-success">Add to Cart</a>
+                        <a href="./script/cart-script.php?func=add&prodId=1&ammount=1" class="btn btn-success">Add to Cart</a>
                     </div>
 
                 </div>
