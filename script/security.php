@@ -34,7 +34,7 @@ if (isset($_SESSION["userrole"])) {
 } else {
 	session_destroy();
 	die();
-	location("Refresh: 3; url=./index.php?content=homepage");
+	location("Refresh: 0; url=./index.php?content=homepage");
 }
 
 ?>

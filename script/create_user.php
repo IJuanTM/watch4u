@@ -164,7 +164,7 @@ if ($password = $password2) {
 
 	mail($to, $subject, $message, $headers);
 
-	header("Refresh: 5; url=../index.php?content=activate");
+	header("Refresh: 0; url=../index.php?content=activate");
 }
 
 include("./error2.php");
