@@ -83,3 +83,15 @@ pre {
     color: white;
     margin-top: 63vh;
 }
+
+@media only screen and (min-width: 992px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .mobile {
+        display: visible;
+    }
+}

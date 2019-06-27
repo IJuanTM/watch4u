@@ -45,20 +45,20 @@
             <?php
             if (!empty($userrole)) {
                 switch ($_SESSION["userrole"]) {
-                    case 'Admin':
-                        echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=overview"><i class="fas fa-clipboard-list"></i></a></li>';
-                        echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=account"><i class="fas fa-user"></i></a></li>';
-                        echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=account"><i class="fas fa-shipping-fast"></i></a></li>';
-                        break;
                     case 'Root':
-                        echo '<li class="nav-item"><a class="nav-link" href="https://web0116.zxcs.nl/phpmyadmin/db_structure.php?server=1&db=u37477p32749_watch4u"><i class="fas fa-database"></i></a></li>';
-                        echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=overview"><i class="fas fa-clipboard-list"></i></a></li>';
-                        echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=account"><i class="fas fa-user"></i></a></li>';
-                        echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=account"><i class="fas fa-shipping-fast"></i></a></li>';
+                        echo '<li class="nav-item"><a class="nav-link" href="https://web0116.zxcs.nl/phpmyadmin/db_structure.php?server=1&db=u37477p32749_watch4u"><i class="fas fa-database"></i> <span class="mobile">Database</span></a></li>';
+                        echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=overview"><i class="fas fa-clipboard-list"></i> <span class="mobile">Item List</span></a></li>';
+                        echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=account"><i class="fas fa-user"></i> <span class="mobile">Profile</span></a></li>';
+                        echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=account"><i class="fas fa-shipping-fast"></i> <span class="mobile">Orders</span></a></li>';
+                        break;
+                    case 'Admin':
+                        echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=overview"><i class="fas fa-clipboard-list"></i> <span class="mobile">Item List</span></a></li>';
+                        echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=account"><i class="fas fa-user"></i> <span class="mobile">Profile</span></a></li>';
+                        echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=account"><i class="fas fa-shipping-fast"></i> <span class="mobile">Orders</span></a></li>';
                         break;
                     case 'Customer':
-                        echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=account"><i class="fas fa-user"></i></a></li>';
-                        echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=account"><i class="fas fa-shipping-fast"></i></a></li>';
+                    echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=account"><i class="fas fa-user"></i> <span class="mobile">Profile</span></a></li>';
+                    echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=account"><i class="fas fa-shipping-fast"></i> <span class="mobile">Orders</span></a></li>';
                         break;
                     default:
                         header("Location: ./script/logout.php");
@@ -66,7 +66,7 @@
                 }
                 echo '<li class="nav-item"><a class="nav-link" href="./script/logout.php"><i class="fas fa-sign-out-alt"></i> Logout</a></li>';
             } else {
-                echo '<li class="nav-item active"><a class="nav-text nav-link" href="./index.php?content=cart"><i class="fas fa-shopping-cart"></i></a></li>';
+                echo '<li class="nav-item active"><a class="nav-text nav-link" href="./index.php?content=cart"><i class="fas fa-shopping-cart"></i> <span class="mobile">Shopping Cart</span></a></li>';
                 echo '<li class="nav-item active"><a class="nav-text nav-link" href="./index.php?content=register"><i class="fas fa-file-signature"></i> Register</a></li>';
                 echo '<li class="nav-item active"><a class="nav-text nav-link" href="./index.php?content=login"><i class="fas fa-sign-in-alt"></i> Login</a></li>';
             }

@@ -6,8 +6,8 @@
 <head>
     <!-- Include the bootstrap css and meta links. -->
     <?php
-    include("./index/meta.php");
-    include("./index/css.php");
+        include("./index/meta.php");
+        include("./index/css.php");
     ?>
 
     <!-- Page title -->
@@ -27,32 +27,34 @@
 <!-- Page Body -->
 
 <body>
-<?php
-    include("./script/connect_db.php");
-    include("./script/sanitize.php");
-    if (session_id() == '') {
-        session_start();
+    <?php
+        include("./script/connect_db.php");
+        include("./script/sanitize.php");
+        if (session_id() == '') {
 
-        $iduser = $_SESSION["iduser"];
-        $firstname = $_SESSION["firstname"];
-        $infix = $_SESSION["infix"];
-        $lastname = $_SESSION["lastname"];
-        $email = $_SESSION["email"];
-        $password = $_SESSION["password"];
-        $phone = $_SESSION["phone"];
-        $address = $_SESSION["address"];
-        $postalcode = $_SESSION["postalcode"];
-        $city = $_SESSION["city"];
-        $date = $_SESSION["date"];
-        $code = $_SESSION["code"];
+            session_start();
 
-        if (empty($_SESSION["userrole"])) {
-            $userrole = '';
-        } else {
-            $userrole = $_SESSION["userrole"];
+            $iduser = $_SESSION["iduser"];
+            $firstname = $_SESSION["firstname"];
+            $infix = $_SESSION["infix"];
+            $lastname = $_SESSION["lastname"];
+            $email = $_SESSION["email"];
+            $password = $_SESSION["password"];
+            $phone = $_SESSION["phone"];
+            $address = $_SESSION["address"];
+            $postalcode = $_SESSION["postalcode"];
+            $city = $_SESSION["city"];
+            $date = $_SESSION["date"];
+            $code = $_SESSION["code"];
+
+            if (empty($_SESSION["userrole"])) {
+                $userrole = '';
+            } else {
+                $userrole = $_SESSION["userrole"];
+            }
+            
         }
-    }
-?>
+    ?>
 
     <!-- Loading icon -->
     <div id="load"><span id="load-text">Loading...</span></div>
