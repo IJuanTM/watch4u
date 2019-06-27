@@ -548,6 +548,10 @@ form a:hover {
     border: solid 2px white;
 }
 
+.table-responsive {
+    min-height: calc(100vh - 450px);
+}
+
 .table td {
     vertical-align: middle;
 }

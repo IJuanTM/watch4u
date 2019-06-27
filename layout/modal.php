@@ -69,36 +69,37 @@
             </div>
 
             <div class="modal-footer">
+                <div class="row">
 
-                <div class="col-5">
-                    <button type="button" class="btn btn-close btn-default text-light" data-dismiss="modal">Close</button>
+                    <div class="col-2 col-lg-5">
+                        <button type="button" class="btn btn-close btn-default text-light" data-dismiss="modal"><i class="fas fa-times"></i></button>
+                    </div>
+
+                    <div class="col-3 col-lg-2">
+                        <h4>Quantity:</h4>
+                    </div>
+
+                    <div class="col-3 col-lg-2">
+                        <select class="form-control" id="quantity-cart">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                    </div>
+
+                    <div class="col-4 col-lg-3">
+                        <a href="./script/cart-script.php?func=add&prodId=2&ammount=1" class="btn btn-success">Add to Cart</a>
+                    </div>
+
                 </div>
-
-                <div class="col-2">
-                    <h4>Quantity:</h4>
-                </div>
-
-                <div class="col-2">
-                    <select class="form-control" id="quantity-cart">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        <option>6</option>
-                        <option>7</option>
-                        <option>8</option>
-                        <option>9</option>
-                        <option>10</option>
-                    </select>
-                </div>
-
-                <div class="col-3">
-                    <button type="button" class="btn btn-success">Add to Cart</button>
-                </div>
-
             </div>
-
         </div>
     </div>
 </div>

@@ -52,7 +52,11 @@
 
 .modal-footer {
     background-color: #505050;
-    vertical-align: middle;
+    width: 100%;
+}
+
+.modal-footer .row {
+    width: 100% !important;
 }
 
 .old-price-text {
