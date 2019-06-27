@@ -6,8 +6,6 @@
 
     <div class="col-12">
         <div class="table-responsive">
-            <?php var_dump($_COOKIE);
-            exit; ?>
             <?php if (isset($_COOKIE['cart'])) : ?>
                 <?php $cart = json_decode($_COOKIE['cart'], true); ?>
                 <table class="table table-dark table-striped">
@@ -28,24 +26,24 @@
                             <tr>
                                 <td><?= $key ?></td>
                                 <td><?= $ammount ?></td>
-                                <!-- <td class="text-center"><img src="./img/watches/brands/apple/watch_4/black.png" width="100px" height="100px"></td> -->
-                                <!-- <td>Apple Watch 4 Black</td> -->
-                                <!-- <td>
-                                            <select class="form-control" id="quantity-cart">
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                                <option>4</option>
-                                                <option>5</option>
-                                                <option>6</option>
-                                                <option>7</option>
-                                                <option>8</option>
-                                                <option>9</option>
-                                                <option>10</option>
-                                            </select>
-                                        </td> -->
-                                <!-- <td class="text-right">€449,-</td> -->
-                                <!-- <td class="text-right"><a href="cartfunctions.php?func=remove&prodId=<?= $key ?>" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a></td> -->
+                                <td class="text-center"><img src="./img/watches/brands/apple/watch_4/black.png" width="100px" height="100px"></td>
+                                <td>Apple Watch 4 Black</td>
+                                <td>
+                                    <select class="form-control" id="quantity-cart">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                        <option>7</option>
+                                        <option>8</option>
+                                        <option>9</option>
+                                        <option>10</option>
+                                    </select>
+                                </td>
+                                <td class="text-right">€449,-</td>
+                                <td class="text-right"><a href="./script/cart-scipt.php?func=remove&prodId=<?= $key ?>" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a></td>
                             </tr>
                         <?php endforeach; ?>
                     </tbody>
