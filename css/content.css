@@ -569,3 +569,84 @@ form a:hover {
 .cart-btn {
     margin-bottom: 16px;
 }
+
+/* Dashboard */
+
+.card-row {
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 0px;
+}
+
+.card-dashboard {
+    text-align: left;
+    display: inline-block;
+    width: 420px;
+    min-height: 180px;
+    max-height: 200px;
+    margin: 8px;
+    padding: 0px;
+}
+
+.card-body {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.card-header {
+    color: gold;
+    font-size: 28px;
+}
+
+.card-text {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 8px !important;
+}
+
+.card-icon {
+    color: slategray;
+    font-size: 100px;
+}
+
+.card-btn {
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-appearance: none;
+    -webkit-user-select: none;
+    background-color: #323232;
+    border-color: #323232;
+    border-radius: .3rem;
+    color: gold;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    overflow: visible;
+    padding: .5rem 1rem;
+    text-align: center;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    user-select: none;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.card-btn:hover {
+    background-color: #202020;
+    border-color: #202020;
+    color: gold;
+}
+
+.card-content {
+    position: relative;
+}
+
+.card-btn-row {
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+}
