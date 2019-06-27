@@ -3,12 +3,14 @@ include("./error1.php");
 include("./connect_db.php");
 include("./sanitize.php");
 
-$no1 = chr(64+rand(1,26));
-$no2 = chr(64+rand(1,26));
+$no1 = rand(0, 9999);
+$no1 = str_pad($no1, 4, "0", STR_PAD_LEFT);
+$no2 = rand(0, 9999);
+$no2 = str_pad($no2, 4, "0", STR_PAD_LEFT);
 $no3 = rand(0, 9999);
-$no3 = str_pad($no1, 4, "0", STR_PAD_LEFT);
+$no3 = str_pad($no3, 4, "0", STR_PAD_LEFT);
 
-$code = "Code: " . $no1 . $no2 . " " .  $no3;
+$code = $no1 . "-" . $no2 . "-" . $no3;
 
 $sqli = "SELECT * FROM `user`;";
 $resulti = mysqli_query($conn, $sqli);
@@ -140,18 +142,18 @@ if ($password = $password2) {
 				</title>
 			</head>
 			
-			<body style='background:#343A40;padding:20px;color:gold;'>
-				<img class='img' src='http://www.ridis.nl/watch4u/img/logo/Watch4U.svg' style='position: absolute; background:#202020; border-radius:10px; left: 0px; top: 0px;' height='250px' width='250px' />
+			<body style='background:#202020;padding:20px;color:gold;'>
+				<img class='img' src='https://www.ridis.nl/watch4u/img/logo/Watch4U.svg' style='position: absolute; background:#000080; border-radius:10px; left: 0px; top: 0px;' height='250px' width='250px' />
 				<br>
-				<h1 style='color:gold'>
+				<h1 style='color:blue'>
 					Hello " . $firstname . " " . $infix . " " . $lastname . ",
 				</h1>
 				<br>
 				you are registered by Watch4U.com .<br>
 				<br>
 				before you can buy or edit something you need to activate your account to use it:<br>
-				<a href='http://www.RiDis.nl/watch4u/index.php?content=activate' style='color:gold;font-size:14px;'>https://www.RiDis.nl/watch4u/index.php?content=activate</a><br>
-				On this page you need to enter the next code,<br>
+				<a href='http://www.RiDis.nl/watch4u/index.php?content=activate' style='color:#0000ff;font-size:14px;'>https://www.RiDis.nl/watch4u/index.php?content=activate'</a><br>
+				On this page you need to enter the next code:<br>
 				" . $code . "<br>
 				<br>
 				<br>
@@ -168,5 +170,3 @@ if ($password = $password2) {
 }
 
 include("./error2.php");
-
-?>
