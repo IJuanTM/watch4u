@@ -1,6 +1,4 @@
 <?php
-	include("./script/sanitize.php");
-	include("./script/security.php");
 
 	if ($userrole == 'Root'){
 
@@ -127,3 +125,5 @@
 	</div>
 
 </form>
+
+?>

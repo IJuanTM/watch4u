@@ -4,7 +4,7 @@ include("./connect_db.php");
 include("./sanitize.php");
 
 $email = sanitize($_POST["email"]);
-$password = sanitize($_POST["password"]);
+$password = password_check(sanitize($_POST["password"]));
 
 $sql = "SELECT * FROM `user` WHERE `email` = '$email';";
 $result = mysqli_query($conn, $sql);

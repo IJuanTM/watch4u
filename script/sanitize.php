@@ -9,7 +9,7 @@ function sanitize($raw_data)
 	return $data;
 }
 
-function wachtwoord_check($wachtwoord1)
+function password_check($datapass)
 {
 
 	global $id;
@@ -35,10 +35,10 @@ function wachtwoord_check($wachtwoord1)
 	}
 	$regex .= '.{' . $min_len . ',' . $max_len . '}$/';
 
-	if (preg_match($regex, $wachtwoord1)) {
-		return $wachtwoord1;
+	if (preg_match($regex, $datapass)) {
+		return $datapass;
 	}
-	if (!preg_match($regex, $wachtwoord1)) {
+	if (!preg_match($regex, $datapass)) {
 		echo "Use at least<br>(A-Z) (a-z) (0-9) (- _ . ! ? @ # &)<br>( ) are not included<br><br>";
 	}
 }
@@ -119,3 +119,4 @@ function wachtwoord_check($wachtwoord1)
 		D matches only at the end of string
 		U non-greedy matching by default
 */
+?>

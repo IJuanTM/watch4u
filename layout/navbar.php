@@ -1,8 +1,3 @@
-<?php
-    include("./script/connect_db.php");
-	include("./script/sanitize.php");
-    // include("./script/security.php");
-?>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,10 +61,10 @@
                         echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=account"><i class="fas fa-shipping-fast"></i></a></li>';
                         break;
                     default:
-                        header("Location: ./index.php?content=logout");
+                        header("Location: ./script/logout.php");
                         break;
                 }
-                echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=logout"><i class="fas fa-sign-out-alt"></i> Logout</a></li>';
+                echo '<li class="nav-item"><a class="nav-link" href="./script/logout.php"><i class="fas fa-sign-out-alt"></i> Logout</a></li>';
             } else {
                 echo '<li class="nav-item active"><a class="nav-text nav-link" href="./index.php?content=cart"><i class="fas fa-shopping-cart"></i></a></li>';
                 echo '<li class="nav-item active"><a class="nav-text nav-link" href="./index.php?content=register"><i class="fas fa-file-signature"></i> Register</a></li>';

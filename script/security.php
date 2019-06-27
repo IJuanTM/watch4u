@@ -1,6 +1,7 @@
 <?php
-	session_start();
 /*
+	session_start();
+
 	echo 'session:<br>'
 	. $_SESSION["iduser"] . ' - ID<br>'
 	. $_SESSION["firstname"] . ' - firstname<br>'
