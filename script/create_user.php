@@ -5,12 +5,10 @@ include("./sanitize.php");
 
 $no1 = rand(0, 9999);
 $no1 = str_pad($no1, 4, "0", STR_PAD_LEFT);
-$no2 = rand(0, 9999);
-$no2 = str_pad($no2, 4, "0", STR_PAD_LEFT);
-$no3 = rand(0, 9999);
-$no3 = str_pad($no3, 4, "0", STR_PAD_LEFT);
+$no2 = chr(64+rand(1,26));
+$no3 = chr(64+rand(1,26));
 
-$code = $no1 . "-" . $no2 . "-" . $no3;
+$code = $no1 . " " .  $no2 . $no3;
 
 $sqli = "SELECT * FROM `user`;";
 $resulti = mysqli_query($conn, $sqli);
@@ -170,3 +168,5 @@ if ($password = $password2) {
 }
 
 include("./error2.php");
+
+?>
