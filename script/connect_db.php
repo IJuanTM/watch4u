@@ -17,7 +17,5 @@ if (empty($server)) {
 
     echo "Empty database-name<br>";
 } else {
-
-    echo "Loading...<br><br>";
     $conn = mysqli_connect($server, $username, $password, $dbname);
 }

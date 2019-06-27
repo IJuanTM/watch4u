@@ -1,3 +1,8 @@
+<?php
+    include("./script/connect_db.php");
+	include("./script/sanitize.php");
+    // include("./script/security.php");
+?>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +48,7 @@
         <ul class="navbar-nav ml-auto">
 
             <?php
-            if (isset($_SESSION["userrole"])) {
+            if (!empty($userrole)) {
                 switch ($_SESSION["userrole"]) {
                     case 'Admin':
                         echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=overview"><i class="fas fa-clipboard-list"></i></a></li>';
