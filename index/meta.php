@@ -2,11 +2,11 @@
 <meta charset="utf-8">
 
 <!-- Theme color: Chrome, Firefox OS and Opera -->
-<meta name="theme-color" content="rgb(35,35,35)">
-<meta name="apple-mobile-web-app-status-bar-style" content="rgb(35,35,35)" />
+<meta name="theme-color" content="#343A40">
+<meta name="apple-mobile-web-app-status-bar-style" content="#343A40" />
 
 <!-- Theme color: Windows Phone -->
-<meta name="msapplication-navbutton-color" content="rgb(35,35,35)" />
+<meta name="msapplication-navbutton-color" content="#343A40" />
 
 <!-- Theme color: iOS Safari -->
 <meta name="apple-mobile-web-app-capable" content="yes" />
