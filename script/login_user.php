@@ -67,13 +67,13 @@ $hash = $record["password"];
 */
 		switch ($userrole) {
 			case 'Root':
-				header("location: ../index.php?content=profiel");
+				header("location: ../index.php?content=account");
 				break;
 			case 'Admin':
-				header("location: ../index.php?content=profiel");
+				header("location: ../index.php?content=account");
 				break;
 			default:
-				header("location: ../index.php?content=profiel");
+				header("location: ../index.php?content=account");
 				break;
 		}
 

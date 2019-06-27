@@ -43,7 +43,7 @@
         <ul class="navbar-nav ml-auto">
 
             <?php
-            if (isset($_SESSION["id"])) {
+            if (isset($_SESSION["userrole"])) {
                 switch ($_SESSION["userrole"]) {
                     case 'Admin':
                         echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=overview"><i class="fas fa-clipboard-list"></i></a></li>';

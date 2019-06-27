@@ -1,6 +1,6 @@
 <?php
 	session_start();
-
+/*
 	echo 'session:<br>'
 	. $_SESSION["iduser"] . ' - ID<br>'
 	. $_SESSION["firstname"] . ' - firstname<br>'
@@ -15,8 +15,8 @@
 	. $_SESSION["userrole"] . ' - userrole<br>'
 	. $_SESSION["date"] . ' - date<br>'
 	. $_SESSION["code"] . ' - code<br>';
-
-/*if (isset($_SESSION["userrole"])) {
+*/
+if (isset($_SESSION["userrole"])) {
 
 	$iduser = $_SESSION["iduser"];
 	$firstname = $_SESSION["firstname"];
@@ -36,5 +36,5 @@
 	die();
 	location("Refresh: 3; url=./index.php?content=homepage");
 }
-*/
+
 ?>
