@@ -57,8 +57,8 @@
                         echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=account"><i class="fas fa-shipping-fast"></i> <span class="mobile">Orders</span></a></li>';
                         break;
                     case 'Customer':
-                    echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=account"><i class="fas fa-user"></i> <span class="mobile">Profile</span></a></li>';
-                    echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=account"><i class="fas fa-shipping-fast"></i> <span class="mobile">Orders</span></a></li>';
+                        echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=account"><i class="fas fa-user"></i> <span class="mobile">Profile</span></a></li>';
+                        echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=account"><i class="fas fa-shipping-fast"></i> <span class="mobile">Orders</span></a></li>';
                         break;
                     default:
                         header("Location: ./script/logout.php");
