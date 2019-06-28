@@ -118,3 +118,10 @@
     background-position: center;
     background-size: 75%;
 }
+
+.db-bg {
+    background-image: url('../img/background/cubes.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 25%;
+}

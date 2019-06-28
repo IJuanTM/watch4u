@@ -2,15 +2,16 @@
 <h1>Dashboard</h1>
 <hr class="content-row">
 
-<div class="card-row">
+<div class="card-row db-bg">
 
+	<!-- Order card -->
 	<div class="card bg-dark card-dashboard">
 		<h5 class="card-header">Your orders</h5>
 		<div class="card-body">
 			<div class="row">
 
-				<div class="col-3">
-					<i class="card-icon fas fa-clipboard-list"></i>
+				<div class="card-icon-row col-3">
+					<i class="card-icon-sm fas fa-receipt"></i>
 				</div>
 
 				<div class="card-content col-9">
@@ -20,7 +21,7 @@
 					</div>
 
 					<div class="card-btn-row row">
-						<button href="./index.php?content=" class="btn btn-block card-btn">Go to order</button>
+						<a href="./index.php?content=orders" class="btn btn-block card-btn">Go to order</a>
 					</div>
 
 				</div>
@@ -28,12 +29,13 @@
 		</div>
 	</div>
 
+	<!-- Account card -->
 	<div class="card bg-dark card-dashboard">
 		<h5 class="card-header">Your account information</h5>
 		<div class="card-body">
 			<div class="row">
 
-				<div class="col-3">
+				<div class="card-icon-row col-3">
 					<i class="card-icon fas fa-user"></i>
 				</div>
 
@@ -44,7 +46,7 @@
 					</div>
 
 					<div class="card-btn-row row">
-						<button href="./index.php?content=" class="btn btn-block card-btn">Go to account</button>
+						<a href="./index.php?content=account" class="btn btn-block card-btn">Go to account</a>
 					</div>
 
 				</div>
@@ -52,12 +54,13 @@
 		</div>
 	</div>
 
+	<!-- Change password card -->
 	<div class="card bg-dark card-dashboard">
 		<h5 class="card-header">Change your password</h5>
 		<div class="card-body">
 			<div class="row">
 
-				<div class="col-3">
+				<div class="card-icon-row col-3">
 					<i class="card-icon fas fa-unlock"></i>
 				</div>
 
@@ -68,7 +71,57 @@
 					</div>
 
 					<div class="card-btn-row row">
-						<button href="./index.php?content=" class="btn btn-block card-btn">Change password</button>
+						<a href="./index.php?content=change_password" class="btn btn-block card-btn">Change password</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Overview card -->
+	<div class="card bg-dark card-dashboard">
+		<h5 class="card-header">View stock and sellings.</h5>
+		<div class="card-body">
+			<div class="row">
+
+				<div class="card-icon-row col-3">
+					<i class="card-icon-md fas fa-clipboard-list"></i>
+				</div>
+
+				<div class="card-content col-9">
+
+					<div class="row">
+						<h6 class="card-text">An overview of the websites stock and sellings.</h6>
+					</div>
+
+					<div class="card-btn-row row">
+						<a href="./index.php?content=overview" class="btn btn-block card-btn">Overview of webshop</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Database card -->
+	<div class="card bg-dark card-dashboard">
+		<h5 class="card-header">Go to database</h5>
+		<div class="card-body">
+			<div class="row">
+
+				<div class="card-icon-row col-3">
+					<i class="card-icon fas fa-database"></i>
+				</div>
+
+				<div class="card-content col-9">
+
+					<div class="row">
+						<h6 class="card-text">Go to the websites database page.</h6>
+					</div>
+
+					<div class="card-btn-row row">
+						<a href="./index.php?content=change_password" class="btn btn-block card-btn">View database</a>
 					</div>
 
 				</div>

@@ -573,15 +573,17 @@ form a:hover {
 /* Dashboard */
 
 .card-row {
-    margin-left: 16px;
-    margin-right: 16px;
-    font-size: 0px;
+    text-align: center;
+    display: block;
+    float: center;
+    width: 100%;
+    font-size: 0;
 }
 
 .card-dashboard {
     text-align: left;
     display: inline-block;
-    width: 420px;
+    width: 450px;
     min-height: 180px;
     max-height: 200px;
     margin: 8px;
@@ -608,7 +610,23 @@ form a:hover {
 
 .card-icon {
     color: slategray;
-    font-size: 100px;
+    font-size: 110px;
+}
+
+.card-icon-sm {
+    color: slategray;
+    font-size: 110px;
+    padding-left: 8px;
+}
+
+.card-icon-md {
+    color: slategray;
+    font-size: 110px;
+    padding-left: 4px;
+}
+
+.card-icon-row {
+    text-align: center;
 }
 
 .card-btn {

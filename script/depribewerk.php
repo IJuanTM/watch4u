@@ -70,9 +70,8 @@ if (empty($datum)) {
 
 	session_start();
 	$_SESSION = array();
-	session_destroy();
+	//session_destroy();
 
-	session_start();
 
 	$_SESSION["id"] = $id;
 	$_SESSION["gebruikersnaam"] = $gebruikersnaam;

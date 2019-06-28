@@ -6,13 +6,15 @@
 
     <div class="col-12">
         <div class="table-responsive">
-            <?php if (isset($_COOKIE['cart'])) : ?>
-                <?php $cart = json_decode($_COOKIE['cart'], true); ?>
+
+            <?php if (isset($_SESSION['cart'])) : ?>
+                <?php $cart = json_decode($_SESSION['cart'], true); ?>
+
                 <table class="table table-dark table-striped">
 
                     <thead class="table-header">
                         <tr>
-                            <th scope="col">ID</th>
+                            <th scope="col">Product ID</th>
                             <th scope="col"></th>
                             <th scope="col">Product</th>
                             <th scope="col" class="text-center">Quantity</th>
@@ -22,36 +24,31 @@
                     </thead>
 
                     <tbody>
-                        <?php foreach ($cart as $key => $ammount) : ?>
+                        <?php foreach ($cart as $key => $ammount) : ?>;
+
+                            <?php
+                            $sql = 'SELECT * FROM products WHERE product_id = ' . $key;
+                            ?>
+
                             <tr>
                                 <td><?= $key ?></td>
-                                <td><?= $ammount ?></td>
                                 <td class="text-center"><img src="./img/watches/brands/apple/watch_4/black.png" width="100px" height="100px"></td>
                                 <td>Apple Watch 4 Black</td>
                                 <td>
-                                    <select class="form-control" id="quantity-cart">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                        <option>6</option>
-                                        <option>7</option>
-                                        <option>8</option>
-                                        <option>9</option>
-                                        <option>10</option>
-                                    </select>
+                                    <input type="number" class="form-control" name="ammount" value="<?= $ammount ?>">
                                 </td>
                                 <td class="text-right">€449,-</td>
-                                <td class="text-right"><a href="./script/cart-scipt.php?func=remove&prodId=<?= $key ?>" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a></td>
+                                <td class="text-right"><a href="./script/cart-script.php?func=remove&prodId=<?= $key ?>" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a></td>
                             </tr>
                         <?php endforeach; ?>
                     </tbody>
 
                 </table>
+
             <?php else : ?>
                 <h2>You don't have any items in your cart.</h2>
             <?php endif; ?>
+
         </div>
     </div>
 </div>

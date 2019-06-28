@@ -33,9 +33,7 @@ if (isset($_SESSION["userrole"])) {
 	$date = $_SESSION["date"];
 	$code = $_SESSION["code"];
 } else {
-	session_destroy();
+	//session_destroy();
 	die();
 	location("Refresh: 3; url=./index.php?content=homepage");
 }
-
-?>
