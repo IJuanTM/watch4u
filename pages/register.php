@@ -14,7 +14,12 @@
 
                 <div class="form-group col-5">
                     <label class="form-text" for="inputFirstname">Firstname: <span class="required">*</span></label>
-                    <input type="text" class="form-control" name="firstname" placeholder="Firstname">
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-file-signature"></i></span>
+						</div>
+                        <input type="text" class="form-control" name="firstname" placeholder="Firstname">
+                    </div>
                     <span class="form-detail">Please enter valid information, as this will also be used during the shipping.</span>
                 </div>
 
@@ -35,7 +40,12 @@
 
                 <div class="form-group col-12">
                     <label class="form-text" for="inputEmail">Email: <span class="required">*</span></label>
-                    <input type="text" class="form-control" name="email" placeholder="Email">
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-at"></i></span>
+						</div>
+                        <input type="text" class="form-control" name="email" placeholder="Email">
+                    </div>
                     <span class="form-detail">Use an accessible email, as you have to verify your account.</span>
                 </div>
 
@@ -46,7 +56,10 @@
 
                 <div class="form-group col-6">
                     <label class="form-text" for="inputPassword">Password: <span class="required">*</span></label>
-                    <div class="input-group">
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-lock"></i></span>
+						</div>
                         <input type="password" class="form-control" id="pass_log_id1" name="password1" placeholder="Password">
 
                         <div class="input-group-append">
@@ -61,7 +74,10 @@
 
                 <div class="form-group col-6">
                     <label class="form-text" for="inputCheckPassword">Check Password: <span class="required">*</span></label>
-                    <div class="input-group">
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-lock"></i></span>
+						</div>
                         <input type="password" class="form-control" id="pass_log_id2" name="password2" placeholder="Password">
 
                         <div class="input-group-append">
