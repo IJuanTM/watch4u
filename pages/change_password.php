@@ -21,8 +21,8 @@
 							<span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-unlock-alt"></i></span>
 						</div>
                         <input type="password" class="form-control" name="password" placeholder="Password" />
-                        <small class="col-12 form-detail" style="margin-left:-14px !important;">Enter your old password here.</small>
                     </div>
+                    <span class="col-12 form-detail" style="margin-left:-14px !important;">Enter your old password here.</span>
                 </div>
 
             </div>
@@ -37,8 +37,8 @@
 							<span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-lock"></i></span>
 						</div>
                         <input type="password" class="form-control" name="password1" placeholder="Password" />
-                        <small class="col-12 form-detail" style="margin-left:-14px !important;">Your password has to contain atleast 8 characters, 1 number and an combination of capital and normal letters.</small>
                     </div>
+                    <span class="col-12 form-detail" style="margin-left:-14px !important;">Your password has to contain atleast 8 characters, 1 number and an combination of capital and normal letters.</span>
                 </div>
 
                 <div class="form-group col-6">
@@ -48,8 +48,8 @@
 							<span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-lock"></i></span>
 						</div>
                         <input type="password" class="form-control" name="password2" placeholder="Password" />
-                        <small class="col-12 form-detail" style="margin-left:-14px !important;">Enter your password again to check if you did not make any typos.</small>
                     </div>
+                    <span class="col-12 form-detail" style="margin-left:-14px !important;">Enter your password again to check if you did not make any typos.</span>
                 </div>
 
             </div>

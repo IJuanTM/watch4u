@@ -14,7 +14,12 @@
 
                 <div class="form-group col-12">
                     <label class="form-text" for="inputEmail">Email:</label>
-                    <input type="email" class="form-control" name="email" placeholder="Email">
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-at"></i></span>
+						</div>
+                        <input type="email" class="form-control" name="email" placeholder="Email">
+                    </div>
                 </div>
 
             </div>
@@ -24,9 +29,11 @@
 
                 <div class="form-group col-12">
                     <label class="form-text" for="inputPassword">Password:</label>
-                    <div class="input-group">
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-lock"></i></span>
+						</div>
                         <input type="password" class="form-control" id="pass_log_id2" name="password" placeholder="Password">
-
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span toggle="#password-field" class="fa fa-fw fa-eye field_icon toggle-password"></span>
