@@ -34,22 +34,33 @@
 
             session_start();
 
-            $iduser = $_SESSION["iduser"];
-            $firstname = $_SESSION["firstname"];
-            $infix = $_SESSION["infix"];
-            $lastname = $_SESSION["lastname"];
-            $email = $_SESSION["email"];
-            $password = $_SESSION["password"];
-            $phone = $_SESSION["phone"];
-            $address = $_SESSION["address"];
-            $postalcode = $_SESSION["postalcode"];
-            $city = $_SESSION["city"];
-            $date = $_SESSION["date"];
-            $code = $_SESSION["code"];
-
             if (empty($_SESSION["userrole"])) {
+                $iduser = '';
+                $firstname = '';
+                $infix = '';
+                $lastname = '';
+                $email = '';
+                $password = '';
+                $phone = '';
+                $address = '';
+                $postalcode = '';
+                $city = '';
+                $date = '';
+                $code = '';
                 $userrole = '';
             } else {
+                $iduser = $_SESSION["iduser"];
+                $firstname = $_SESSION["firstname"];
+                $infix = $_SESSION["infix"];
+                $lastname = $_SESSION["lastname"];
+                $email = $_SESSION["email"];
+                $password = $_SESSION["password"];
+                $phone = $_SESSION["phone"];
+                $address = $_SESSION["address"];
+                $postalcode = $_SESSION["postalcode"];
+                $city = $_SESSION["city"];
+                $date = $_SESSION["date"];
+                $code = $_SESSION["code"];
                 $userrole = $_SESSION["userrole"];
             }
             
