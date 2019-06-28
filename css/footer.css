@@ -28,3 +28,27 @@
     line-height: 20.8px;
     font-size: 14px;
 }
+
+.footer-copyright {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer-payment {
+    text-align: right;
+    font-size: 28px;
+}
+
+.footer-payment a {
+    color: slategray !important;
+}
+
+.social-footer {
+    text-align: left;
+    font-size: 28px;
+}
+
+.social-footer a {
+    color: slategray !important;
+}
