@@ -38,10 +38,33 @@
 
         </div>
 
-        <div class="footer-copyright text-center">© 2019 Copyright:
-            <a href="./index.php"> Watch4U</a>
-        </div>
+        <div class="row">
 
+            <div class="social-footer col-4">
+                <a href="https://github.com/IJuanTM/Watch4U" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://whatsapp.com/" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+
+            <div class="footer-copyright col-4">
+                <div class="text-center">© 2019 Copyright:
+                    <a href="./index.php"> Watch4U</a>
+                </div>
+            </div>
+
+            <div class="footer-payment col-4">
+                <a href="https://paypal.com/" target="_blank"><i class="fab fa-cc-paypal"></i></a>
+                <a href="https://www.mastercard.com/" target="_blank"><i class="fab fa-cc-mastercard"></i></a>
+                <a href="https://visa.com/" target="_blank"><i class="fab fa-cc-visa"></i></a>
+                <a href="https://apple.com/apple-pay/" target="_blank"><i class="fab fa-cc-apple-pay"></i></a>
+                <a href="https://pay.amazon.com/" target="_blank"><i class="fab fa-cc-amazon-pay"></i></a>
+                <a href="https://americanexpress.com/" target="_blank"><i class="fab fa-cc-amex"></i></a>
+            </div>
+
+        </div>
     </div>
 
 </footer>
