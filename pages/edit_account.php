@@ -16,7 +16,7 @@
 			<!-- Name row -->
 			<div class="form-row">
 
-				<div class="form-group col-5">
+				<div class="form-group col-4">
 					<label class="form-text" for="inputFirstname">Firstname:</label>
 					<div class="input-group">
 						<div class="input-group-prepend">
@@ -26,7 +26,7 @@
 					</div>
 				</div>
 
-				<div class="form-group col-2">
+				<div class="form-group col-3">
 					<label class="form-text" for="inputInfix">Infix:</label>
 					<input type="text" class="form-control" id="inputInfix" name="infix" placeholder="Infix" value="<?php echo strtolower($infix); ?>">
 				</div>
