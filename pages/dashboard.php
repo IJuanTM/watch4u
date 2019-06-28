@@ -79,55 +79,95 @@
 		</div>
 	</div>
 
-	<!-- Overview card -->
-	<div class="card bg-dark card-dashboard">
-		<h5 class="card-header">View stock and sellings.</h5>
-		<div class="card-body">
-			<div class="row">
+<?php
 
-				<div class="card-icon-row col-3">
-					<i class="card-icon-md fas fa-clipboard-list"></i>
-				</div>
-
-				<div class="card-content col-9">
-
-					<div class="row">
-						<h6 class="card-text">An overview of the websites stock and sellings.</h6>
+	if ($userrole == 'Admin'){
+		
+		// Admin inhoud
+		echo '
+		<!-- Overview card -->
+		<div class="card bg-dark card-dashboard">
+			<h5 class="card-header">View stock and sellings.</h5>
+			<div class="card-body">
+				<div class="row">
+	
+					<div class="card-icon-row col-3">
+						<i class="card-icon-md fas fa-clipboard-list"></i>
 					</div>
-
-					<div class="card-btn-row row">
-						<a href="./index.php?content=overview" class="btn btn-block card-btn">Overview of webshop</a>
+	
+					<div class="card-content col-9">
+	
+						<div class="row">
+							<h6 class="card-text">An overview of the websites stock and sellings.</h6>
+						</div>
+	
+						<div class="card-btn-row row">
+							<a href="./index.php?content=overview" class="btn btn-block card-btn">Overview of webshop</a>
+						</div>
+	
 					</div>
-
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Database card -->
-	<div class="card bg-dark card-dashboard">
-		<h5 class="card-header">Go to database</h5>
-		<div class="card-body">
-			<div class="row">
-
-				<div class="card-icon-row col-3">
-					<i class="card-icon fas fa-database"></i>
-				</div>
-
-				<div class="card-content col-9">
-
-					<div class="row">
-						<h6 class="card-text">Go to the websites database page.</h6>
-					</div>
-
-					<div class="card-btn-row row">
-						<a href="./index.php?content=change_password" class="btn btn-block card-btn">View database</a>
-					</div>
-
 				</div>
 			</div>
 		</div>
-	</div>
+		';
+
+	} else if ($userrole == 'Root'){
+		
+		// Klant inhoud
+		echo '
+
+		<!-- Overview card -->
+		<div class="card bg-dark card-dashboard">
+			<h5 class="card-header">View stock and sellings.</h5>
+			<div class="card-body">
+				<div class="row">
+	
+					<div class="card-icon-row col-3">
+						<i class="card-icon-md fas fa-clipboard-list"></i>
+					</div>
+	
+					<div class="card-content col-9">
+	
+						<div class="row">
+							<h6 class="card-text">An overview of the websites stock and sellings.</h6>
+						</div>
+	
+						<div class="card-btn-row row">
+							<a href="./index.php?content=overview" class="btn btn-block card-btn">Overview of webshop</a>
+						</div>
+	
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Database card -->
+		<div class="card bg-dark card-dashboard">
+			<h5 class="card-header">Go to database</h5>
+			<div class="card-body">
+				<div class="row">
+	
+					<div class="card-icon-row col-3">
+						<i class="card-icon fas fa-database"></i>
+					</div>
+	
+					<div class="card-content col-9">
+	
+						<div class="row">
+							<h6 class="card-text">Go to the websites database page.</h6>
+						</div>
+	
+						<div class="card-btn-row row">
+							<a href="./index.php?content=change_password" class="btn btn-block card-btn">View database</a>
+						</div>
+	
+					</div>
+				</div>
+			</div>
+		</div>
+		';
+	}
+?>
 
 </div>
 
