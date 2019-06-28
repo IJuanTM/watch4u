@@ -17,7 +17,7 @@
 
                 <div class="form-group col-12">
                     <label class="form-text" for="inputcode">Code: <span class="required">*</span></label>
-                    <input type="text" class="form-control" name="code" placeholder="Code example: 1234">
+                    <input type="text" class="form-control" name="code" placeholder="Code example: 1234" value="<?php if (empty($_GET["code"])) { echo ''; } else { echo $code = $_GET["code"]; } ?>">
                     <span class="form-detail">Enter your code here.</span>
                 </div>
 
@@ -28,7 +28,7 @@
 
                 <div class="form-group col-12">
                     <label class="form-text" for="inputcode">Check Email: <span class="required">*</span></label>
-                    <input type="email" class="form-control" name="email" placeholder="Email check to activate" value="<?php echo $email = $_GET["email"]; ?>">
+                    <input type="email" class="form-control" name="email" placeholder="Email check to activate" value="<?php if (empty($_GET["email"])) { echo ''; } else { echo $email = $_GET["email"]; } ?>">
                     <span class="form-detail">Enter your email here.</span>
                 </div>
 
