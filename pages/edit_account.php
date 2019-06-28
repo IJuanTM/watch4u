@@ -16,7 +16,7 @@
 			<!-- Name row -->
 			<div class="form-row">
 
-				<div class="form-group col-4">
+				<div class="form-group col-12 col-md-4">
 					<label class="form-text" for="inputFirstname">Firstname:</label>
 					<div class="input-group">
 						<div class="input-group-prepend">
@@ -26,12 +26,12 @@
 					</div>
 				</div>
 
-				<div class="form-group col-3">
+				<div class="form-group col-12 col-md-3">
 					<label class="form-text" for="inputInfix">Infix:</label>
 					<input type="text" class="form-control" id="inputInfix" name="infix" placeholder="Infix" value="<?php echo strtolower($infix); ?>">
 				</div>
 
-				<div class="form-group col-5">
+				<div class="form-group col-12 col-md-5">
 					<label class="form-text" for="inputLastname">Lastname:</label>
 					<input type="text" class="form-control"id="inputLastname" name="lastname" placeholder="Lastname" value="<?php echo ucwords($lastname); ?>">
 				</div>
@@ -56,7 +56,7 @@
 			<!-- Postalcode row -->
 			<div class="form-row">
 
-				<div class="form-group col-4">
+				<div class="form-group col-12 col-md-4">
 					<label class="form-text" for="inputPostalcode">Postalcode:</label>
 					<div class="input-group">
 						<div class="input-group-prepend">
@@ -66,7 +66,7 @@
 					</div>
 				</div>
 
-				<div class="form-group col-8">
+				<div class="form-group col-12 col-md-8">
 					<label class="form-text" for="inputCity">City:</label>
 					<div class="input-group">
 						<div class="input-group-prepend">
@@ -122,13 +122,13 @@
 			<!-- Button row -->
 			<div class="form-row">
 
-				<div class="form-group col-4"></div>
+				<div class="form-group col-2 col-md-3"></div>
 
-				<div class="form-group col-4">
+				<div class="form-group col-8 col-md-6">
 					<button type="submit" class="btn form-btn">Save changes</button>
 				</div>
 
-				<div class="form-group col-4"></div>
+				<div class="form-group col-2 col-md-3"></div>
 
 			</div>
 

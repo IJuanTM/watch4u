@@ -6,8 +6,8 @@
 <form class="login-form container-fluid" name="login-form" action="./script/login_user.php" method="POST">
 
     <div class="row">
-        <div class="col-2 col-md-3 col-lg-4"></div>
-        <div class="col-8 col-md-6 col-lg-4">
+        <div class="col-1 col-md-2 col-lg-3"></div>
+        <div class="col-10 col-md-8 col-lg-6">
 
             <!-- Email row -->
             <div class="form-row">
@@ -60,16 +60,16 @@
             <!-- Register link -->
             <div class="form-row">
 
-                <div class="form-group col-3"></div>
-                <div class="form-group col-6">
+                <div class="form-group col-2 col-md-3"></div>
+                <div class="form-group col-8 col-md-6">
                     <span class="form-detail">Don't have an account? <a href="./index.php?content=register">Register</a> here!</span>
                 </div>
-                <div class="form-group col-3"></div>
+                <div class="form-group col-2 col-md-3"></div>
 
             </div>
 
         </div>
-        <div class="col-2 col-md-3 col-lg-4"></div>
+        <div class="col-1 col-md-2 col-lg-3"></div>
     </div>
 
 </form>

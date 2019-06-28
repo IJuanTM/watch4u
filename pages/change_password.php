@@ -6,15 +6,15 @@
 <form class="change_password-form container-fluid" name="change_password-form" action="./script/change_password.php" method="POST">
 
     <div class="row">
-        <div class="col-2">
+        <div class="col-1 col-md-2 col-lg-3">
             <span style="display:none;"><input type="number" class="form-control" name="iduser" placeholder="IDuser" value="<?php echo $iduser; ?>" /></span>
         </div>
-        <div class="col-8">
+        <div class="col-10 col-md-8 col-lg-6">
 
             <!-- Old password row -->
             <div class="form-row">
 
-                <div class="form-group col-6">
+                <div class="form-group col-12 col-md-6">
                     <label class="form-text" for="inputPassword">Old Password: <span class="required">*</span></label>
 					<div class="input-group">
 						<div class="input-group-prepend">
@@ -30,7 +30,7 @@
             <!-- New password row -->
             <div class="form-row">
 
-                <div class="form-group col-6">
+                <div class="form-group col-12 col-md-6">
                     <label class="form-text" for="inputPassword">New Password: <span class="required">*</span></label>
 					<div class="input-group">
 						<div class="input-group-prepend">
@@ -41,7 +41,7 @@
                     <span class="col-12 form-detail" style="margin-left:-14px !important;">Your password has to contain atleast 8 characters, 1 number and an combination of capital and normal letters.</span>
                 </div>
 
-                <div class="form-group col-6">
+                <div class="form-group col-12 col-md-6">
                     <label class="form-text" for="inputCheckPassword">Check New Password: <span class="required">*</span></label>
 					<div class="input-group">
 						<div class="input-group-prepend">
@@ -57,16 +57,16 @@
             <!-- Button row -->
             <div class="form-row">
 
-                <div class="form-group col-md-3"></div>
-                <div class="form-group col-md-6">
+                <div class="form-group col-2 col-md-3"></div>
+                <div class="form-group col-8 col-md-6">
                     <button type="submit" class="btn form-btn btn-lg btn-block btn-dark">Change Password</button>
                 </div>
-                <div class="form-group col-md-3"></div>
+                <div class="form-group col-2 col-md-3"></div>
 
             </div>
 
         </div>
-        <div class="col-2"></div>
+        <div class="col-1 col-md-2 col-lg-3"></div>
     </div>
 
 </form>

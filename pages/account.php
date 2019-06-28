@@ -39,13 +39,13 @@
 			<!-- Button row -->
 			<div class="form-row">
 
-				<div class="form-group col-4"></div>
+				<div class="form-group col-2 col-md-3"></div>
 
-				<div class="form-group col-4">
+				<div class="form-group col-8 col-md-6">
 					<button type="submit" class="btn form-btn">Edit Account</button>
 				</div>
 
-				<div class="form-group col-4"></div>
+				<div class="form-group col-2 col-md-3"></div>
 
 			</div>
 
