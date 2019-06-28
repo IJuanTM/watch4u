@@ -139,7 +139,7 @@ if ($password = $password2) {
 			</head>
 			
 			<body style='background:#202020;padding:20px;color:gold;'>
-				<img class='img' src='https://www.ridis.nl/watch4u/img/logo/Watch4U.svg' style='position: absolute; background:#000080; border-radius:10px; left: 0px; top: 0px;' height='250px' width='250px' />
+				<img class='img' src='http://www.ridis.nl/watch4u/img/logo/Watch4U.svg' style='position: absolute; background:#000080; border-radius:10px; left: 0px; top: 0px;' height='250px' width='250px' />
 				<br>
 				<h1 style='color:blue'>
 					Hello " . $firstname . " " . $infix . " " . $lastname . ",
@@ -148,7 +148,7 @@ if ($password = $password2) {
 				you are registered by Watch4U.com .<br>
 				<br>
 				before you can buy or edit something you need to activate your account to use it:<br>
-				<a href='http://www.RiDis.nl/watch4u/index.php?content=activate&email=$email&code=$code' style='color:#0000ff;font-size:14px;'>https://www.RiDis.nl/watch4u/index.php?content=activate'</a><br>
+				<a href='http://www.RiDis.nl/watch4u/index.php?content=activate&email=$email&code=$code' style='color:#0000ff;font-size:14px;'>https://www.RiDis.nl/watch4u/index.php?content=activate&email=$email&code=$code</a><br>
 				On this page you need to enter the next code:<br>
 				" . $code . "<br>
 				<br>
