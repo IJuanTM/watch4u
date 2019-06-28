@@ -18,7 +18,12 @@
 
 				<div class="form-group col-5">
 					<label class="form-text" for="inputFirstname">Firstname:</label>
-					<input type="text" class="form-control" id="inputFirstname" name="firstname" placeholder="Firstname" value="<?php echo ucwords($firstname); ?>">
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-file-signature"></i></span>
+						</div>
+						<input type="text" class="form-control" id="inputFirstname" name="firstname" placeholder="Firstname" value="<?php echo ucwords($firstname); ?>">
+					</div>
 				</div>
 
 				<div class="form-group col-2">
@@ -81,6 +86,7 @@
 					<div class="input-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-phone-alt"></i></span>
+							<span class="input-group-text" id="inputGroupPrepend"><b>+31</b></span>
 						</div>
 						<input type="tel" class="form-control" id="inputPhone" name="phone" placeholder="Phone" value="<?php echo $phone; ?>">
 					</div>
