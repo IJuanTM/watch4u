@@ -1,33 +1,6 @@
-<?php
-
-	if ($userrole == 'Root'){
-
-		// Root inhoud
-		echo '
-			<hr class="content-row">
-			<h1>Welcome Root User</h1>
-			<hr class="content-row">
-		';
-	
-	} else if ($userrole == 'Admin'){
-		
-		// Admin inhoud
-		echo '
-			<hr class="content-row">
-			<h1>Welcome Admin User</h1>
-			<hr class="content-row">
-		';
-
-	} else if ($userrole == 'Customer'){
-		
-		// Klant inhoud
-		echo '
-			<hr class="content-row">
-			<h1>Welcome Customer User</h1>
-			<hr class="content-row">
-		';
-	}
-?>
+<hr class="content-row">
+	<h1>Account information</h1>
+<hr class="content-row">
 
 <!-- Account form -->
 <form class="account-form container-fluid"id="input" name="account-form" action="./index.php?content=edit_account" method="POST">
@@ -52,7 +25,6 @@
 
 		<table style="color:gold; border: 0px;" class="table table-striped table-dark">
 			<tr><th>Register date: </th><td><?php echo $date; ?></td></tr>
-			<tr><th>ID: </th><td><?php echo $iduser; ?></td></tr>
 			<tr><th>Firstname: </th><td><?php echo $firstname; ?></td></tr>
 			<tr><th>Infix: </th><td><?php echo $infix; ?></td></tr>
 			<tr><th>Lastname: </th><td><?php echo $lastname; ?></td></tr>
