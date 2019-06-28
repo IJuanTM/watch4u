@@ -63,7 +63,6 @@
                 $code = $_SESSION["code"];
                 $userrole = $_SESSION["userrole"];
             }
-            
         }
     ?>
 
