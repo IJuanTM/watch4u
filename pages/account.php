@@ -3,7 +3,7 @@
 <hr class="content-row">
 
 <!-- Account form -->
-<form class="account-form container-fluid"id="input" name="account-form" action="./index.php?content=edit_account" method="POST">
+<form class="account-form container-fluid" id="input" name="account-form" action="./index.php?content=edit_account" method="POST">
 	<span style="display:none;">
 		<input type="text" class="form-control" id="inputIduser" name="iduser" placeholder="ID User" value="<?php echo ucwords($iduser); ?>" disabled>
 		<input type="text" class="form-control" id="inputFirstname" name="firstname" placeholder="Firstname" value="<?php echo ucwords($firstname); ?>" disabled>
@@ -14,7 +14,8 @@
 		<input type="tel" class="form-control" id="inputPhone" name="phone" placeholder="Phone" value="<?php echo ucwords($phone); ?>" disabled>
 		<input type="text" class="form-control" id="inputAddress" name="address" placeholder="Address" value="<?php echo ucwords($address); ?>" disabled>
 		<input type="text" class="form-control" id="inputPostalcode" name="postalCode" placeholder="Postalcode" value="<?php echo $postalcode; ?>" disabled>
-		<input type="text" class="form-control" id="inputCity"id="input" name="city" placeholder="City" value="<?php echo ucwords($city); ?>" disabled>
+		<input type="text" class="form-control" id="inputCity" name="city" placeholder="City" value="<?php echo ucwords($city); ?>" disabled>
+		<input type="text" class="form-control" id="inputUserrole" name="userrole" placeholder="Userrole" value="<?php echo ucwords($userrole); ?>" disabled>
 		<input type="text" class="form-control" id="inputDate" name="date" placeholder="Date" value="<?php echo $date; ?>" disabled>
 		<input type="text" class="form-control" id="inputCode" name="code" placeholder="Code" value="<?php echo $code; ?>" disabled>
 	</span>
@@ -29,7 +30,7 @@
 			<tr><th>Infix: </th><td><?php echo $infix; ?></td></tr>
 			<tr><th>Lastname: </th><td><?php echo $lastname; ?></td></tr>
 			<tr><th>E-mail: </th><td><?php echo $email; ?></td></tr>
-			<tr><th>Phone number: </th><td><?php echo $phone; ?></td></tr>
+			<tr><th>Phone number: </th><td>0<?php echo $phone; ?></td></tr>
 			<tr><th>Address:</th><td><?php echo $address; ?></td></tr>
 			<tr><th>Postalcode: </th><td><?php echo $postalcode; ?></td></tr>
 			<tr><th>City: </th><td><?php echo $city; ?></td></tr>

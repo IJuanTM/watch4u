@@ -21,3 +21,4 @@ if (empty($server)) {
     /*echo "Loading...<br><br>";*/
     $conn = mysqli_connect($server, $username, $password, $dbname);
 }
+?>
