@@ -10,12 +10,12 @@
             <?php if (isset($_SESSION['cart'])) : ?>
                 <?php $cart = json_decode($_SESSION['cart'], true); ?>
 
-                <table class="table table-dark table-striped">
+                <table class="table table-dark table-striped table-bordered">
 
                     <thead class="table-header">
                         <tr>
                             <th scope="col">Product ID</th>
-                            <th scope="col"></th>
+                            <th scope="col" class="text-left"></th>
                             <th scope="col">Product</th>
                             <th scope="col" class="text-center">Quantity</th>
                             <th scope="col" class="text-right">Price</th>
@@ -32,7 +32,7 @@
 
                             <tr>
                                 <td><?= $key ?></td>
-                                <td class="text-center"><img src="./img/watches/brands/apple/watch_4/black.png" width="100px" height="100px"></td>
+                                <td class="text-left"><img src="./img/watches/brands/apple/watch_4/black.png" width="100px" height="100px"></td>
                                 <td>Apple Watch 4 Black</td>
                                 <td>
                                     <input type="number" class="form-control" name="ammount" value="<?= $ammount ?>">
