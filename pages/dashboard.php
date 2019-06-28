@@ -121,7 +121,7 @@
 					</div>
 
 					<div class="card-btn-row row">
-						<a href="./index.php?content=change_password" class="btn btn-block card-btn">View database</a>
+						<a href="https://web0116.zxcs.nl/phpmyadmin/db_structure.php?server=1&db=u37477p32749_watch4u" class="btn btn-block card-btn">View database</a>
 					</div>
 
 				</div>

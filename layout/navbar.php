@@ -58,13 +58,13 @@
                         header("Location: ./script/logout.php");
                         break;
                 }
-                echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=orders"><i class="fas fa-shipping-fast"></i> <span class="mobile">Orders</span></a></li>';
-                echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=dashboard"><i class="fas fa-user"></i> <span class="mobile">Profile</span></a></li>';
-                echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=dashboard"><i class="fas fa-columns"></i></a></li>';
-                echo '<li class="nav-item active"><a class="nav-text nav-link" href="./index.php?content=cart"><i class="fas fa-shopping-cart"></i> Cart<span class="mobile">Shopping Cart</span></a></li>';
+                echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=orders"><i class="fas fa-receipt"></i> <span class="mobile">Orders</span></a></li>';
+                echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=account"><i class="fas fa-user"></i> <span class="mobile">Profile</span></a></li>';
+                echo '<li class="nav-item"><a class="nav-link" href="./index.php?content=dashboard"><i class="fas fa-columns"></i> Dashboard</a></li>';
+                echo '<li class="nav-item active"><a class="nav-text nav-link" href="./index.php?content=cart"><i class="fas fa-shopping-cart"></i> Cart</a></li>';
                 echo '<li class="nav-item"><a class="nav-link" href="./script/logout.php"><i class="fas fa-sign-out-alt"></i> Logout</a></li>';
             } else {
-                echo '<li class="nav-item active"><a class="nav-text nav-link" href="./index.php?content=cart"><i class="fas fa-shopping-cart"></i> Cart<span class="mobile">Shopping Cart</span></a></li>';
+                echo '<li class="nav-item active"><a class="nav-text nav-link" href="./index.php?content=cart"><i class="fas fa-shopping-cart"></i> Cart</a></li>';
                 echo '<li class="nav-item active"><a class="nav-text nav-link" href="./index.php?content=register"><i class="fas fa-file-signature"></i> Register</a></li>';
                 echo '<li class="nav-item active"><a class="nav-text nav-link" href="./index.php?content=login"><i class="fas fa-sign-in-alt"></i> Login</a></li>';
             }
