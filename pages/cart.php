@@ -15,8 +15,8 @@
                     <thead class="table-header">
                         <tr>
                             <th scope="col">Product ID</th>
-                            <th scope="col" class="text-left"></th>
-                            <th scope="col">Product</th>
+                            <th scope="col" class="text-left">Product Image</th>
+                            <th scope="col">Product Name</th>
                             <th scope="col" class="text-center">Quantity</th>
                             <th scope="col" class="text-right">Price</th>
                             <th></th>

@@ -1,4 +1,4 @@
-<!-- Modal -->
+<!-- Modal apple-->
 <div class="modal fade" id="apple_4_black" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content">
@@ -7,9 +7,11 @@
                 <div class="row">
 
                     <div class="img-row col-12 col-lg-4">
+
                         <div class="row">
                             <img class="modal-img" src="./img/watches/brands/apple/watch_4/black.png">
                         </div>
+
                         <div class="iterations row">
 
                             <h4>Iterations:</h4>
@@ -28,6 +30,7 @@
                                 </figure>
                             </div>
                         </div>
+
                     </div>
 
                     <div class="col-0 col-lg-8">
@@ -100,6 +103,113 @@
 
                 </div>
             </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Modal samsung-->
+<div class="modal fade" id="samsung_galaxy_silver" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+
+            <div class="modal-body">
+                <div class="row">
+
+                    <div class="img-row col-12 col-lg-4">
+
+                        <div class="row">
+                            <img class="modal-img" src="./img/watches/brands/samsung/galaxy/46mm/silver.png">
+                        </div>
+
+                        <div class="iterations row">
+
+                            <h4>Iterations:</h4>
+
+                            <div class="modal-group">
+                                <figure class="modal-item">
+                                    <img class="mx-auto my-auto" src="./img/watches/brands/samsung/galaxy/42mm/black.png">
+                                </figure>
+
+                                <figure class="modal-item">
+                                    <img class="mx-auto my-auto" src="./img/watches/brands/samsung/galaxy/42mm/pink.png">
+                                </figure>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-0 col-lg-8">
+                        <div class="modal-header">
+                            <h3 class="text-uppercase">Samsung Galaxy Watch Silver</h3>
+                        </div>
+
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-3">
+                                    <h5 class="modal-sale">€429</h5>
+                                </div>
+                                <div class="col-9">
+                                    <h4 class="modal-price">€349</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal-body">
+                            <h6 class="modal-text">
+                                The Samsung Galaxy Watch is the most advanced Sasmung smartwatch on the market. It has a wide array of functions and a high resolution display.
+                            </h6>
+                            <h5 class="modal-func">Functions:</h5>
+                            <ol class="modal-func-list">
+                                <li>Build in GPS</li>
+                                <li>Support for many Google Play apps</li>
+                                <li>Build in step counter</li>
+                                <li>Make and answer calls</li>
+                                <li>Full Google Assistant support</li>
+                            </ol>
+                            <h6 class="modal-text">
+                                The Samsung Galaxy Watch can be used with all phone using android 7 or higher. Not only limited to Samsung phones.
+                            </h6>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <div class="row">
+
+                    <div class="col-2 col-lg-5">
+                        <button type="button" class="btn btn-close btn-default text-light" data-dismiss="modal"><i class="fas fa-times"></i></button>
+                    </div>
+
+                    <div class="col-3 col-lg-2">
+                        <h4>Quantity:</h4>
+                    </div>
+
+                    <div class="col-3 col-lg-2">
+                        <select class="form-control" id="quantity-cart">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                    </div>
+
+                    <div class="col-4 col-lg-3">
+                        <a href="./script/cart-script.php?func=add&prodId=2&ammount=1" class="btn btn-success">Add to Cart</a>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
     </div>
 </div>
