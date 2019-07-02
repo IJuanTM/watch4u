@@ -4,7 +4,7 @@
 <p class=""></p>
 
 <!-- Change password form -->
-<form class="change_password-form container-fluid" name="change_password-form" action="./script/activate_user.php" method="POST">
+<form class="change_password-form container-fluid" name="activate-form" action="./script/activate_user.php" method="POST">
 
     <div class="row">
 		<div class="col-1 col-md-2 col-lg-3"></div>
