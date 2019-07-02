@@ -62,7 +62,7 @@
     </div>
 
     <div class="col-6 col-md-3">
-        <a href="./payment.php" class="btn cart-btn btn-success btn-lg active" role="button" aria-pressed="true">Checkout</a>
+        <a href="./index.php?content=payment" class="btn cart-btn btn-success btn-lg active" role="button" aria-pressed="true">Checkout</a>
     </div>
 
 </div>
