@@ -3,7 +3,7 @@
 <script src="./js/popper.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
 <script src="./js/aos.js"></script>
-<script src="https://kit.fontawesome.com/8564f1b892.js"></script>
+<script src="./js/icons.js"></script>
 
 <!-- Custom Java script files -->
 <script src="./js/script.js"></script>

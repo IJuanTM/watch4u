@@ -668,3 +668,23 @@ form a:hover {
     bottom: 0;
     width: 90%;
 }
+
+/* Payment */
+
+.payment-icon {
+    color: slategray;
+    font-size: 100px;
+}
+
+.card-payment {
+    text-align: center;
+    font-size: 140px;
+}
+
+.card-payment a {
+    color: slategray !important;
+}
+
+.card-payment a:hover {
+    color: white !important;
+}

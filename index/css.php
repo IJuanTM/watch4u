@@ -2,6 +2,7 @@
 <link rel="stylesheet" href="./css/bootstrap.min.css">
 <link rel="stylesheet" href="./css/cookiealert.css">
 <link rel="stylesheet" href="./css/aos.css">
+<link rel="stylesheet" href="./css/icons.css">
 
 <!-- Fonts -->
 <link rel="stylesheet" href="./font/font.css">
