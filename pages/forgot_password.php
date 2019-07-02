@@ -11,7 +11,7 @@
         </div>
 		<div class="col-10 col-md-8 col-lg-6">
 
-            <!-- Old password row -->
+            <!-- E-mail row -->
             <div class="form-row">
 
                 <div class="form-group col-12">
