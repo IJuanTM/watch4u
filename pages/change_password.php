@@ -20,7 +20,7 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-unlock-alt"></i></span>
 						</div>
-                        <input type="password" class="form-control" name="password" placeholder="Password" />
+                        <input type="password" class="form-control" name="password0" placeholder="Password" />
                     </div>
                     <span class="col-12 form-detail" style="margin-left:-14px !important;">Enter your old password here.</span>
                 </div>

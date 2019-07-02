@@ -5,8 +5,9 @@ include("./connect_db.php");
 include("./sanitize.php");
 
 $iduser = sanitize($_POST["iduser"]);
-$password1 = sanitize($_POST["password1"]);
-$password2 = sanitize($_POST["password2"]);
+$password0 = sanitize($_POST["password0"]);
+$password1 = sanitize(password_check($_POST["password1"]));
+$password2 = sanitize(password_check($_POST["password2"]));
 
 if (empty($password1)) {
     echo "You didn't enter a password!<br>";
