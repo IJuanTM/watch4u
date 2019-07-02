@@ -42,6 +42,17 @@ function password_check($datapass)
 		echo "Use at least<br>(A-Z) (a-z) (0-9) (- _ . ! ? @ # &)<br>( ) are not included<br><br>";
 	}
 }
+
+function chunk_split_unicode($str, $l = 76, $e = "\r\n")
+{
+    $tmp = array_chunk(
+        preg_split("//u", $str, -1, PREG_SPLIT_NO_EMPTY), $l);
+    $str = "";
+    foreach ($tmp as $t) {
+        $str .= join("", $t) . $e;
+    }
+    return $str;
+}
 	
 /*
 	sanitize () - Verwijderd alle tekens en ongewilde tekst
