@@ -18,9 +18,8 @@
 
         $record = mysqli_fetch_assoc($result);
         $firstname = $record["firstname"];
-        $infix = $record["firstname"];
-        $lastname = $record["firstname"];
-        $hash = $record["firstname"];
+        $infix = $record["infix"];
+        $lastname = $record["lastname"];
         
         $no1 = rand(0, 9999);
         $no1 = str_pad($no1, 4, "0", STR_PAD_LEFT);
@@ -69,6 +68,5 @@
         mail($to, $subject, $message, $headers);
     
         header("Refresh: 0; url=../index.php?content=create_password&email=$email");
-
     }
 ?>
