@@ -18,9 +18,16 @@
                     <label class="form-text" for="inputPassword">Old Password: <span class="required">*</span></label>
 					<div class="input-group">
 						<div class="input-group-prepend">
-							<span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-unlock-alt"></i></span>
+							<span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-lock"></i></span>
 						</div>
-                        <input type="password" class="form-control" name="password0" placeholder="Password" />
+                        <input type="password" class="form-control" id="pass_log_id1" name="password0" placeholder="Password">
+
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span toggle="#password-field" class="fa fa-fw fa-eye field_icon toggle-password"></span>
+                            </div>
+                        </div>
+
                     </div>
                     <span class="col-12 form-detail" style="margin-left:-14px !important;">Enter your old password here.</span>
                 </div>
@@ -36,7 +43,14 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-lock"></i></span>
 						</div>
-                        <input type="password" class="form-control" name="password1" placeholder="Password" />
+                        <input type="password" class="form-control" id="pass_log_id2" name="password1" placeholder="Password">
+
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span toggle="#password-field" class="fa fa-fw fa-eye field_icon toggle-password"></span>
+                            </div>
+                        </div>
+
                     </div>
                     <span class="col-12 form-detail" style="margin-left:-14px !important;">Your password has to contain atleast 8 characters, 1 number and an combination of capital and normal letters.</span>
                 </div>
@@ -47,7 +61,14 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-lock"></i></span>
 						</div>
-                        <input type="password" class="form-control" name="password2" placeholder="Password" />
+                        <input type="password" class="form-control" id="pass_log_id3" name="password2" placeholder="Password">
+
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span toggle="#password-field" class="fa fa-fw fa-eye field_icon toggle-password"></span>
+                            </div>
+                        </div>
+
                     </div>
                     <span class="col-12 form-detail" style="margin-left:-14px !important;">Enter your password again to check if you did not make any typos.</span>
                 </div>
