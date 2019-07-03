@@ -19,8 +19,9 @@
 				<td scope='row'><img src='" . strtolower($record1["image"]) . "' width='60px' height='60px'</td>
 				<td scope='row'>" . ucwords($record1["name"]) . "</td>
 				<td scope='row'>" . $record["amount"] . "</td>
-				<td scope='row'> " . $record["price"] . "</td>
-				<td scope='row'> " . $record["total"] . "</td>
+				<td scope='row'>€ " . $record["price"] . "</td>
+				<td scope='row'>€ " . $record["total"] . "</td>
+				<td scope='row'>" . $record1["amount"] . "</td>
 				<td>
 					<a href='./script/update_product.php?idproduct=" . $id . "'>
 						<i class='fas fa-pen'></i>
@@ -53,8 +54,9 @@
 				<td scope='row'><img src='" . strtolower($record1["image"]) . "' width='60px' height='60px'</td>
 				<td scope='row'>" . ucwords($record1["name"]) . "</td>
 				<td scope='row'>" . $record["amount"] . "</td>
-				<td scope='row'> " . $record["price"] . "</td>
-				<td scope='row'> " . $record["total"] . "</td>
+				<td scope='row'>€ " . $record["price"] . "</td>
+				<td scope='row'>€ " . $record["total"] . "</td>
+				<td scope='row'>" . $record1["amount"] . "</td>
 				<td>
 					<a href='./script/update_product.php?idproduct=" . $id . "'>
 						<i class='fas fa-pen'></i>
@@ -78,59 +80,65 @@
 	if ($userrole == 'Root') {
 		echo '
         <hr class="content-row">
-		<h1>Products</h1>
+		<h1>Product Orders</h1>
         <hr class="content-row">
 		<br>
-		<div class="container">
-			<table class="table table-dark table-responsive" style="border:0;">
-				<thead style="color:gold;">
-					<tr>
-						<th scope="col">ID Order</th>
-						<th scope="col">Image</th>
-						<th scope="col">Name</th>
-                        <th scope="col">Amount</th>
-                        <th scope="col">Price</th>
-                        <th scope="col">Total</th>
-                        <th scope="col"></th>
-                        <th scope="col"></th>
-					</tr>
-				</thead>
-				<tbody>
-					' . $records . '
-                    <tr>
-                        <td scope="row">
-                            <a href="./script/create_product.php" style="font-size:40px;">
-                                <i class="fas fa-file-medical"></i>
-                            </a>
-                        </td>
-                        <td scope="row"></td>
-                        <td scope="row"></td>
-                        <td scope="row"></td>
-                        <td scope="row"></td>
-                        <td scope="row"></td>
-                        <td scope="row"></td>
-                        <td scope="row"></td>
-                    </tr>
-				</tbody>
-			</table>
+		<div class="row">
+			<div class="col"></div>
+			<div class="col">
+				<table class="table table-dark table-responsive" style="border:0;">
+					<thead style="color:gold;">
+						<tr>
+							<th scope="col">Order</th>
+							<th scope="col">Image</th>
+							<th scope="col">Name</th>
+							<th scope="col">Amount</th>
+							<th scope="col">Price</th>
+							<th scope="col">Total</th>
+							<th scope="col">Stock</th>
+							<th scope="col"></th>
+							<th scope="col"></th>
+						</tr>
+					</thead>
+					<tbody>
+						' . $records . '
+						<tr>
+							<td scope="row">
+								<a href="./script/create_product.php" style="font-size:30px;">
+									<i class="fas fa-file-medical"></i>
+								</a>
+							</td>
+							<td scope="row"></td>
+							<td scope="row"></td>
+							<td scope="row"></td>
+							<td scope="row"></td>
+							<td scope="row"></td>
+							<td scope="row"></td>
+							<td scope="row"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col"></div>
 		</div>
 		';
 	} else if ($userrole == 'Admin') {
 		echo '
         <hr class="content-row">
-		<h1>Products</h1>
+		<h1>Product Orders</h1>
         <hr class="content-row">
 		<br>
-		<div class="container">
+		<div class="col-auto">
 			<table class="table table-dark table-responsive" style="border:0;">
 				<thead style="color:gold;">
 					<tr>
-						<th scope="col">ID Order</th>
+						<th scope="col">Order</th>
 						<th scope="col">Image</th>
 						<th scope="col">Name</th>
                         <th scope="col">Amount</th>
                         <th scope="col">Price</th>
-                        <th scope="col">Total</th>
+						<th scope="col">Total</th>
+						<th scope="col">Stock</th>
                         <th scope="col"></th>
                         <th scope="col"></th>
 					</tr>
@@ -139,7 +147,7 @@
 					' . $records . '
                     <tr>
                         <td scope="row">
-                            <a href="./script/create_product.php" style="font-size:40px;">
+                            <a href="./script/create_product.php" style="font-size:30px;">
                                 <i class="fas fa-file-medical"></i>
                             </a>
                         </td>
