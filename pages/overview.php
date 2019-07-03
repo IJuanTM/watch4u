@@ -33,6 +33,7 @@
 				<td scope='row'>" . $record["amount"] . "</td>
 				<td scope='row'>€ " . $record2["price_inc"] . "</td>
 				<td scope='row'>€ " . $record["total"] . "</td>
+				<td scope='row'>" . $record2["status"] . "</td>
 				<td scope='row'>" . $record1["amount"] . "</td>
 				<td>
 					<a href='./script/update_product.php?idproduct=" . $id . "'>
@@ -81,6 +82,7 @@
 				<td scope='row'>" . $record["amount"] . "</td>
 				<td scope='row'>€ " . $record2["price_inc"] . "</td>
 				<td scope='row'>€ " . $record["total"] . "</td>
+				<td scope='row'>" . $record2["status"] . "</td>
 				<td scope='row'>" . $record1["amount"] . "</td>
 				<td>
 					<a href='./script/update_product.php?idproduct=" . $id . "'>
@@ -135,6 +137,7 @@
 							<th scope="col">Amount</th>
 							<th scope="col">Price</th>
 							<th scope="col">Total</th>
+							<th scope="col">Status</th>
 							<th scope="col">Stock</th>
 							<th scope="col"></th>
 							<th scope="col"></th>
@@ -148,6 +151,8 @@
 									<i class="fas fa-file-medical"></i>
 								</a>
 							</td>
+							<td scope="row"></td>
+							<td scope="row"></td>
 							<td scope="row"></td>
 							<td scope="row"></td>
 							<td scope="row"></td>
@@ -180,6 +185,7 @@
 						<th scope="col">Amount</th>
                         <th scope="col">Price</th>
 						<th scope="col">Total</th>
+						<th scope="col">Status</th>
 						<th scope="col">Stock</th>
                         <th scope="col"></th>
                         <th scope="col"></th>
@@ -193,14 +199,16 @@
                                 <i class="fas fa-file-medical"></i>
                             </a>
                         </td>
-                        <td scope="row"></td>
-                        <td scope="row"></td>
-                        <td scope="row"></td>
-                        <td scope="row"></td>
-                        <td scope="row"></td>
 						<td scope="row"></td>
-                        <td scope="row"></td>
-                        <td scope="row"></td>
+						<td scope="row"></td>
+						<td scope="row"></td>
+						<td scope="row"></td>
+						<td scope="row"></td>
+						<td scope="row"></td>
+						<td scope="row"></td>
+						<td scope="row"></td>
+						<td scope="row"></td>
+						<td scope="row"></td>
                     </tr>
 				</tbody>
 			</table>
