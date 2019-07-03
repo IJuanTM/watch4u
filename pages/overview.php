@@ -48,6 +48,7 @@
 		}
 
 	} else if ($userrole == 'Admin') {
+
 		$sql = "SELECT * FROM `orderline`;";
 		$result = mysqli_query($conn, $sql);
 		$records = '';
@@ -55,19 +56,30 @@
 		while ($record = mysqli_fetch_assoc($result)){
 
 			$id = $record["idproduct"];
+			$id2 = $record["idorder"];
 
 			$sql1 = "SELECT * FROM `product` WHERE `idproduct` = '$id'";
 			$result1 = mysqli_query($conn, $sql1);
 			$record1 = mysqli_fetch_assoc($result1);
+
+			$sql2 = "SELECT * FROM `order` WHERE `idorder` = '$id2'";
+			$result2 = mysqli_query($conn, $sql2);
+			$record2 = mysqli_fetch_assoc($result2);
+			
+			$id3 = $record2["iduser"];
+
+			$sql3 = "SELECT * FROM `user` WHERE `iduser` = '$id3'";
+			$result3 = mysqli_query($conn, $sql3);
+			$record3 = mysqli_fetch_assoc($result3);
 
 			$records .= "
 			<tr>
 				<td scope='row'>" . $record["idorder"] . "</td>
 				<td scope='row'><img src='" . strtolower($record1["image"]) . "' width='60px' height='60px'</td>
 				<td scope='row'>" . ucwords($record1["name"]) . "</td>
-				<td scope='row'>" . ucwords($record3["firstname"]) . strtolower($record3["infix"]) . ucwords($record3["lastname"]) . "</td>
+				<td scope='row'>" . ucwords($record3["firstname"]) . ' ' . strtolower($record3["infix"]) . ' ' . ucwords($record3["lastname"]) . "</td>
 				<td scope='row'>" . $record["amount"] . "</td>
-				<td scope='row'>€ " . $record["price"] . "</td>
+				<td scope='row'>€ " . $record2["price_inc"] . "</td>
 				<td scope='row'>€ " . $record["total"] . "</td>
 				<td scope='row'>" . $record1["amount"] . "</td>
 				<td>
