@@ -125,8 +125,8 @@
         <hr class="content-row">
 		<br>
 		<div class="row">
-			<div class="col"></div>
-			<div class="col">
+			<div class="col-1 col-md-2 col-lg-3"></div>
+			<div class="col-10 col-md-8 col-lg-6">
 				<table class="table table-dark table-responsive" style="border:0;">
 					<thead style="color:gold;">
 						<tr>
@@ -139,8 +139,8 @@
 							<th scope="col">Total</th>
 							<th scope="col">Status</th>
 							<th scope="col">Stock</th>
-							<th scope="col"></th>
-							<th scope="col"></th>
+							<th scope="col">Edit</th>
+							<th scope="col">Delete</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -164,8 +164,7 @@
 						</tr>
 					</tbody>
 				</table>
-			</div>
-			<div class="col"></div>
+			<div class="col-1 col-md-2 col-lg-3"></div>
 		</div>
 		';
 	} else if ($userrole == 'Admin') {
@@ -174,44 +173,47 @@
 		<h1>Product Orders</h1>
         <hr class="content-row">
 		<br>
-		<div class="col-auto">
-			<table class="table table-dark table-responsive" style="border:0;">
-				<thead style="color:gold;">
-					<tr>
-						<th scope="col">Order</th>
-						<th scope="col">Image</th>
-						<th scope="col">Name</th>
-						<th scope="col">User</th>
-						<th scope="col">Amount</th>
-                        <th scope="col">Price</th>
-						<th scope="col">Total</th>
-						<th scope="col">Status</th>
-						<th scope="col">Stock</th>
-                        <th scope="col"></th>
-                        <th scope="col"></th>
-					</tr>
-				</thead>
-				<tbody>
-					' . $records . '
-                    <tr>
-                        <td scope="row">
-                            <a href="./script/create_product.php" style="font-size:30px;">
-                                <i class="fas fa-file-medical"></i>
-                            </a>
-                        </td>
-						<td scope="row"></td>
-						<td scope="row"></td>
-						<td scope="row"></td>
-						<td scope="row"></td>
-						<td scope="row"></td>
-						<td scope="row"></td>
-						<td scope="row"></td>
-						<td scope="row"></td>
-						<td scope="row"></td>
-						<td scope="row"></td>
-                    </tr>
-				</tbody>
-			</table>
+		<div class="row">
+			<div class="col-1 col-md-2 col-lg-3"></div>
+			<div class="col-10 col-md-8 col-lg-6">
+				<table class="table table-dark table-responsive" style="border:0;">
+					<thead style="color:gold;">
+						<tr>
+							<th scope="col">Order</th>
+							<th scope="col">Image</th>
+							<th scope="col">Name</th>
+							<th scope="col">User</th>
+							<th scope="col">Amount</th>
+							<th scope="col">Price</th>
+							<th scope="col">Total</th>
+							<th scope="col">Status</th>
+							<th scope="col">Stock</th>
+							<th scope="col">Edit</th>
+							<th scope="col">Delete</th>
+						</tr>
+					</thead>
+					<tbody>
+						' . $records . '
+						<tr>
+							<td scope="row">
+								<a href="./script/create_product.php" style="font-size:30px;">
+									<i class="fas fa-file-medical"></i>
+								</a>
+							</td>
+							<td scope="row"></td>
+							<td scope="row"></td>
+							<td scope="row"></td>
+							<td scope="row"></td>
+							<td scope="row"></td>
+							<td scope="row"></td>
+							<td scope="row"></td>
+							<td scope="row"></td>
+							<td scope="row"></td>
+							<td scope="row"></td>
+						</tr>
+					</tbody>
+				</table>
+			<div class="col-1 col-md-2 col-lg-3"></div>
 		</div>
 		';
 	} else {
