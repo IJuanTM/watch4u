@@ -1,29 +1,29 @@
-$(".hover").mouseleave(function() {
+$(".hover").mouseleave(function () {
     $(this).removeClass("hover");
 });
-$(function() {
+$(function () {
     function reposition() {
-        var modal = $(this),
-            dialog = modal.find(".modal-dialog");
+        var modal = $(this), dialog = modal.find(".modal-dialog");
         modal.css("display", "block");
         dialog.css("margin-top", Math.max(0, ($(window).height() - dialog.height()) / 2));
         dialog.css("margin-left", Math.max(0, ($(window).width() - dialog.width()) / 2));
     }
     $(".modal").on("show.bs.modal", reposition);
-    $(window).on("resize", function() {
+    $(window).on("resize", function () {
         $(".modal:visible").each(reposition);
     });
 });
-$("#myModal").on("shown.bs.modal", function() {
+$("#myModal").on("shown.bs.modal", function () {
     $("#myInput").trigger("focus");
 });
-document.onreadystatechange = function() {
+document.onreadystatechange = function () {
     $("body").css("overflow", "hidden");
     var state = document.readyState;
     if (state == "interactive") {
         document.getElementById("contents").style.visibility = "hidden";
-    } else if (state == "complete") {
-        setTimeout(function() {
+    }
+    else if (state == "complete") {
+        setTimeout(function () {
             $("body").css("overflow", "visible");
             document.getElementById("interactive");
             document.getElementById("load").style.visibility = "hidden";
@@ -31,7 +31,7 @@ document.onreadystatechange = function() {
         }, 100);
     }
 };
-$(document).on('click', '.toggle-password', function() {
+$(document).on('click', '.toggle-password', function () {
     $(this).toggleClass("fa-eye fa-eye-slash");
     var input = $("#pass_log_id1");
     input.attr('type') === 'password' ? input.attr('type', 'text') : input.attr('type', 'password');
@@ -39,4 +39,8 @@ $(document).on('click', '.toggle-password', function() {
     input.attr('type') === 'password' ? input.attr('type', 'text') : input.attr('type', 'password');
     var input = $("#pass_log_id3");
     input.attr('type') === 'password' ? input.attr('type', 'text') : input.attr('type', 'password');
+});
+$("#pay-btn").click(function () {
+    $(".pay-row").empty();
+    $(".pay-row").addClass('load-pay');
 });

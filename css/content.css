@@ -685,6 +685,33 @@ form a:hover {
     cursor: pointer;
 }
 
-.payment-details {
+.order-details {
     margin-right: 25px;
+}
+
+/* Payment pages */
+
+.payment-group {
+    text-align: center;
+    display: block;
+    float: center;
+    width: 100%;
+    min-height: calc(100vh - 300px);
+}
+
+.load-pay {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 300px;
+    width: 300px;
+    background: url('../img/icon/order.svg') center no-repeat;
+    cursor: default;
+}
+
+.load-text {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 30px;
 }

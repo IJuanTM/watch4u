@@ -1,5 +1,5 @@
 <hr class="content-row">
-<h1>Select Payment</h1>
+<h1>Check Out</h1>
 <hr class="content-row">
 
 <!-- Order cardgroup 1 -->
@@ -13,16 +13,16 @@
 
             <!-- Cards 1 -->
             <div class="card-payment">
-                <a><i class="fab fa-cc-paypal"></i></a>
-                <a><i class="fab fa-cc-mastercard"></i></a>
-                <a><i class="fab fa-cc-visa"></i></a>
+                <a href="./index.php?content=processing"><i class="fab fa-cc-paypal"></i></a>
+                <a href="./index.php?content=processing"><i class="fab fa-cc-mastercard"></i></a>
+                <a href="./index.php?content=processing"><i class="fab fa-cc-visa"></i></a>
             </div>
 
             <!-- Cards 2 -->
             <div class="card-payment">
-                <a><i class="fab fa-cc-apple-pay"></i></a>
-                <a><i class="fab fa-cc-amazon-pay"></i></a>
-                <a><i class="fab fa-cc-amex"></i></a>
+                <a href="./index.php?content=processing"><i class="fab fa-cc-apple-pay"></i></a>
+                <a href="./index.php?content=processing"><i class="fab fa-cc-amazon-pay"></i></a>
+                <a href="./index.php?content=processing"><i class="fab fa-cc-amex"></i></a>
             </div>
 
         </div>
@@ -31,7 +31,7 @@
         <div class="col-7">
 
             <!-- Payment details -->
-            <div class="payment-details">
+            <div class="order-details">
 
                 <h2>Order Details:</h2>
 

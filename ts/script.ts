@@ -55,3 +55,8 @@ $(document).on('click', '.toggle-password', function () {
     var input = $("#pass_log_id3");
     input.attr('type') === 'password' ? input.attr('type', 'text') : input.attr('type', 'password')
 });
+
+$("#pay-btn").click(function () {
+    $(".pay-row").empty();
+    $(".pay-row").addClass('load-pay');
+});

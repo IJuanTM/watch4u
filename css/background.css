@@ -132,3 +132,10 @@
     background-position: center;
     background-size: 100%;
 }
+
+.process-bg {
+    background-image: url('../img/background/process.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
