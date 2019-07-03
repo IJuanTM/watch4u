@@ -125,3 +125,10 @@
     background-position: center;
     background-size: 25%;
 }
+
+.pay-bg {
+    background-image: url('../img/background/pay.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}

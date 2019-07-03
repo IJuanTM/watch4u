@@ -545,7 +545,6 @@ form a:hover {
 .table {
     color: white;
     text-align: left;
-    border: solid 2px white;
 }
 
 .table-responsive {
@@ -671,20 +670,21 @@ form a:hover {
 
 /* Payment */
 
-.payment-icon {
-    color: slategray;
-    font-size: 100px;
-}
-
 .card-payment {
     text-align: center;
-    font-size: 140px;
+    font-size: 100px;
 }
 
 .card-payment a {
     color: slategray !important;
+    cursor: pointer;
 }
 
 .card-payment a:hover {
-    color: white !important;
+    color: gold !important;
+    cursor: pointer;
+}
+
+.payment-details {
+    margin-right: 25px;
 }
