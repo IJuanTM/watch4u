@@ -123,10 +123,9 @@
         <hr class="content-row">
 		<h1>Product Orders</h1>
         <hr class="content-row">
-		<br>
 		<div class="row">
-			<div class="col-1 col-md-2 col-lg-3"></div>
-			<div class="col-10 col-md-8 col-lg-6">
+			<div class="col-1 col-md-1 col-lg-2"></div>
+			<div class="col-10 col-md-10 col-lg-8">
 				<table class="table table-dark table-responsive" style="border:0;">
 					<thead style="color:gold;">
 						<tr>
@@ -164,7 +163,7 @@
 						</tr>
 					</tbody>
 				</table>
-			<div class="col-1 col-md-2 col-lg-3"></div>
+			<div class="col-1 col-md-1 col-lg-2"></div>
 		</div>
 		';
 	} else if ($userrole == 'Admin') {
@@ -172,10 +171,9 @@
         <hr class="content-row">
 		<h1>Product Orders</h1>
         <hr class="content-row">
-		<br>
 		<div class="row">
-			<div class="col-1 col-md-2 col-lg-3"></div>
-			<div class="col-10 col-md-8 col-lg-6">
+			<div class="col-1 col-md-1 col-lg-2"></div>
+			<div class="col-10 col-md-10 col-lg-8">
 				<table class="table table-dark table-responsive" style="border:0;">
 					<thead style="color:gold;">
 						<tr>
@@ -213,7 +211,7 @@
 						</tr>
 					</tbody>
 				</table>
-			<div class="col-1 col-md-2 col-lg-3"></div>
+			<div class="col-1 col-md-1 col-lg-2"></div>
 		</div>
 		';
 	} else {
