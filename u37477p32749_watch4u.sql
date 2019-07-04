@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Gegenereerd op: 28 jun 2019 om 08:58
+-- Gegenereerd op: 04 jul 2019 om 12:06
 -- Serverversie: 10.2.23-MariaDB-cll-lve
 -- PHP-versie: 5.5.38
 
@@ -32,10 +32,23 @@ CREATE TABLE `order` (
   `idorder` int(10) NOT NULL,
   `iduser` int(10) NOT NULL,
   `date` datetime NOT NULL,
-  `price_ex` decimal(5,2) NOT NULL,
-  `price_inc` decimal(5,2) NOT NULL,
+  `price_ex` decimal(8,2) NOT NULL,
+  `price_inc` decimal(8,2) NOT NULL,
   `status` enum('open','succes','on-hold','canceled') NOT NULL DEFAULT 'open'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Gegevens worden geëxporteerd voor tabel `order`
+--
+
+INSERT INTO `order` (`idorder`, `iduser`, `date`, `price_ex`, `price_inc`, `status`) VALUES
+(1, 1, '2019-07-03 20:34:23', '748.33', '898.00', 'succes'),
+(2, 1, '2019-07-01 08:44:13', '374.17', '449.00', 'on-hold'),
+(3, 1, '2019-07-24 09:41:22', '374.17', '449.00', 'open'),
+(4, 3, '2019-07-01 08:44:13', '1122.50', '1379.00', 'canceled'),
+(5, 5, '2019-07-04 02:31:20', '374.17', '449.00', 'open'),
+(6, 6, '2019-07-03 23:47:37', '374.17', '449.00', 'open'),
+(7, 4, '2019-07-03 20:34:23', '374.17', '449.00', 'open');
 
 -- --------------------------------------------------------
 
@@ -48,9 +61,21 @@ CREATE TABLE `orderline` (
   `idorder` int(10) NOT NULL,
   `idproduct` int(10) NOT NULL,
   `amount` int(10) NOT NULL,
-  `price` decimal(4,2) NOT NULL,
-  `total` decimal(5,2) NOT NULL
+  `price` decimal(8,2) NOT NULL,
+  `total` decimal(8,2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Gegevens worden geëxporteerd voor tabel `orderline`
+--
+
+INSERT INTO `orderline` (`idorderproduct`, `idorder`, `idproduct`, `amount`, `price`, `total`) VALUES
+(1, 1, 5, 2, '898.00', '898.00'),
+(2, 2, 7, 1, '449.00', '449.00'),
+(3, 3, 4, 1, '449.00', '449.00'),
+(4, 4, 13, 3, '1379.00', '1397.00'),
+(5, 5, 9, 1, '449.00', '449.00'),
+(6, 6, 8, 1, '449.00', '449.00');
 
 -- --------------------------------------------------------
 
@@ -64,26 +89,29 @@ CREATE TABLE `product` (
   `name` varchar(100) NOT NULL,
   `description` text NOT NULL,
   `price` decimal(6,2) NOT NULL,
-  `image` varchar(255) NOT NULL
+  `image` varchar(255) NOT NULL,
+  `amount` int(8) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Gegevens worden geëxporteerd voor tabel `product`
 --
 
-INSERT INTO `product` (`idproduct`, `idcatagory`, `name`, `description`, `price`, `image`) VALUES
-(1, 1, 'Apple Watch 4 Black', 'The Apple Watch 4 is the newest apple watch in the series. It is stylish, easy to use and has a large amount of functions build in.\r\n\r\nA thing to mind is that the Apple watches can only be used in combination with and IPhone.', '449.99', './img/watches/brands/apple/watch_4/black.png'),
-(2, 2, 'Apple Watch 4 Nike Silver', 'The Apple Watch 4 is the newest apple watch in the series. It is stylish, easy to use and has a large amount of functions build in.\r\n\r\nA thing to mind is that the Apple watches can only be used in combination with and IPhone.', '449.99', './img/watches/brands/apple/watch_4/nike_silver.png'),
-(3, 2, 'Apple Watch 4 Pink', 'The Apple Watch 4 is the newest apple watch in the series. It is stylish, easy to use and has a large amount of functions build in.\r\n\r\nA thing to mind is that the Apple watches can only be used in combination with and IPhone.', '449.99', './img/watches/brands/apple/watch_4/pink.png'),
-(4, 2, 'Apple Watch 4 White', 'The Apple Watch 4 is the newest apple watch in the series. It is stylish, easy to use and has a large amount of functions build in.\r\n\r\nA thing to mind is that the Apple watches can only be used in combination with and IPhone.', '449.99', './img/watches/brands/apple/watch_4/white.png'),
-(5, 1, 'Apple Watch 4 Nike Gray', 'The Apple Watch 4 is the newest apple watch in the series. It is stylish, easy to use and has a large amount of functions build in.\r\n\r\nA thing to mind is that the Apple watches can only be used in combination with and IPhone.', '449.99', './img/watches/brands/apple/watch_4/nike_gray.png'),
-(6, 2, 'Apple Watch 4 Sport Silver', 'The Apple Watch 4 is the newest apple watch in the series. It is stylish, easy to use and has a large amount of functions build in.\r\n\r\nA thing to mind is that the Apple watches can only be used in combination with and IPhone.', '449.99', './img/watches/brands/apple/watch_4/sport/silver.png'),
-(7, 2, 'Apple Watch 4 Sport Pink', 'The Apple Watch 4 is the newest apple watch in the series. It is stylish, easy to use and has a large amount of functions build in.\r\n\r\nA thing to mind is that the Apple watches can only be used in combination with and IPhone.', '449.99', './img/watches/brands/apple/watch_4/sport/pink.png'),
-(8, 1, 'Apple Watch 4 Sport Black', 'The Apple Watch 4 is the newest apple watch in the series. It is stylish, easy to use and has a large amount of functions build in.\r\n\r\nA thing to mind is that the Apple watches can only be used in combination with and IPhone.', '449.99', './img/watches/brands/apple/watch_4/sport/black.png'),
-(9, 2, 'Apple Watch 3 White', 'The Apple Watch 3 is an older model from the series, but is still a very good smartwatch. It has many functions and looks very nice.\r\n\r\nA thing to mind is that the Apple watches can only be used in combination with and IPhone.', '329.99', './img/watches/brands/apple/watch_3/white.png'),
-(10, 1, 'Apple Watch 3 Black', 'The Apple Watch 3 is an older model from the series, but is still a very good smartwatch. It has many functions and looks very nice.\r\n\r\nA thing to mind is that the Apple watches can only be used in combination with and IPhone.', '329.99', './img/watches/brands/apple/watch_3/black.png'),
-(11, 1, 'Apple Watch 3 Nike Black', 'The Apple Watch 3 is an older model from the series, but is still a very good smartwatch. It has many functions and looks very nice.\r\n\r\nA thing to mind is that the Apple watches can only be used in combination with and IPhone.', '329.99', './img/watches/brands/apple/watch_3/nike_black.png'),
-(12, 2, 'Apple Watch 3 Nike Silver', 'The Apple Watch 3 is an older model from the series, but is still a very good smartwatch. It has many functions and looks very nice.\r\n\r\nA thing to mind is that the Apple watches can only be used in combination with and IPhone.', '329.99', './img/watches/brands/apple/watch_3/nike_silver.png');
+INSERT INTO `product` (`idproduct`, `idcatagory`, `name`, `description`, `price`, `image`, `amount`) VALUES
+(1, 1, 'Apple Watch 4 Black', 'The Apple Watch 4 is the newest apple watch in the series. It is stylish, easy to use and has a large amount of functions build in.\r\n\r\nA thing to mind is that the Apple watches can only be used in combination with and IPhone.', '449.99', './img/watches/brands/apple/watch_4/black.png', 203),
+(2, 2, 'Apple Watch 4 Nike Silver', 'The Apple Watch 4 is the newest apple watch in the series. It is stylish, easy to use and has a large amount of functions build in.\r\n\r\nA thing to mind is that the Apple watches can only be used in combination with and IPhone.', '449.99', './img/watches/brands/apple/watch_4/nike_silver.png', 508),
+(3, 2, 'Apple Watch 4 Pink', 'The Apple Watch 4 is the newest apple watch in the series. It is stylish, easy to use and has a large amount of functions build in.\r\n\r\nA thing to mind is that the Apple watches can only be used in combination with and IPhone.', '449.99', './img/watches/brands/apple/watch_4/pink.png', 154),
+(4, 2, 'Apple Watch 4 White', 'The Apple Watch 4 is the newest apple watch in the series. It is stylish, easy to use and has a large amount of functions build in.\r\n\r\nA thing to mind is that the Apple watches can only be used in combination with and IPhone.', '449.99', './img/watches/brands/apple/watch_4/white.png', 486),
+(5, 1, 'Apple Watch 4 Nike Gray', 'The Apple Watch 4 is the newest apple watch in the series. It is stylish, easy to use and has a large amount of functions build in.\r\n\r\nA thing to mind is that the Apple watches can only be used in combination with and IPhone.', '449.99', './img/watches/brands/apple/watch_4/nike_gray.png', 205),
+(6, 2, 'Apple Watch 4 Sport Silver', 'The Apple Watch 4 is the newest apple watch in the series. It is stylish, easy to use and has a large amount of functions build in.\r\n\r\nA thing to mind is that the Apple watches can only be used in combination with and IPhone.', '449.99', './img/watches/brands/apple/watch_4/sport/silver.png', 24),
+(7, 2, 'Apple Watch 4 Sport Pink', 'The Apple Watch 4 is the newest apple watch in the series. It is stylish, easy to use and has a large amount of functions build in.\r\n\r\nA thing to mind is that the Apple watches can only be used in combination with and IPhone.', '449.99', './img/watches/brands/apple/watch_4/sport/pink.png', 65),
+(8, 1, 'Apple Watch 4 Sport Black', 'The Apple Watch 4 is the newest apple watch in the series. It is stylish, easy to use and has a large amount of functions build in.\r\n\r\nA thing to mind is that the Apple watches can only be used in combination with and IPhone.', '449.99', './img/watches/brands/apple/watch_4/sport/black.png', 48),
+(9, 2, 'Apple Watch 3 White', 'The Apple Watch 3 is an older model from the series, but is still a very good smartwatch. It has many functions and looks very nice.\r\n\r\nA thing to mind is that the Apple watches can only be used in combination with and IPhone.', '329.99', './img/watches/brands/apple/watch_3/white.png', 11),
+(10, 1, 'Apple Watch 3 Black', 'The Apple Watch 3 is an older model from the series, but is still a very good smartwatch. It has many functions and looks very nice.\r\n\r\nA thing to mind is that the Apple watches can only be used in combination with and IPhone.', '329.99', './img/watches/brands/apple/watch_3/black.png', 100),
+(11, 1, 'Apple Watch 3 Nike Black', 'The Apple Watch 3 is an older model from the series, but is still a very good smartwatch. It has many functions and looks very nice.\r\n\r\nA thing to mind is that the Apple watches can only be used in combination with and IPhone.', '329.99', './img/watches/brands/apple/watch_3/nike_black.png', 854),
+(12, 2, 'Apple Watch 3 Nike Silver', 'The Apple Watch 3 is an older model from the series, but is still a very good smartwatch. It has many functions and looks very nice.\r\n\r\nA thing to mind is that the Apple watches can only be used in combination with and IPhone.', '329.99', './img/watches/brands/apple/watch_3/nike_silver.png', 323),
+(13, 3, 'Samsung Galaxy Watch Black', 'The Samsung Galaxy watches are watches with a wide range of functions. From listening music to playing games. It also features a wide range of support for multiple google apps like: Gmail, Google Agenda and YouTube. Aswell as messaging apps like WhatsApp.\r\n\r\nThe Samsung Galaxy watches can be used in combination with every android phone. But will offer extra options when used with a Samsung phone.', '279.99', './img/watches/brands/samsung/galaxy/42mm/black.png', 598),
+(14, 4, 'Samsung Galaxy Watch Pink', 'The Samsung Galaxy watches are watches with a wide range of functions. From listening music to playing games. It also features a wide range of support for multiple google apps like: Gmail, Google Agenda and YouTube. Aswell as messaging apps like WhatsApp.\r\n\r\nThe Samsung Galaxy watches can be used in combination with every android phone. But will offer extra options when used with a Samsung phone.', '249.99', './img/watches/brands/samsung/galaxy/42mm/pink.png', 675);
 
 -- --------------------------------------------------------
 
@@ -158,10 +186,13 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`iduser`, `firstname`, `infix`, `lastname`, `email`, `password`, `phone`, `address`, `postalcode`, `city`, `userrole`, `date`, `code`) VALUES
-(1, 'Richard', 'van de', 'Kooij', 'rvdkooij@live.nl', '$2y$10$/0b0jNWUzU46RPDuqGAlPeVLH688WHDzTUzv8lzG1tfDgd1Dp9Epe', '', '', '', '', 'Root', '21-06-2019, 23:46:06', ''),
-(2, 'Mijn', 'naam is', 'Henk', 'iwan2510@gmail.com', '$2y$10$GpG4xu.vrQrcPvlGh0NPLOlyN0NrfKuJoHBe69reodz7VqnTYbyIe', '', '', '', '', 'Customer', '25-06-2019, 10:37:36', ''),
-(3, 'Iwan', 'van der', 'Wal', 'iwanvdwal2001@gmail.com', '$2y$10$lXedUFNy.A8LAS/16CZks.DCdobutoWRRBi101DTr1Pl8mGje.vIW', '', '', '', '', 'Admin', '26-06-2019, 11:38:08', ''),
-(4, 'Mark', 'van', 'Doornik', 'ridicage@gmail.com', '$2y$10$vpuFsIIu0Xf.RJbpl0sw2.qAL.vufdHCiQ6mqdu8/oosbyvyncC8y', '', '', '', '', 'Admin', '27-06-2019, 18:04:43', '');
+(1, 'Richard', 'van de', 'Kooij', 'rvdkooij@live.nl', '$2y$10$fJnYyYU120Uce7Ms2N5K1.ljazbapaXi.ZBSbNppU5auRhnYNsgwy', '622265556', 'Floventhof 1', '3813HB', 'Amersfoort', 'Root', '21-06-2019, 23:46:06', '0'),
+(2, 'Mijn', 'naam is', 'Henk', 'iwan2510@gmail.com', '$2y$10$GpG4xu.vrQrcPvlGh0NPLOlyN0NrfKuJoHBe69reodz7VqnTYbyIe', '', '', '', '', 'Root', '25-06-2019, 10:37:36', '0'),
+(3, 'Iwan', 'van der', 'Wal', 'iwanvdwal2001@gmail.com', '$2y$10$lXedUFNy.A8LAS/16CZks.DCdobutoWRRBi101DTr1Pl8mGje.vIW', '', '', '', '', 'Admin', '26-06-2019, 11:38:08', '0'),
+(4, 'Ridi', '', 'Cage', 'ridicage@gmail.com', '$2y$10$nVpYFHISd9gqrUXWzjTBRunLgLKIYe3HG7wvcyV19FDfvCLIigRNe', '', '', '', '', 'Customer', '28-06-2019, 12:14:15', '0'),
+(5, 'Sander', '', 'Molenaar', 'sander1995175@gmail.com', '$2y$10$vTTffqQ1PEcrgUj0fmXeieWImF1vsDFIOiz/E3AlxcdnhRgkhnaEW', '', '', '', '', 'Customer', '04-07-2019, 01:20:04', '0'),
+(6, 'Lia', '', 'Lamme', 'edenlia@hotmail.com', '$2y$10$AJ0FCev9VMTfTqnBJUscPO49z/aOvFDmk/.vtGc5vYrJ0k5MZUIVK', '', '', '', '', 'Customer', '04-07-2019, 01:35:59', '0'),
+(7, 'Test', '', 'Test', 'ridicage@outlook.com', '$2y$10$b9YfWWBTy7jE2QaujaTWCOso5U/OA2AxjTJ2qH2Dzbq5aJkhSvozq', '', '', '', '', 'Customer', '04-07-2019, 10:03:40', '0');
 
 --
 -- Indexen voor geëxporteerde tabellen
@@ -211,19 +242,19 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT voor een tabel `order`
 --
 ALTER TABLE `order`
-  MODIFY `idorder` int(10) NOT NULL AUTO_INCREMENT;
+  MODIFY `idorder` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT voor een tabel `orderline`
 --
 ALTER TABLE `orderline`
-  MODIFY `idorderproduct` int(10) NOT NULL AUTO_INCREMENT;
+  MODIFY `idorderproduct` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT voor een tabel `product`
 --
 ALTER TABLE `product`
-  MODIFY `idproduct` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `idproduct` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT voor een tabel `product_category`
@@ -235,7 +266,7 @@ ALTER TABLE `product_category`
 -- AUTO_INCREMENT voor een tabel `user`
 --
 ALTER TABLE `user`
-  MODIFY `iduser` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `iduser` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- Beperkingen voor geëxporteerde tabellen
