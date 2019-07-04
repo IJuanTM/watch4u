@@ -186,12 +186,6 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`iduser`, `firstname`, `infix`, `lastname`, `email`, `password`, `phone`, `address`, `postalcode`, `city`, `userrole`, `date`, `code`) VALUES
-(1, 'Richard', 'van de', 'Kooij', 'rvdkooij@live.nl', '$2y$10$fJnYyYU120Uce7Ms2N5K1.ljazbapaXi.ZBSbNppU5auRhnYNsgwy', '622265556', 'Floventhof 1', '3813HB', 'Amersfoort', 'Root', '21-06-2019, 23:46:06', '0'),
-(2, 'Mijn', 'naam is', 'Henk', 'iwan2510@gmail.com', '$2y$10$GpG4xu.vrQrcPvlGh0NPLOlyN0NrfKuJoHBe69reodz7VqnTYbyIe', '', '', '', '', 'Root', '25-06-2019, 10:37:36', '0'),
-(3, 'Iwan', 'van der', 'Wal', 'iwanvdwal2001@gmail.com', '$2y$10$lXedUFNy.A8LAS/16CZks.DCdobutoWRRBi101DTr1Pl8mGje.vIW', '', '', '', '', 'Admin', '26-06-2019, 11:38:08', '0'),
-(4, 'Ridi', '', 'Cage', 'ridicage@gmail.com', '$2y$10$nVpYFHISd9gqrUXWzjTBRunLgLKIYe3HG7wvcyV19FDfvCLIigRNe', '', '', '', '', 'Customer', '28-06-2019, 12:14:15', '0'),
-(5, 'Sander', '', 'Molenaar', 'sander1995175@gmail.com', '$2y$10$vTTffqQ1PEcrgUj0fmXeieWImF1vsDFIOiz/E3AlxcdnhRgkhnaEW', '', '', '', '', 'Customer', '04-07-2019, 01:20:04', '0'),
-(6, 'Lia', '', 'Lamme', 'edenlia@hotmail.com', '$2y$10$AJ0FCev9VMTfTqnBJUscPO49z/aOvFDmk/.vtGc5vYrJ0k5MZUIVK', '', '', '', '', 'Customer', '04-07-2019, 01:35:59', '0'),
 (7, 'Test', '', 'Test', 'ridicage@outlook.com', '$2y$10$b9YfWWBTy7jE2QaujaTWCOso5U/OA2AxjTJ2qH2Dzbq5aJkhSvozq', '', '', '', '', 'Customer', '04-07-2019, 10:03:40', '0');
 
 --
