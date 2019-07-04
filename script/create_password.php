@@ -47,7 +47,7 @@ if (strlen($password1) < 8) {
     
     $blowfish_password = password_hash($password1, PASSWORD_BCRYPT);
 
-    $sql1 = "UPDATE `user` SET `password` = '$blowfish_password', `code` = ''
+    $sql1 = "UPDATE `user` SET `password` = '$blowfish_password', `code` = '0'
                         WHERE `user`.`code` = '$code';";
     $result1 = mysqli_query($conn, $sql1);
 

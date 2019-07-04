@@ -1,7 +1,7 @@
 <?php
 	if ($userrole == 'Root'){
 
-		$sql = "SELECT * FROM `orderline`;";
+		$sql = "SELECT * FROM `orderline` LIMIT 3;";
 		$result = mysqli_query($conn, $sql);
 		$records = '';
 

@@ -20,7 +20,7 @@ if (mysqli_num_rows($result2) == 0) {
 }
 if (mysqli_num_rows($result2) == 1) {
     echo "Your account is activated<br>";
-    $sql3 = "UPDATE `user` SET `code` = NULL WHERE `email` = '$email';";
+    $sql3 = "UPDATE `user` SET `code` = '0' WHERE `email` = '$email';";
     $result3 = mysqli_query($conn, $sql3);
     header("Refresh: 0; url=../index.php?content=login");
 }
