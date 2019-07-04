@@ -13,4 +13,5 @@
 <link rel="stylesheet" href="./css/navbar.css">
 <link rel="stylesheet" href="./css/content.css">
 <link rel="stylesheet" href="./css/modal.css">
+<link rel="stylesheet" href="./css/invoice.css">
 <link rel="stylesheet" href="./css/footer.css">

@@ -1,0 +1,68 @@
+.invoice {
+    width: 595px;
+    height: 842px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: white;
+    color: black !important;
+    text-align: left !important;
+}
+
+.invoice th, .invoice td {
+    color: black !important;
+}
+
+.inv-img {
+    margin-bottom: 15px;
+}
+
+.invoice .table-responsive {
+    color: white;
+}
+
+.invoice hr {
+    border: 1px solid black !important;
+}
+
+.inv-comp {
+    margin-top: 15px;
+}
+
+.inv-cust h5 {
+    font-size: 14px !important;
+    color: black;
+}
+
+.inv-comp h5 {
+    font-size: 14px !important;
+    color: darkgray;
+}
+
+.inv-cust h4 {
+    font-size: 16px !important;
+    color: black;
+    font-weight: bold;
+}
+
+.inv-comp h4 {
+    font-size: 14px !important;
+    color: darkgray;
+    font-weight: bold;
+}
+
+.inv-cost h5 {
+    font-size: 12px !important;
+    color: black;
+}
+
+.inv-total h5 {
+    font-size: 12px !important;
+    color: darkgray;
+}
+
+.inv-table {
+    font-size: 12px !important;
+}
+
+.inv-footer {}

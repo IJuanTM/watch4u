@@ -50,7 +50,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <?php foreach ($cart as $key => $ammount) : ?>;
+                                <?php foreach ($cart as $key => $ammount) : ?>
 
                                     <?php
                                     $sql = 'SELECT * FROM products WHERE product_id = ' . $key;
@@ -62,13 +62,16 @@
                                         <td class="text-right"><?= $ammount ?></td>
                                         <td class="text-right">€449,-</td>
                                     </tr>
-                                    <thead class="table-header">
-                                        <th></th>
-                                        <th></th>
-                                        <th class="text-right">Total:</th>
-                                        <th class="text-right">€449,-</th>
-                                    </thead>
+
                                 <?php endforeach; ?>
+
+                                <thead class="table-header">
+                                    <th></th>
+                                    <th></th>
+                                    <th class="text-right">Total:</th>
+                                    <th class="text-right">€449,-</th>
+                                </thead>
+
                             </tbody>
                         </table>
 
