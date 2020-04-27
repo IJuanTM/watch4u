@@ -37,6 +37,11 @@
                     <i class="fas fa-child"></i> Kids</a>
             </li>
 
+            <li class="nav-item active">
+                <a class="nav-text nav-link" href="./index.php?content=/category/kids_brands">
+                    <i class="fas fa-child"></i> Test</a>
+            </li>
+
         </ul>
 
         <!-- Aanmelden en Inloggen aan de linkerkant. -->
